@@ -2,7 +2,7 @@ package Recursion.increasenum;
 
 public class numin {
     public static void printNum(int n){
-        if(n==6){
+        if(n==5){
             System.out.println(n);
             return;
         }
