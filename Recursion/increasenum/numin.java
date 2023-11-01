@@ -1,5 +1,5 @@
 package Recursion.increasenum;
-
+import java.util.Scanner;
 public class numin {
     public static void printNum(int n){
         if(n==5){
@@ -11,8 +11,12 @@ public class numin {
         printNum(n+1);
     }
     public static void main(String args[]){
-        int n=1;
-        printNum(n);
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter the number:");
+            int n = sc.nextInt();
+            //int n=1;
+            printNum(n);
+        };
     }
     
 }
