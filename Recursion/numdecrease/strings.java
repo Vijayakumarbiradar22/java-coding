@@ -2,7 +2,8 @@ package Recursion.numdecrease;
 
 public class strings {
     public static void printNum(int n){
-        if(n==0){
+        if(n==1){
+            System.out.println(n);
             return;
         }
 
