@@ -10,14 +10,13 @@ public class power {
         }
 
         int powm1 = findPower(x,n-1);
-        int pow = n*powm1;
+        int pow = x*powm1;
         return pow;
     }
-    public static void main(String args){
+    public static void main(String args[]){
         int x=2;
         int n=5;
         int result = findPower(x,n);
-
         System.out.println(result);
     }
     
