@@ -5,6 +5,9 @@ public class power {
         if(n==0){
             return 1;
         }
+        if(x==0){
+            return 0;
+        }
 
         int powm1 = findPower(x,n-1);
         int pow = n*powm1;
