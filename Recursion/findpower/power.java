@@ -2,6 +2,9 @@ package Recursion.findpower;
 
 public class power {
     public static int findPower(int x, int n){
+        if(n==0){
+            return 1;
+        }
 
         int powm1 = findPower(x,n-1);
         int pow = n*powm1;
