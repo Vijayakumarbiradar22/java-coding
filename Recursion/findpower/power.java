@@ -14,13 +14,14 @@ public class power {
         return pow;
     }
     public static void main(String args[]){
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the value of x:");
-        int x = sc.nextInt();
-        System.out.println("Enter the value of n:");
-        int n = sc.nextInt();
-        int result = findPower(x,n);
-        System.out.println(result);
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter the value of x:");
+            int x = sc.nextInt();
+            System.out.println("Enter the value of n:");
+            int n = sc.nextInt();
+            int result = findPower(x,n);
+            System.out.println(result);
+        }
     }
     
 }
