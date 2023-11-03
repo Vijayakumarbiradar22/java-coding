@@ -15,8 +15,10 @@ public class power {
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        int x=2;
-        int n=5;
+        System.out.println("Enter the value of x:");
+        int x = sc.nextInt();
+        System.out.println("Enter the value of n:");
+        int n = sc.nextInt();
         int result = findPower(x,n);
         System.out.println(result);
     }
