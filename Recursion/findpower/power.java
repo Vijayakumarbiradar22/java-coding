@@ -1,5 +1,5 @@
 package Recursion.findpower;
-
+import java.util.Scanner;
 public class power {
     public static int findPower(int x, int n){
         if(n==0){
