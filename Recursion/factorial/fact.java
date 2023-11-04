@@ -1,5 +1,5 @@
 package Recursion.factorial;
-
+import java.util.*;
 public class fact {
     public static int findFact(int n){
         if(n==0 || n==1){
@@ -10,7 +10,9 @@ public class fact {
         }
     }
     public static void main(String args[]){
-        int n=5;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number:");
+        int n = sc.nextInt();
         int result = findFact(n);
         System.out.println(result);
     }
