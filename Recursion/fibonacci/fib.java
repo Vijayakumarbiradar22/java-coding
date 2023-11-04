@@ -1,5 +1,5 @@
 package Recursion.fibonacci;
-
+import java.util.Scanner;
 public class fib {
     public static void printFib(int a, int b, int n){
         if(n==0){
@@ -11,7 +11,9 @@ public class fib {
         printFib(b,c,n-1);
     }
     public static void main(String args[]){
-        int n=7;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number of terms:");
+        int n = sc.nextInt();
         int a=0;
         int b=1;
         System.out.println(a);
