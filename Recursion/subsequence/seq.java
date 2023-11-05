@@ -1,5 +1,5 @@
 package Recursion.subsequence;
-
+import java.util.Scanner;
 public class seq {
     public static void subseq(String str,int indx,String newString){
         if(indx==str.length()){
@@ -15,8 +15,11 @@ public class seq {
         subseq(str, indx+1, newString);
     }
     public static void main(String args[]){
-        String str="abc";
-        subseq(str, 0, "");
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter the string:");
+            String str = sc.nextLine();        
+            subseq(str, 0, "");
+        }
 
     }
     
