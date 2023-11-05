@@ -16,7 +16,7 @@ public class toh {
         try (Scanner sc = new Scanner(System.in)) {
             System.out.println("Enter the number of discs:");
             int n= sc.nextInt();
-            towerofhanoi(n,"S","H","H");
+            towerofhanoi(n,"S","H","D");
             
         }
 
