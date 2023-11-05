@@ -1,5 +1,5 @@
 package Recursion.stringreverse;
-
+import java.util.Scanner;
 public class revstr {
     public static void printRev(String str,int indx){
         if(indx==0){
@@ -11,9 +11,11 @@ public class revstr {
         printRev(str, indx-1);
     }
     public static void main(String args[]){
-        String str="Vijay";
-
-        printRev(str,str.length()-1);
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter the string to reverse:");
+            String str = sc.nextLine();
+            printRev(str,str.length()-1);
+        }
     }
     
 }
