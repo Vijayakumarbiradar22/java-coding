@@ -14,6 +14,8 @@ public class fib {
         int n=7;
         int a=0;
         int b=1;
+        System.out.println(a);
+        System.out.println(b);
         findFib(a,b,n-2);
     }
     
