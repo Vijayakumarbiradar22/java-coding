@@ -1,5 +1,5 @@
 package Numbersystem.binarytodecimal;
-import java.util.*;
+//import java.util.*;
 public class btod {
     public static int convertToDecimal(String binary){
         int dec = 0;
