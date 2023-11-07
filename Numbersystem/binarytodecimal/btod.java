@@ -1,0 +1,20 @@
+package Numbersystem.binarytodecimal;
+import java.util.*;
+public class btod {
+    public static int convertToBinary(String binary){
+        int dec = 0;
+        int length = binary.length();
+
+        for(int i=0;i<length;i++){
+            int digit = binary.charAt(i)-'0';
+            dec += digit * Math.pow(2,length-1-i);
+        }
+        return dec;
+    }
+    public static void main(String args[]){
+        String binary = "101010";
+        int decimalNumber = convertToBinary(binary);
+        System.out.println(decimalNumber);
+    }
+    
+}
