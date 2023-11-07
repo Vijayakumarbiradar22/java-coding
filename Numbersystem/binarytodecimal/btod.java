@@ -1,7 +1,7 @@
 package Numbersystem.binarytodecimal;
 import java.util.*;
 public class btod {
-    public static int convertToBinary(String binary){
+    public static int convertToDecimal(String binary){
         int dec = 0;
         int length = binary.length();
 
@@ -12,8 +12,8 @@ public class btod {
         return dec;
     }
     public static void main(String args[]){
-        String binary = "101010";
-        int decimalNumber = convertToBinary(binary);
+        String binary = "1111";
+        int decimalNumber = convertToDecimal(binary);
         System.out.println(decimalNumber);
     }
     
