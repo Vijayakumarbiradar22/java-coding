@@ -15,7 +15,7 @@ public class spiral {
             }
         }
 
-        System.out.println("The spiral order is:");
+        System.out.println("Spiral order is:");
         int rowstart=0;
         int rowend=r-1;
         int colstart=0;
