@@ -15,6 +15,35 @@ public class anti {
             }
         }
         System.out.println("Anti spiral order is:");
+        int rowstart=0;
+        int rowend=r-1;
+        int colstart=0;
+        int colend=c-1;
+
+        while(rowstart<=rowend && colstart<=colend){
+
+            for(int row=0;row<rowend;row++){
+                System.out.print(mat[row][colstart]+" ");
+            }
+            colstart++;
+
+            for(int col=0;col<colend;col++){
+                System.out.print(mat[rowend][col]+" ");
+            }
+            rowend--;
+
+            for(int row=rowend;row>0;row--){
+                System.out.print(mat[row][colend]+" ");
+            }
+            colend--;
+
+            for(int col=colend;col>0;col++){
+                System.out.print(mat[rowstart][col]+" ");
+            }
+            rowstart++;
+
+
+        }
 
 
     }
