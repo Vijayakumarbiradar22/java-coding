@@ -22,22 +22,22 @@ public class anti {
 
         while(rowstart<=rowend && colstart<=colend){
 
-            for(int row=0;row<rowend;row++){
+            for(int row=rowstart;row<=rowend;row++){
                 System.out.print(mat[row][colstart]+" ");
             }
             colstart++;
 
-            for(int col=0;col<colend;col++){
+            for(int col=colstart;col<=colend;col++){
                 System.out.print(mat[rowend][col]+" ");
             }
             rowend--;
 
-            for(int row=rowend;row>0;row--){
+            for(int row=rowend;row>=rowstart;row--){
                 System.out.print(mat[row][colend]+" ");
             }
             colend--;
 
-            for(int col=colend;col>0;col++){
+            for(int col=colend;col>=colstart;col--){
                 System.out.print(mat[rowstart][col]+" ");
             }
             rowstart++;
