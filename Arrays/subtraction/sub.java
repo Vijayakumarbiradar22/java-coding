@@ -25,7 +25,7 @@ public class sub {
         }
         System.out.println(arr2.length);
 
-        int arr3[][]=new int[arr1.length][arr2.length];
+        int[][] arr3=new int[arr1.length][arr2.length];
 
         System.out.println("Array1 minus Array2 is:");
         for(int i=0;i<r;i++){
@@ -35,6 +35,7 @@ public class sub {
                     arr3[i][j]=arr1[i][j]-arr2[i][j];
                 }
                 System.out.println(arr3[i][j]+" ");
+                
             }
             System.out.println();
         }
