@@ -2,7 +2,7 @@ package Arrays.addition;
 import java.util.Scanner;
 public class add {
     public static void main(String args[]){
-        Scanner sc = new Scanner(System.in);
+        try(Scanner sc = new Scanner(System.in)){
         System.out.println("Enter the no.of rows:");
         int r=sc.nextInt();
         System.out.println("Enter the no.of cols:");
@@ -37,6 +37,7 @@ public class add {
                 System.out.print(arr3[i][j]+" ");
             }
             System.out.println();
+        }
         }
 }
     
