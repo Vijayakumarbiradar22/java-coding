@@ -24,7 +24,7 @@ public class add {
         }
         System.out.println(arr2.length);
 
-        int[][] arr3=new int[3][3];
+        int[][] arr3=new int[arr1.length][arr2.length];
 
         System.out.println("Sum of Array is:");
         for(int i=0;i<arr1.length;i++){
