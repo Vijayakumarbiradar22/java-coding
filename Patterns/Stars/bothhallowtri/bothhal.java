@@ -2,7 +2,7 @@ package Patterns.Stars.bothhallowtri;
 import java.util.Scanner;
 public class bothhal {
     public static void main(String args[]){
-        Scanner sc = new Scanner(System.in);
+        try(Scanner sc = new Scanner(System.in)){
         System.out.println("Enter the rows:");
         int n=sc.nextInt();
         for(int i=n;i>=1;i--){
@@ -25,6 +25,7 @@ public class bothhal {
                 }
             }
             System.out.println();
+        }
         }
     }
     
