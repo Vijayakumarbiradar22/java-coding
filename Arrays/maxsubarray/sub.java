@@ -27,17 +27,18 @@ public class sub {
         System.out.println("Ending index="+end);
     }
     public static void main(String args[]){
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the size of array:");
-        int len=sc.nextInt();
-        int[] arr = new int[len];
-        System.out.println("Enter the elements:");
-        for(int i=0;i<len;i++){
-            arr[i]=sc.nextInt();
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter the size of array:");
+            int len=sc.nextInt();
+            int[] arr = new int[len];
+            System.out.println("Enter the elements:");
+            for(int i=0;i<len;i++){
+                arr[i]=sc.nextInt();
+            }
+            //int[] arr = {-2,-3,4,-1,-2,1,5,-3};
+            //int len=arr.length;
+            maxSubarraySum(arr,len);
         }
-        //int[] arr = {-2,-3,4,-1,-2,1,5,-3};
-        //int len=arr.length;
-        maxSubarraySum(arr,len);
     }
     
 }
