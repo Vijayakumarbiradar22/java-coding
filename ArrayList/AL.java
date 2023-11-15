@@ -15,6 +15,9 @@ public class AL {
 
         Collections.sort(list);
         System.out.println(list);
+
+        int size = list.size();
+        System.out.println(size);
     }
     
 }
