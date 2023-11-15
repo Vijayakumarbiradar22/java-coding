@@ -14,20 +14,21 @@ public class bubble {
         }
     }
     public static void main(String args[]){
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the size of array:");
-        int size=sc.nextInt();
-        int[] array = new int[size];
-        System.out.println("Enter the elements:");
-        for(int i=0;i<size;i++){
-            array[i]=sc.nextInt();
-        }
-        //int[] array ={1,7,3,6,5};
-        //int size=array.length;
-        bubbleSort(array,size);
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter the size of array:");
+            int size=sc.nextInt();
+            int[] array = new int[size];
+            System.out.println("Enter the elements:");
+            for(int i=0;i<size;i++){
+                array[i]=sc.nextInt();
+            }
+            //int[] array ={1,7,3,6,5};
+            //int size=array.length;
+            bubbleSort(array,size);
 
-        for(int i=0;i<size;i++){
-            System.out.println(array[i]);
+            for(int i=0;i<size;i++){
+                System.out.println(array[i]);
+            }
         }
     }
     
