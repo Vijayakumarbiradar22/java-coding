@@ -15,7 +15,8 @@ public class bubble {
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        
+        System.out.println("Enter the size of array:");
+        int size=sc.nextInt();
         int[] array ={1,7,3,6,5};
         int size=array.length;
         bubbleSort(array,size);
