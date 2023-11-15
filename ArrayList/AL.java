@@ -13,8 +13,8 @@ public class AL {
         int get2=list.get(1);
         System.out.println(get2);
 
-        // Collections.sort(list);
-        // System.out.println(list);
+        Collections.sort(list);
+        System.out.println(list);
     }
     
 }
