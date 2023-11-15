@@ -1,5 +1,5 @@
 package Sorting.bubblesort;
-
+import java.util.Scanner;
 public class bubble {
     public static void bubbleSort(int array[], int size){
         int temp;
