@@ -2,7 +2,7 @@ package Strings.reverse;
 import java.util.Scanner;
 public class rev {
     public static void main(String args[]){
-        Scanner sc = new Scanner(System.in);
+        try(Scanner sc = new Scanner(System.in)){
         System.out.println("Enter the string:");
         String str=sc.nextLine();
 
@@ -19,6 +19,7 @@ public class rev {
             sb.setCharAt(back, frontchar);
         }
         System.out.println(sb);
+    }
 
     }
     
