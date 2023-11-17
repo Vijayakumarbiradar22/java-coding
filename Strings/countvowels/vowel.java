@@ -18,7 +18,7 @@ public class vowel {
                 }
             }
             System.out.println(count);
-        
+        sc.close();
     }
     
 }
