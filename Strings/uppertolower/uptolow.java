@@ -2,7 +2,7 @@ package Strings.uppertolower;
 import java.util.Scanner;
 public class uptolow {
     public static void main(String args[]){
-        try (Scanner sc = new Scanner(System.in)) {
+        Scanner sc = new Scanner(System.in);
             System.out.println("Enter the string:");
             String str = sc.nextLine();
             String res="";
@@ -12,7 +12,9 @@ public class uptolow {
                 }
             }
             System.out.println(res);
-        }
+            sc.close();
+        
+        
     }
     
 }
