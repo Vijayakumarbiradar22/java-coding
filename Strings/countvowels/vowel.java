@@ -2,7 +2,7 @@ package Strings.countvowels;
 import java.util.Scanner;
 public class vowel {
     public static void main(String args[]){
-        try (Scanner sc = new Scanner(System.in)) {
+         Scanner sc = new Scanner(System.in);
             System.out.println("Enter the string");
             String str=sc.nextLine();
             int count=0;
@@ -18,7 +18,7 @@ public class vowel {
                 }
             }
             System.out.println(count);
-        }
+        
     }
     
 }
