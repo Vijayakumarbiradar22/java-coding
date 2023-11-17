@@ -27,7 +27,7 @@ public class sub {
         System.out.println("Ending index="+end);
     }
     public static void main(String args[]){
-        try (Scanner sc = new Scanner(System.in)) {
+            Scanner sc = new Scanner(System.in);
             System.out.println("Enter the size of array:");
             int len=sc.nextInt();
             int[] arr = new int[len];
@@ -38,7 +38,7 @@ public class sub {
             //int[] arr = {-2,-3,4,-1,-2,1,5,-3};
             //int len=arr.length;
             maxSubarraySum(arr,len);
-        }
+        sc.close();
     }
     
 }

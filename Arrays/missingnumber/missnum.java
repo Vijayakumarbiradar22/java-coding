@@ -10,7 +10,7 @@ public class missnum {
         return sum;
     }
     public static void main(String args[]){
-        try (Scanner sc = new Scanner(System.in)) {
+            Scanner sc = new Scanner(System.in);
             System.out.println("Enter the size of array:");
             int size=sc.nextInt();
             int[] arr = new int[size];
@@ -20,7 +20,7 @@ public class missnum {
             }
             int result = findMissing(arr,size);
             System.out.println(result);
-        }
+        sc.close();
     }
     
 }

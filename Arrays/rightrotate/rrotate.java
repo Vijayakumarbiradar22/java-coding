@@ -13,7 +13,7 @@ public class rrotate {
         }
     }
     public static void main(String args[]){
-        try (Scanner sc = new Scanner(System.in)) {
+            Scanner sc = new Scanner(System.in);
             System.out.println("Enter the size of array:");
             int size = sc.nextInt();
             int[] arr = new int[size];
@@ -28,7 +28,7 @@ public class rrotate {
 
             for(int i=0;i<size;i++){
                 System.out.print(arr[i]+" ");
-            }
+            sc.close();
         }
     }
     

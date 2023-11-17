@@ -2,7 +2,7 @@ package Arrays.subtraction;
 import java.util.Scanner;
 public class sub {
     public static void main(String args[]){
-        try(Scanner sc = new Scanner(System.in)){
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter the no.of rows:");
         int r = sc.nextInt();
         System.out.println("Enter the no.of cols:");
@@ -38,7 +38,7 @@ public class sub {
                 
             }
             System.out.println();
-        }
+        sc.close();
         }
         
 
