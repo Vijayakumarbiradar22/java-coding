@@ -14,7 +14,7 @@ public class bubble {
         }
     }
     public static void main(String args[]){
-        try (Scanner sc = new Scanner(System.in)) {
+            Scanner sc = new Scanner(System.in);
             System.out.println("Enter the size of array:");
             int size=sc.nextInt();
             int[] array = new int[size];
@@ -29,7 +29,7 @@ public class bubble {
             for(int i=0;i<size;i++){
                 System.out.println(array[i]);
             }
-        }
+        sc.close();
     }
     
 }
