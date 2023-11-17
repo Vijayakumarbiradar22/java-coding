@@ -2,7 +2,7 @@ package Strings.wordbyreverse;
 import java.util.Scanner;
 public class revword {
     public static void main(String args[]){
-        try (Scanner sc = new Scanner(System.in)) {
+            Scanner sc = new Scanner(System.in);
             System.out.println("Enter the string:");
             String str = sc.nextLine();
             String ns[] = str.split(" ");
@@ -12,6 +12,6 @@ public class revword {
                 nstr+=" ";
             }
                 System.out.println(nstr);
-        }
+        sc.close();
     }
 }
