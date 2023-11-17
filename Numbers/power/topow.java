@@ -20,13 +20,13 @@ public class topow {
 
     }
     public static void main(String args[]){
-        try (Scanner sc = new Scanner(System.in)) {
+            Scanner sc = new Scanner(System.in);
             System.out.println("Enter x:");
             int x = sc.nextInt();
             System.out.println("Enter n:");
             int n = sc.nextInt();
             findPower(x,n);
-        }
+        sc.close();
     }
     
     
