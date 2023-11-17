@@ -2,7 +2,7 @@ package Strings.compare;
 import java.util.Scanner;
 public class com {
     public static void main(String args[]){
-        try (Scanner sc = new Scanner(System.in)) {
+         Scanner sc = new Scanner(System.in);
             System.out.println("Enter first string:");
             String name1 = sc.nextLine();
             System.out.println("Enter  second string:");
@@ -14,7 +14,7 @@ public class com {
             } else {
                 System.out.println("Strings are not same");
             }
-        }
+        sc.close();
     }
     
 }
