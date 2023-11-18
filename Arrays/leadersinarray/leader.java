@@ -25,7 +25,7 @@ public class leader {
         //int[] arr = {16,17,4,3,5,2};
         //int n=arr.length;
         printLeader(arr,n);
-        
+        sc.close();
     }
     
 }
