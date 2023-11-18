@@ -30,10 +30,13 @@ public class median {
         return (m1+m2)/2;
     }
     public static void main(String args[]){
-        int[] arr1 = {1,12,15,26,38};
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the size of array1:");
+        int n1=sc.nextInt();
+;        int[] arr1 = {1,12,15,26,38};
         int[] arr2 = {2,13,17,30,45};
 
-        int n1=arr1.length;
+        //int n1=arr1.length;
         int n2=arr2.length;
 
         if(n1==n2){
