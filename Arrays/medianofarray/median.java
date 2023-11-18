@@ -56,7 +56,7 @@ public class median {
         } else{
             System.out.println("Arrays are not equal size");
         }
-        //sc.close();
+        sc.close();
     }
     
 }
