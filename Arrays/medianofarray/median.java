@@ -1,5 +1,5 @@
 package Arrays.medianofarray;
-
+import java.util.Scanner;
 public class median {
     public static int getMedian(int arr1[],int arr2[],int n){
         int i=0;
