@@ -33,17 +33,30 @@ public class median {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of array1:");
         int n1=sc.nextInt();
-;        int[] arr1 = {1,12,15,26,38};
-        int[] arr2 = {2,13,17,30,45};
+        System.out.println("Enter the size of array2:");
+        int n2 = sc.nextInt();
+        int[] arr1 = new int[n1];
+        int[] arr2 = new int[n2];
+        System.out.println("Enter the elements of array1:");
+        for(int i=0;i<n1;i++){
+            arr1[i]=sc.nextInt();
+        }
+        System.out.println("Enter the elements of array2:");
+        for(int i=0;i<n2;i++){
+            arr2[i]=sc.nextInt();
+        }
+;        //int[] arr1 = {1,12,15,26,38};
+        //int[] arr2 = {2,13,17,30,45};
 
         //int n1=arr1.length;
-        int n2=arr2.length;
+        //int n2=arr2.length;
 
         if(n1==n2){
             System.out.println("Median is:"+ getMedian(arr1,arr2,n1));
         } else{
             System.out.println("Arrays are not equal size");
         }
+        //sc.close();
     }
     
 }
