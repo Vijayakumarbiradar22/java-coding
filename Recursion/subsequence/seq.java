@@ -15,11 +15,11 @@ public class seq {
         subseq(str, indx+1, newString);
     }
     public static void main(String args[]){
-        try (Scanner sc = new Scanner(System.in)) {
+            Scanner sc = new Scanner(System.in);
             System.out.println("Enter the string:");
             String str = sc.nextLine();        
             subseq(str, 0, "");
-        }
+            sc.close();
 
     }
     
