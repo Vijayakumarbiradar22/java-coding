@@ -11,12 +11,12 @@ public class numin {
         printNum(n+1);
     }
     public static void main(String args[]){
-        try (Scanner sc = new Scanner(System.in)) {
+            Scanner sc = new Scanner(System.in);
             System.out.println("Enter a number:");
             int n = sc.nextInt();
             //int n=1;
             printNum(n);
-        };
+            sc.close();
     }
     
 }
