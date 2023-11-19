@@ -11,11 +11,11 @@ public class strings {
         printNum(n-1);
     }
     public static void main(String args[]){
-        try (Scanner sc = new Scanner(System.in)) {
+            Scanner sc = new Scanner(System.in);
             System.out.println("Enter the value of n:");
             int n = sc.nextInt();
             printNum(n);
-        }
+        sc.close();
     }
     
 }
