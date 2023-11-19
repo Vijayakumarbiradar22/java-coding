@@ -11,7 +11,7 @@ public class fib {
         printFib(b,c,n-1);
     }
     public static void main(String args[]){
-        try(Scanner sc = new Scanner(System.in)){
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of terms:");
         int n = sc.nextInt();
         int a=0;
@@ -19,7 +19,7 @@ public class fib {
         System.out.print(a+" ");
         System.out.print(b+" ");
         printFib(a,b,n-2);
-        }
+        sc.close();
     }
     
 }
