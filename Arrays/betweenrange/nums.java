@@ -32,6 +32,7 @@ public class nums {
         } else {
             System.out.println("No numbers available");
         }
+        sc.close();
     }
     
 }
