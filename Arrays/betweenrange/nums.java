@@ -10,6 +10,7 @@ public class nums {
         for(int i=0;i<arr.length;i++){
             if(arr[i]>=start && arr[i]<=end){
                 count+=1;
+                System.out.print(arr[i]+" ");
             }
         }
 
