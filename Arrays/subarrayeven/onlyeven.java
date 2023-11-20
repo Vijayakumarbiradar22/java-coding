@@ -32,6 +32,7 @@ public class onlyeven {
         for(int i=0;i<arr1.length;i++){
             System.out.print(arr1[i]+" ");
         }
+        sc.close();
     }
     
 }
