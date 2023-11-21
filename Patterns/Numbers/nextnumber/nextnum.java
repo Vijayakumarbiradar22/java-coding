@@ -16,6 +16,7 @@ public class nextnum {
             }
             System.out.println();
         }
+        sc.close();
     }
     
 }
