@@ -12,6 +12,6 @@ public class revword {
                 nstr+=" ";
             }
                 System.out.println(nstr);
-        //sc.close();
+        sc.close();
     }
 }
