@@ -23,7 +23,7 @@ public class prime {
                 System.out.print(i+" ");
             }
         }
-        //sc.close();
+        sc.close();
 
     }
     
