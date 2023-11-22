@@ -24,7 +24,7 @@ public class arm {
         } else {
             System.out.println(original+" is not Armstrong number.");
         }
-
+        sc.close();
 
     }
     
