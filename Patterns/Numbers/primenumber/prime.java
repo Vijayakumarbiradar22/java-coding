@@ -1,5 +1,5 @@
 package Patterns.Numbers.primenumber;
-
+import java.util.Scanner;
 public class prime {
     public static boolean isPrime(int num){
         if(num<2){
@@ -28,9 +28,13 @@ public class prime {
     }
 
     public static void main(String args[]){
-        int rows=4;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the rows:");
+        int rows=sc.nextInt();
+
         primePattern(rows);
-      
+
+      sc.close();
     }
     
 }
