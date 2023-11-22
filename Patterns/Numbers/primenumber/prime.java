@@ -1,28 +1,36 @@
 package Patterns.Numbers.primenumber;
 
 public class prime {
-    public static int Prime(int num){
+    public static boolean isPrime(int num){
         if(num<2){
-            return 0;
+            return false;
         }
-        for(int i=2;i<=num/2;i++){
-            if(num%2==0){
-                return 0;
+        for(int i=2;i<=Math.sqrt(num);i++){
+            if(num%i==0){
+                return false;
             }
         }
-        return 1;
+        return true;
     }
-    public static void main(String args[]){
-        int rows=4;
-        int num=2;
-        for(int i=1;i<=rows;i++){
+
+    public static void primePattern(int rows){
+        int currNum=1;
+      for(int i=1;i<=rows;i++){
             for(int j=1;j<=i;j++){
-                System.out.println(Prime(num));
-                num++;
-                System.out.println(num);
+                while(!isPrime(currNum)){
+                    currNum++;
+                }
+                System.out.print(currNum+" ");
+                currNum++;
             }
             System.out.println();
         }
+    }
+
+    public static void main(String args[]){
+        int rows=4;
+        primePattern(rows);
+      
     }
     
 }
