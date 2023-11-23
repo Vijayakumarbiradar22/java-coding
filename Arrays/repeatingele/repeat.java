@@ -20,7 +20,7 @@ public class repeat {
             arr[i]=sc.nextInt();
         }
         printRepeat(arr,size);
-        //sc.close();
+        sc.close();
     }
     
 }
