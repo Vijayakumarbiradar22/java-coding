@@ -24,3 +24,6 @@ public class repeat {
     }
     
 }
+
+//input :- 4 2 4 5 2 3 1
+//output:- 4 2
