@@ -34,3 +34,6 @@ public class sumclose {
     }
     
 }
+
+//input:- 1 60 -10 70 -80 85  
+//output:- -80 and 85
