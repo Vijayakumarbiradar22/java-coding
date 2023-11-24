@@ -43,3 +43,6 @@ public class union {
     }
     
 }
+
+//input array1  {1,2,2,3,3,3}
+// array2 {2,3,3,4,5,5}
