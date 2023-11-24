@@ -31,7 +31,7 @@ public class weak {
             }
         }
         findWeakRow(mat,r,c);
-
+        sc.close();
     }
     
 }
