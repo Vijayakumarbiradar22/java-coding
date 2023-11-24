@@ -29,6 +29,7 @@ public class multi {
             System.out.println("Matrices cannot be multiplied.");
         }
        
+        System.out.println("Multiplication of matrix is:");
         for(int i=0;i<R1;i++){
         for(int j=0;j<C2;j++){
             for(int k=0;k<R2;k++){
