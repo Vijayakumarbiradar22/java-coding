@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class weak {
     public static void findWeakRow(int mat[][],int r,int c){
         int counter =999;
+        int weakestrowindex=0;
         for(int i=0;i<r;i++){
             int count=0;
             for(int j=0;j<c;j++){
@@ -12,10 +13,10 @@ public class weak {
             }
                 if(count<counter){
                     counter=count;
-                }
-            
-            System.out.println(i);
+                    weakestrowindex=i;
+                } 
         }
+        System.out.println(weakestrowindex);
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
