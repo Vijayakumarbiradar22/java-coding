@@ -40,8 +40,10 @@ public class multi {
 
         if(C1!=R2){
             System.out.println("Matrices cannot be multiplied.");
+        } else {
+            mulMat(mat1,mat2,R1,C1,R2,C2);
         }
-        mulMat(mat1,mat2,R1,C1,R2,C2);
+        
         sc.close();
     }
     
