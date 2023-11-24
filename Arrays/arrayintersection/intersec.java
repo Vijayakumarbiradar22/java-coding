@@ -39,6 +39,7 @@ public class intersec {
         for(int i:intersection){
             System.out.print(i+" ");
         }
+        sc.close();
     }
     
 }
