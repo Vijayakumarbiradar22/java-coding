@@ -16,7 +16,7 @@ public class weak {
                     weakestrowindex=i;
                 } 
         }
-        System.out.println(weakestrowindex);
+        System.out.println("Row "+weakestrowindex+" is weakest");
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
@@ -32,6 +32,13 @@ public class weak {
             }
         }
         findWeakRow(mat,r,c);
+        // for(int i=0;i<r;i++){
+        //     for(int j=0;j<c;j++){
+        //         if(mat[i][j]>mat[i][j+1]){
+        //             System.out.println("Row "+i+" is invalid");
+        //         }
+        //     }
+        // }
         sc.close();
     }
     
