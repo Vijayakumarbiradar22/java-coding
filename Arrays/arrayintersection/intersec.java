@@ -36,6 +36,7 @@ public class intersec {
             arr2[i]=sc.nextInt();
         }
         ArrayList<Integer> intersection=findIntersection(arr1,arr2);
+        System.out.println("Intersecting elements are:");
         for(int i:intersection){
             System.out.print(i+" ");
         }
