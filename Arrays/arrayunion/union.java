@@ -38,6 +38,7 @@ public class union {
         ArrayList<Integer> uni = Unionarray(arr1,arr2,size1,size2);
         for(int i:uni){
             System.out.print(i+" ");
+            sc.close();
         }
     }
     
