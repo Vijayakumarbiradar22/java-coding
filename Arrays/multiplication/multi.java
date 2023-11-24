@@ -24,6 +24,10 @@ public class multi {
                 mat2[i][j]=sc.nextInt();
             }
         }
+
+        if(C1!=R2){
+            System.out.println("Matrices cannot be multiplied.");
+        }
        
         for(int i=0;i<R1;i++){
         for(int j=0;j<C2;j++){
