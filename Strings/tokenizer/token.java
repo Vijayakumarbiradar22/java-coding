@@ -4,7 +4,7 @@ import java.util.StringTokenizer;
 public class token {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the string:");
+        System.out.println("Enter the string1:");
         String str=sc.nextLine();
 
         StringTokenizer st1 = new StringTokenizer(str," ");
