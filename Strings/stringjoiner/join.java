@@ -22,6 +22,7 @@ public class join {
         StringJoiner sj2 = new StringJoiner(":");
         sj2.add(list.get(2)).add(list.get(3));
         System.out.println(sj2);
+        System.out.println("Length of sj2 "+sj2.length());
 
         sj1.merge(sj2);
         System.out.println(sj1);
