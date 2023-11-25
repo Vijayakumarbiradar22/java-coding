@@ -11,6 +11,7 @@ public class modify {
         StringTokenizer st = new StringTokenizer(str,delim);
 
         int count=st.countTokens();
+        System.out.println("Number of tokens are:"+count);
 
         for(int i=0;i<count;i++){
             System.out.println("Token at "+i+" is:"+st.nextToken());
