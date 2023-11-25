@@ -17,7 +17,7 @@ public class join {
         sj1.add(list.get(0)).add(list.get(1));
         System.out.println(sj1);
 
-        System.out.println("Length of sj1 "+sj1.length());
+        System.out.println("Length of the sj1 "+sj1.length());
 
         StringJoiner sj2 = new StringJoiner(":");
         sj2.add(list.get(2)).add(list.get(3));
