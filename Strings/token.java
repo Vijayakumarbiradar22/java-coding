@@ -12,6 +12,7 @@ public class token {
         while(st1.hasMoreTokens()){
             System.out.println(st1.nextToken());
         }
+        sc.close();
     }
     
 }
