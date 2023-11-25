@@ -12,6 +12,15 @@ public class token {
         while(st1.hasMoreTokens()){
             System.out.println(st1.nextToken());
         }
+
+            System.out.println("Enter the String2:");
+            String str2=sc.nextLine();
+        StringTokenizer st2 = new StringTokenizer(str2,":");
+
+        while(st2.hasMoreTokens()){
+            System.out.println(st2.nextToken());
+        }
+
         sc.close();
     }
     
