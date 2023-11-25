@@ -1,4 +1,4 @@
-package Strings;
+package Strings.tokenizer;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 public class token {
