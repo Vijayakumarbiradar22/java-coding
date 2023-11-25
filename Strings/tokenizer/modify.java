@@ -19,6 +19,7 @@ public class modify {
         while(st.hasMoreTokens()){
             System.out.println(st.nextToken());
         }
+        sc.close();
     }
     
 }
