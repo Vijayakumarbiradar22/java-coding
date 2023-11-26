@@ -14,6 +14,7 @@ public class ulta {
             }
             System.out.println();
         }
+        sc.close();
     }
     
 }
