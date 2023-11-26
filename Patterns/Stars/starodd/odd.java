@@ -7,6 +7,9 @@ public class odd {
         int n=sc.nextInt();
 
         for(int i=0;i<n;i++){
+            for(int s=1;s<=n-i;s++){
+                System.out.print(" ");
+            }
             for(int j=0;j<=2*i-1;j++){
                 System.out.print("*");
             }
