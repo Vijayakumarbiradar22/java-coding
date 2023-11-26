@@ -12,6 +12,7 @@ public class odd {
             }
             System.out.println();
         }
+        sc.close();
 
     }
     
