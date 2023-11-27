@@ -6,20 +6,20 @@ public class chem {
         int count=0;
         Map<String,Integer> frequencyMap=new HashMap<>();
         for(String chemical:chemicals){
-            String doubledchemical=doubledCharacters(chemical);
+            String doubledchemical=doubleCharacters(chemical);
 
-            if(frequencyMap.containsKey(doubledchemical)){
-                count+=frequencyMap.get(doubledchemical);
+            if(frequencyMap.containsKey(chemical)){
+                count+=frequencyMap.get(chemical);
             }
 
-            frequencyMap.put(chemical,frequencyMap.getOrDefault(chemical,0)+1);
+            frequencyMap.put(doubledchemical,frequencyMap.getOrDefault(doubledchemical,0)+1);
 
         }
         return count;
     }
 
-    public static String doubledCharacters(String s){
-        StringBuilder doubledString=new StringBuilder(s.length());
+    public static String doubleCharacters(String s){
+        StringBuilder doubledString=new StringBuilder(s.length()*2);
         for(char c:s.toCharArray()){
             doubledString.append(c).append(c);
         }
@@ -27,7 +27,7 @@ public class chem {
     }
     public static void main(String args[]){
         int n=5;
-        String chemicals[]={"hacker","int","niitnt","hackhackerer","long"};
+        String[] chemicals={"hacker","int","niitnt","hackhackerer","long"};
         int result=countExplosivePairs(n,chemicals);
         System.out.println(result);
     }
