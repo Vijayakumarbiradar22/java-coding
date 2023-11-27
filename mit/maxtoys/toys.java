@@ -5,8 +5,9 @@ public class toys {
         int sum=0,count=0,max=0;
 
         for(int i=0;i<prices.length;i++){
+            sum=count=0;
             for(int j=i;j<prices.length;j++){
-                if(sum+prices[j]<=money){
+                if((sum+prices[j])<=money){
                     sum=sum+prices[j];
                     count=count+1;
                     max=Math.max(count,max);
