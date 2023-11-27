@@ -5,16 +5,17 @@ public class chem {
     public static int countExplosivePairs(int n,String[] chemicals){
         int count=0;
         Map<String,Integer> frequencyMap=new HashMap<>();
-        for(String chemical:chemicals){
-            String doubledchemical=doubleCharacters(chemical);
+        for (String chemical : chemicals) {
+            String doubledChemical = doubleCharacters(chemical);
 
-            if(frequencyMap.containsKey(chemical)){
-                count+=frequencyMap.get(chemical);
-            }
+            // Increment the count for each occurrence of the original chemical
+            count += frequencyMap.getOrDefault(chemical, 0);
 
-            frequencyMap.put(doubledchemical,frequencyMap.getOrDefault(doubledchemical,0)+1);
-
+            // Increment the frequency of both original and doubled chemicals in the map
+            frequencyMap.put(chemical, frequencyMap.getOrDefault(chemical, 0) + 1);
+            frequencyMap.put(doubledChemical, frequencyMap.getOrDefault(doubledChemical, 0) + 1);
         }
+
         return count;
     }
 
