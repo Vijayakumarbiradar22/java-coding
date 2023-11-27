@@ -1,4 +1,5 @@
 package mit.agusticvalues;
+import java.util.Scanner;
 public class agustic {
     public static String findSumOfAgusticValues(String s){
         long result=calculateAgusticValue(s,1,s.charAt(0)-'0',0);
@@ -14,7 +15,9 @@ public class agustic {
         return result;
     }
     public static void main(String args[]){
-        String str="432";
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the input string:");
+        String str=sc.nextLine();
         String result=findSumOfAgusticValues(str);
         System.out.println(result);
     }
