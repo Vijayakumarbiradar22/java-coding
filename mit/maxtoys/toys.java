@@ -31,6 +31,7 @@ public class toys {
         System.out.println("Enter the money:");
         int money=sc.nextInt();
         System.out.println(getMaxToys(prices,money));
+        sc.close();
     }
     
 }
