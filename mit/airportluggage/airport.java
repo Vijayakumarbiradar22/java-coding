@@ -24,6 +24,7 @@ public class airport {
         int t=sc.nextInt();
 
         System.out.println(weightMachine(n,weights,t));
+        sc.close();
 
     }
     
