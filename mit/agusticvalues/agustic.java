@@ -20,6 +20,8 @@ public class agustic {
         String str=sc.nextLine();
         String result=findSumOfAgusticValues(str);
         System.out.println(result);
+        sc.close();
     }
+    
 
 }
