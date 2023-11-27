@@ -3,7 +3,8 @@ package mit.musicstring;
 import java.util.HashMap;
 
 public class music {
-     public static int minDaysToTeach(String song) {
+   
+    public static int minDaysToTeach(String song) {
         // Initialize a map to store the frequency of each character
         HashMap<Character, Integer> frequencyMap = new HashMap<>();
 
@@ -23,15 +24,22 @@ public class music {
 
             // Check if the current melody is complete (frequency of each character is 0)
             boolean isMelodyComplete = frequencyMap.values().stream().allMatch(frequency -> frequency == 0);
+
             if (isMelodyComplete) {
                 uniqueMelodies++;
                 currentMelody.setLength(0);
+
+                // Reset frequency check for all characters
+                for (char key : frequencyMap.keySet()) {
+                    frequencyMap.put(key, 0);
+                }
             }
         }
 
         // The number of unique melodies is the minimum number of days required
         return uniqueMelodies;
     }
+
 
     public static void main(String args[]){
         String song1 = "abbaabed";
