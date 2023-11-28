@@ -3,6 +3,7 @@ package mit.palindromepairs;
 import java.util.HashMap;
 
 public class palindrome {
+   
     public static int countPalindromePairs(String[] strings) {
         int count = 0;
 
@@ -20,30 +21,15 @@ public class palindrome {
         for (int i = 0; i < strings.length; i++) {
             String current = strings[i];
 
-            // Check if the current string itself is a palindrome
-            if (isPalindrome(current)) {
-                count++;
-            }
-
-            // Check if there exists a reversed string in the array that, when concatenated,
-            // forms a palindrome with the current string
-            if (reverseMap.containsKey(current) && reverseMap.get(current) != i) {
-                count++;
-            }
-
             // Check for possible palindromes by concatenating with other strings
-            for (int j = 1; j < current.length(); j++) {
-                String left = current.substring(0, j);
-                String right = current.substring(j);
+            for (int j = 0; j < strings.length; j++) {
+                if (i != j) {
+                    String concatenated = current + strings[j];
 
-                // Check if the reversed form of the right substring exists in the array
-                if (reverseMap.containsKey(right) && isPalindrome(left)) {
-                    count++;
-                }
-
-                // Check if the reversed form of the left substring exists in the array
-                if (reverseMap.containsKey(left) && isPalindrome(right)) {
-                    count++;
+                    // Check if the concatenated string can be rearranged as a palindrome
+                    if (isPalindrome(concatenated)) {
+                        count++;
+                    }
                 }
             }
         }
@@ -51,8 +37,17 @@ public class palindrome {
         return count;
     }
 
+    // Helper method to check if a string is a palindrome
     private static boolean isPalindrome(String str) {
-        return str.equals(new StringBuilder(str).reverse().toString());
+        int left = 0, right = str.length() - 1;
+        while (left < right) {
+            if (str.charAt(left) != str.charAt(right)) {
+                return false;
+            }
+            left++;
+            right--;
+        }
+        return true;
     }
     public static void main(String args[]){
         String[] input1 = {"ab", "bb", "dd"};
