@@ -2,21 +2,7 @@ package mit.palindrome;
 import java.util.Map;
 import java.util.HashMap;
 public class arrange {
-    public static void main(String args[]){
-        String input = "711";
-        
-        if (isPalindrome(input)) {
-            System.out.println("The input string is a palindrome.");
-        } else {
-            if (canRearrangeToPalindrome(input)) {
-                System.out.println("It can be arranged as a palindrome.");
-            } else {
-                System.out.println("It cannot be arranged as a palindrome.");
-            }
-        }
-    }
-
-    private static boolean isPalindrome(String str) {
+     public static boolean isPalindrome(String str) {
         int left = 0;
         int right = str.length() - 1;
 
@@ -31,7 +17,7 @@ public class arrange {
         return true;
     }
 
-    private static boolean canRearrangeToPalindrome(String str) {
+     public static boolean canRearrangeToPalindrome(String str) {
         Map<Character, Integer> charFrequency = new HashMap<>();
 
         for (char c : str.toCharArray()) {
@@ -48,6 +34,20 @@ public class arrange {
 
         // If there is at most one character with an odd frequency, it can be rearranged into a palindrome
         return oddCount <= 1;
+    }
+
+    public static void main(String args[]){
+        String input = "711";
+        
+        if (isPalindrome(input)) {
+            System.out.println("The input string is a palindrome.");
+        } else {
+            if (canRearrangeToPalindrome(input)) {
+                System.out.println("It can be arranged as a palindrome.");
+            } else {
+                System.out.println("It cannot be arranged as a palindrome.");
+            }
+        }
     }
     
 }
