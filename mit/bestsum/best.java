@@ -1,45 +1,41 @@
 package mit.bestsum;
 
 public class best {
-    public static int maxBestSum(int[] array, int n, int k) {
-        int left = 0, right = 0;
+    public static int maxBestSum(int[] arr, int n, int k) {
+        // Initialize variables
+        int maxValue = Integer.MIN_VALUE;
+        int[][] dp = new int[n][k + 1];
 
-        // Find the range of possible best sums
-        for (int num : array) {
-            left = Math.max(left, num);
-            right += num;
+        // Calculate prefix sums
+        int[] prefixSums = new int[n];
+        prefixSums[0] = arr[0];
+        for (int i = 1; i < n; i++) {
+            prefixSums[i] = prefixSums[i - 1] + arr[i];
         }
 
-        // Perform binary search to find the maximum value within the range
-        while (left < right) {
-            int mid = left + (right - left) / 2;
-            if (isValid(array, n, k, mid)) {
-                right = mid;
-            } else {
-                left = mid + 1;
+        // Fill the first row of the DP table with prefix sums
+        for (int i = 0; i < k + 1; i++) {
+            dp[0][i] = prefixSums[0];
+        }
+
+        // Fill the remaining rows of the DP table
+        for (int i = 1; i < n; i++) {
+            for (int j = 1; j <= k; j++) {
+                int minSum = Integer.MAX_VALUE;
+                for (int m = 0; m < i; m++) {
+                    int currentSum = prefixSums[i] - prefixSums[m] + dp[m][j - 1];
+                    minSum = Math.min(minSum, currentSum);
+                }
+                dp[i][j] = minSum;
             }
         }
 
-        return left;
-    }
-
-    private static boolean isValid(int[] array, int n, int k, int maxSum) {
-        int segments = 0, currentSum = 0;
-
-        for (int num : array) {
-            currentSum += num;
-
-            if (currentSum > maxSum) {
-                segments++;
-                currentSum = num;
-            }
+        // Find the maximum value of bestsum
+        for (int i = 1; i <= k; i++) {
+            maxValue = Math.max(maxValue, dp[n - 1][i]);
         }
 
-        // Count the last segment
-        segments++;
-
-        // Check if the number of segments is less than or equal to k
-        return segments <= k;
+        return maxValue;
     }
     public static void main(String args[]){
         int[] input1 = {1, 2, 3, 4};
