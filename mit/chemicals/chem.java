@@ -2,9 +2,10 @@ package mit.chemicals;
 import java.util.HashMap;
 import java.util.Map;
 public class chem {
-    public static int countExplosivePairs(int n,String[] chemicals){
-        int count=0;
-        Map<String,Integer> frequencyMap=new HashMap<>();
+    public static int countExplosivePairs(int N, String[] chemicals) {
+        int count = 0;
+        Map<String, Integer> frequencyMap = new HashMap<>();
+
         for (String chemical : chemicals) {
             String doubledChemical = doubleCharacters(chemical);
 
@@ -18,6 +19,7 @@ public class chem {
 
         return count;
     }
+
 
     public static String doubleCharacters(String s){
         StringBuilder doubledString=new StringBuilder(s.length()*2);
