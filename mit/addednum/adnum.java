@@ -26,5 +26,4 @@ public class adnum {
         int addedValue=findAddedValue(n,A,G);
         System.out.println(addedValue);
     }
-    
 }
