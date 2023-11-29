@@ -9,9 +9,21 @@ public class diamond {
             for(int j=1;j<=i;j++){
                 System.out.print("*");
             }
+             for(int s=1;s<=n-i;s++){
+                System.out.print(" ");
+            }
+             for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
             System.out.println();
         }
-        for(int i=n;i>=0;i--){
+        for(int i=n-1;i>=0;i--){
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            for(int s=1;s<=n-i;s++){
+                System.out.print(" ");
+            }
             for(int j=1;j<=i;j++){
                 System.out.print("*");
             }
