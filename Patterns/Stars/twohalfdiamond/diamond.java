@@ -29,6 +29,7 @@ public class diamond {
             }
             System.out.println();
         }
+        sc.close();
     }
     
 }
