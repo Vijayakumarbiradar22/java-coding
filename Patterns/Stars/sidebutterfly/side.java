@@ -34,6 +34,7 @@ public class side {
             }
             System.out.println();
         }
+        sc.close();
 
     }
     
