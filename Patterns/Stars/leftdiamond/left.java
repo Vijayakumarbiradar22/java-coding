@@ -25,6 +25,7 @@ public class left {
             }
             System.out.println();
         }
+        sc.close();
 
     }
     
