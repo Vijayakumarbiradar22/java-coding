@@ -7,7 +7,7 @@ public class allstack {
             return list.size()==0;
         }
 
-        public static void push(int data){
+        public void push(int data){
             list.add(data);
         }
 
