@@ -34,7 +34,7 @@ public class allstack {
             s.push(3);
             s.push(4);
 
-            while(!s.isEmpty()){
+            while(s.isEmpty()){
                 System.out.println(s.peek());
                 s.peek();
             }
