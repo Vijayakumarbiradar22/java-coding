@@ -22,6 +22,7 @@ public class sam {
             }
             System.out.println();
          }
+         sc.close();
     }
     
 }
