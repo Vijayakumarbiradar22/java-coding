@@ -25,7 +25,8 @@ public class equal {
     public static void main(String args[]){
         String[] word1={"cd","a"};
         String[] word2={"cd","a"};
-        arrayStringsEqual(word1,word2);
+        boolean result = arrayStringsEqual(word1,word2);
+        System.out.println(result);
     }
     
 }
