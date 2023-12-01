@@ -23,8 +23,17 @@ public class equal {
         }
     }
     public static void main(String args[]){
-        String[] word1={"cd","a"};
-        String[] word2={"cd","a"};
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the size of string1:");
+        int s1=sc.nextInt();
+        String[] word1 = new String[s1];
+        System.out.println("Enter the strings:");
+        for(int i=0;i<s1;i++){
+            word1[i]=sc.nextLine();
+        }
+        
+        //String[] word1={"cd","a"};
+        //String[] word2={"cd","a"};
         boolean result = arrayStringsEqual(word1,word2);
         System.out.println(result);
     }
