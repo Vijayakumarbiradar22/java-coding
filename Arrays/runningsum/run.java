@@ -9,6 +9,7 @@ public class run {
         }
         return result;
     }
+     
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of array:");
@@ -18,8 +19,10 @@ public class run {
         for(int i=0;i<n;i++){
             num[i]=sc.nextInt();
         }
-        int output[] = findRunningSum(num,n);
-        System.out.println(output);
+         int[] output=findRunningSum(num,n);
+         for(int i=0;i<n;i++){
+            System.out.print(output[i]+" ");
+         }
         sc.close();
     }
     
