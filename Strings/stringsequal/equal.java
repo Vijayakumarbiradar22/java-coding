@@ -27,7 +27,7 @@ public class equal {
         System.out.println("Enter the size of string1:");
         int s1=sc.nextInt();
         String[] word1 = new String[s1];
-        System.out.println("Enter the strings:");
+        System.out.println("Enter the strings in array:");
         for(int i=0;i<s1;i++){
             word1[i]=sc.nextLine();
         }
