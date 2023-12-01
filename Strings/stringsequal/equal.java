@@ -1,5 +1,5 @@
 package Strings.stringsequal;
-
+import java.util.Scanner;
 public class equal {
     public static boolean arrayStringsEqual(String[] word1,String[] word2){
         StringBuilder str1=new StringBuilder();
