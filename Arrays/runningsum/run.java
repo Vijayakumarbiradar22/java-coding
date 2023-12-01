@@ -18,7 +18,9 @@ public class run {
         for(int i=0;i<n;i++){
             num[i]=sc.nextInt();
         }
-        findRunningSum(num,n);
+        int output[] = findRunningSum(num,n);
+        System.out.println(output);
+        sc.close();
     }
     
 }
