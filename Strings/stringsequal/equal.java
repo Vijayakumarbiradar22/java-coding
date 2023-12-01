@@ -38,10 +38,9 @@ public class equal {
         for(int i=0;i<s2;i++){
             word2[i]=sc.nextLine();
         }
-        //String[] word1={"cd","a"};
-        //String[] word2={"cd","a"};
         boolean result = arrayStringsEqual(word1,word2);
         System.out.println(result);
+        sc.close();
     }
     
 }
