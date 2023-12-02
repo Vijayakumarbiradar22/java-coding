@@ -14,6 +14,7 @@ public class rev {
             }
             System.out.println();
         }
+        sc.close();
     }
     
 }
