@@ -29,6 +29,7 @@ public class target {
         int target=sc.nextInt();
 
         twoSum(nums,target,n);
+        sc.close();
     }
     
 }
