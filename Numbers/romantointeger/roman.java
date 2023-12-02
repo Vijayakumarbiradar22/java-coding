@@ -28,6 +28,7 @@ public class roman {
         String r = sc.nextLine();
         int result=romanToInt(r);
         System.out.println(result);
+        sc.close();
     }
     
 }
