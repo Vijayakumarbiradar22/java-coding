@@ -28,7 +28,10 @@ public class target {
         System.out.println("Enter the target num:");
         int target=sc.nextInt();
 
-        twoSum(nums,target,n);
+        int[] output = twoSum(nums,target,n);
+        for(int i:output){
+            System.out.print(i+" ");
+        }
         sc.close();
     }
     
