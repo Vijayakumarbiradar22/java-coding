@@ -18,7 +18,7 @@ public class bubble {
             System.out.println("Enter the size of array:");
             int size=sc.nextInt();
             int[] array = new int[size];
-            System.out.println("Enter the elements:");
+            System.out.println("Enter the elements of array:");
             for(int i=0;i<size;i++){
                 array[i]=sc.nextInt();
             }
