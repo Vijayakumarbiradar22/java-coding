@@ -5,7 +5,7 @@ public class arm {
         int count=0;
         double rem,sum=0;
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the number:");
+        System.out.println("Enter number t check Armstrong:");
         int num=sc.nextInt();
         int original=num;
         while(num!=0){
