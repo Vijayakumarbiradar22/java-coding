@@ -38,7 +38,7 @@ public class best {
         return maxValue;
     }
     public static void main(String args[]){
-        int[] input1 = {1, 2, 3, 4};
+        int[] input1 = {1, 2, 3, 4,5};
         int input2 = 4;
         int input3 = 2;
         int output = maxBestSum(input1, input2, input3);
