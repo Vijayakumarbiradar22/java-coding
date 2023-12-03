@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class uptolow {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-            System.out.println("Enter the string:");
+            System.out.println("Enter Uppercase string:");
             String str = sc.nextLine();
             String res="";
             for(int i=0;i<str.length();i++){
