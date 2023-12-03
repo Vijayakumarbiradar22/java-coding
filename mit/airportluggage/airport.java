@@ -16,7 +16,7 @@ public class airport {
         System.out.println("Enter the n:");
         int n = sc.nextInt();
         int weights[]=new int[n];
-        System.out.println("Enter the weights:");
+        System.out.println("Enter luggage weights:");
         for(int i=0;i<n;i++){
             weights[i]=sc.nextInt();
         }
