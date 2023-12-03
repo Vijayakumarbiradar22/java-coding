@@ -8,7 +8,7 @@ public class check {
         fruits.add("Mango");
         fruits.add("Apple");
         fruits.add("Orange");
-        fruits.add("Pineapple");
+        fruits.add("Banana");
 
         System.out.println("Enter the fruit:");
         String fruit=sc.nextLine();
