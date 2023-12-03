@@ -12,7 +12,7 @@ public class btod {
         return dec;
     }
     public static void main(String args[]){
-        String binary = "1111";
+        String binary = "1011";
         int decimalNumber = convertToDecimal(binary);
         System.out.println(decimalNumber);
     }
