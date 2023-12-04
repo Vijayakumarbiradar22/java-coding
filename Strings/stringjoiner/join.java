@@ -26,7 +26,7 @@ public class join {
 
         sj1.merge(sj2);
         System.out.println(sj1);
-        System.out.println("Length of the sj1 is "+sj1.length());
+        System.out.println("Length of sj1 is "+sj1.length());
     }
     
 }
