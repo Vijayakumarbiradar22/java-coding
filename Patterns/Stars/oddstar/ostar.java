@@ -14,6 +14,7 @@ public class ostar {
             }
             System.out.println();
         }
+        sc.close();
     }
     
 }
