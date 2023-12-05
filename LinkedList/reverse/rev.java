@@ -85,9 +85,11 @@ public class rev {
         }
         System.out.println("NULL");
     }
-    
-    public static void main(String args[]){
 
+    public static void main(String args[]){
+        rev list=new rev();
+        list.addFirst("10");
+        list.addLast("20");
     }
     
     
