@@ -84,7 +84,6 @@ public class LL {
         while(currNode!=null){
              System.out.print(currNode.data+"->");
             currNode=currNode.next;
-            
         }
         System.out.println("NULL");
     }
