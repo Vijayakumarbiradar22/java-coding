@@ -49,10 +49,24 @@ public class rev {
             System.out.println("List is empty");
             return;
         }
+        size--;
         head=head.next;
     }
 
     //removeLast
-    
+    public void removeLast(){
+        if(head==null){
+            System.out.println("List is empty");
+            return;
+        }
+        size--;
+        if(head.next==null){
+            head=null;
+        }
+        Node secondLast=head;
+        Node lastNode=head.next;
+
+
+    }
     
 }
