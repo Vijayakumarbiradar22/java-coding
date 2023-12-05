@@ -82,8 +82,9 @@ public class LL {
         }
         Node currNode=head;
         while(currNode!=null){
-            currNode=currNode.next;
              System.out.print(currNode.data+"->");
+            currNode=currNode.next;
+            
         }
         System.out.println("NULL");
     }
