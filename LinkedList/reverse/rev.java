@@ -90,6 +90,10 @@ public class rev {
         rev list=new rev();
         list.addFirst("10");
         list.addLast("20");
+        list.addLast("30");
+        list.addLast("40");
+
+        list.printList();
     }
     
     
