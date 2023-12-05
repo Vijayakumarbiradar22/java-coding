@@ -99,6 +99,9 @@ public class rev {
 
         list.printList();
 
+        list.removeLast();
+        list.printList();
+
 
         int totalsize=list.getSize();
         System.out.println(totalsize);
