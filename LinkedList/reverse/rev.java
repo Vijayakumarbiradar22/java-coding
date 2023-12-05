@@ -102,7 +102,9 @@ public class rev {
         list.removeLast();
         list.printList();
 
-
+        list.removeFirst();
+        list.printList();
+        
         int totalsize=list.getSize();
         System.out.println(totalsize);
     }
