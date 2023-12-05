@@ -79,7 +79,7 @@ public class rev {
             return;
         }
         Node currNode=head;
-        while(currNode.next!=null){
+        while(currNode!=null){
             currNode=currNode.next;
             System.out.print(currNode.data+"->");
         }
