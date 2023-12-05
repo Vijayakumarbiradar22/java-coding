@@ -65,8 +65,30 @@ public class rev {
         }
         Node secondLast=head;
         Node lastNode=head.next;
+        while(lastNode.next!=null){
+            lastNode=lastNode.next;
+            secondLast=secondLast.next;
+        }
+        secondLast.next=null;
+    }
 
+    //printList
+    public void printList(){
+        if(head==null){
+            System.out.println("List is empty");
+            return;
+        }
+        Node currNode=head;
+        while(currNode.next!=null){
+            currNode=currNode.next;
+            System.out.print(currNode.data+"->");
+        }
+        System.out.println("NULL");
+    }
+    
+    public static void main(String args[]){
 
     }
+    
     
 }
