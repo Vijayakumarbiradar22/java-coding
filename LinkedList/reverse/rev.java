@@ -36,7 +36,23 @@ public class rev {
             head=newNode;
             return;
         }
-        
+        Node currNode=head;
+        while(currNode.next!=null){
+            currNode=currNode.next;
+        }
+        currNode.next=newNode;
     }
+
+    //deleteFirst
+    public void removeFirst(){
+        if(head==null){
+            System.out.println("List is empty");
+            return;
+        }
+        head=head.next;
+    }
+
+    //removeLast
+    
     
 }
