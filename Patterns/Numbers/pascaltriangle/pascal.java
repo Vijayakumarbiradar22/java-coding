@@ -18,6 +18,7 @@ public class pascal {
             }
             System.out.println();
         }
+        sc.close();
     }
     
 }
