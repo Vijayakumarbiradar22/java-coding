@@ -18,6 +18,7 @@ public class binomial {
             }
             System.out.println();
         }
+        sc.close();
     }
     
 }
