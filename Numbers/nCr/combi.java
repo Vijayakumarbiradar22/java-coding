@@ -17,6 +17,8 @@ public class combi {
 
         int result=fact(n)/(fact(r)*fact(n-r));
         System.out.println(result);
+         sc.close();
     }
+   
     
 }
