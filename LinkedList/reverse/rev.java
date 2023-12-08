@@ -89,18 +89,39 @@ public class rev {
     public int getSize(){
         return size;
     }
-    
+
     //recursive methode to reverse
-    public Node reverseRec(Node head){
+    // public Node reverseRec(Node head){
+    //     if(head==null || head.next==null){
+    //         return head;
+    //     }
+
+    //     Node newHead=reverseRec(head.next);
+    //     head.next.next=head;
+    //     head.next=null;
+    //     return newHead;
+
+    // }
+
+    //iterative method
+    public void reverseIterate(){
         if(head==null || head.next==null){
-            return head;
+            return;
         }
 
-        Node newHead=reverseRec(head.next);
-        head.next.next=head;
-        head.next=null;
-        return newHead;
+        Node prevNode=head;
+        Node currNode=head.next;
+        while(currNode!=null){
+            Node nextNode=currNode.next;
+            currNode.next=prevNode;
 
+            //update
+            prevNode=currNode;
+            currNode=nextNode;
+            
+        }
+        head.next=null;
+        head=prevNode;
     }
 
 
@@ -122,8 +143,11 @@ public class rev {
         // int totalsize=list.getSize();
         // System.out.println(totalsize);
 
-        list.head=list.reverseRec(list.head);
+        list.reverseIterate();
         list.printList();
+
+        // list.head=list.reverseRec(list.head);
+        // list.printList();
     }
     
     
