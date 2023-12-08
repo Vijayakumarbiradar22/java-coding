@@ -90,6 +90,9 @@ public class rev {
         return size;
     }
 
+    
+
+
     public static void main(String args[]){
         rev list=new rev();
         list.addFirst("10");
@@ -99,14 +102,16 @@ public class rev {
 
         list.printList();
 
-        list.removeLast();
-        list.printList();
+        // list.removeLast();
+        // list.printList();
 
-        list.removeFirst();
-        list.printList();
+        // list.removeFirst();
+        // list.printList();
         
-        int totalsize=list.getSize();
-        System.out.println(totalsize);
+        // int totalsize=list.getSize();
+        // System.out.println(totalsize);
+
+
     }
     
     
