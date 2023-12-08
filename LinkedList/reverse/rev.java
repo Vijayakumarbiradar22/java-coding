@@ -89,14 +89,15 @@ public class rev {
     public int getSize(){
         return size;
     }
-
+    
+    //recursive methode to reverse
     public Node reverseRec(Node head){
-        if(head==null||head.next==null){
+        if(head==null || head.next==null){
             return head;
         }
 
         Node newHead=reverseRec(head.next);
-        head=head.next.next;
+        head.next.next=head;
         head.next=null;
         return newHead;
 
