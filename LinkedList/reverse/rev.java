@@ -90,19 +90,6 @@ public class rev {
         return size;
     }
 
-    //recursive methode to reverse
-    // public Node reverseRec(Node head){
-    //     if(head==null || head.next==null){
-    //         return head;
-    //     }
-
-    //     Node newHead=reverseRec(head.next);
-    //     head.next.next=head;
-    //     head.next=null;
-    //     return newHead;
-
-    // }
-
     //iterative method
     public void reverseIterate(){
         if(head==null || head.next==null){
@@ -123,6 +110,22 @@ public class rev {
         head.next=null;
         head=prevNode;
     }
+    
+
+    //recursive methode to reverse
+    // public Node reverseRec(Node head){
+    //     if(head==null || head.next==null){
+    //         return head;
+    //     }
+
+    //     Node newHead=reverseRec(head.next);
+    //     head.next.next=head;
+    //     head.next=null;
+    //     return newHead;
+
+    // }
+
+    
 
 
     public static void main(String args[]){
