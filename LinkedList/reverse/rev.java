@@ -90,7 +90,17 @@ public class rev {
         return size;
     }
 
-    
+    public Node reverseRec(Node head){
+        if(head==null||head.next==null){
+            return head;
+        }
+
+        Node newHead=reverseRec(head.next);
+        head=head.next.next;
+        head.next=null;
+        return newHead;
+
+    }
 
 
     public static void main(String args[]){
@@ -111,7 +121,8 @@ public class rev {
         // int totalsize=list.getSize();
         // System.out.println(totalsize);
 
-
+        list.head=list.reverseRec(list.head);
+        list.printList();
     }
     
     
