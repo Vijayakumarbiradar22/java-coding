@@ -17,6 +17,7 @@ public class ub {
             int newNumber=newBitmask&n;
             System.out.println(newNumber);
         }
+        sc.close();
     }
     
 }
