@@ -32,13 +32,12 @@ public class sumnodes {
         if(root==null){
             return 0;
         }
-
         int leftsum=sumofnodes(root.left);
         int rightsum=sumofnodes(root.right);
-        return leftsum+rightsum+root.data;
+        return leftsum+rightsum+ root.data;
     }
     public static void main(String args[]){
-        int nodes[]={1,2,3,-1,-1,5,-1,-1,3,-1,6,-1,-1};
+        int nodes[]={1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
         BinaryTree tree = new BinaryTree();
 
         Node root = tree.buildTree(nodes);
