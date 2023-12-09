@@ -29,6 +29,9 @@ public class level {
     }
 
     public static void levelorder(Node root){
+        if(root==null){
+            return;
+        }
       Queue<Node> q=new LinkedList<>(); 
       q.add(root);
       q.add(null);
