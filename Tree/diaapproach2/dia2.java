@@ -49,7 +49,7 @@ public class dia2 {
 
         int diam1=left.diam;
         int diam2=right.diam;
-        int diam3=left.diam+right.diam+1;
+        int diam3=left.ht+right.ht+1;
 
         int mydiam=Math.max(Math.max(diam1,diam2),diam3);
 
