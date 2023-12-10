@@ -20,6 +20,23 @@ public class map {
 
         System.out.println(map.get("China"));
         System.out.println(map.get("Srilanka"));
+
+        //Entryset through
+        for(Map.Entry<String,Integer>e:map.entrySet()){
+            System.out.println(e.getKey());
+            System.out.println(e.getValue());
+        }
+
+        //Keyset through
+        Set<String> keys = map.keySet();
+        for(String key:keys){
+            System.out.println(key+" "+map.get(key));
+        }
+
+        map.remove("China");
+        System.out.println(map);
+        
+
     } 
     
 }
