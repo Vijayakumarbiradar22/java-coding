@@ -10,6 +10,16 @@ public class map {
         System.out.println(map);
         map.put("china",180);
         System.out.println(map);
+
+        //search
+        if(map.containsKey("China")){
+            System.out.println("Key Present in the map");
+        } else {
+            System.out.println(" Key is not present");
+        }
+
+        System.out.println(map.get("China"));
+        System.out.println(map.get("Srilanka"));
     } 
     
 }
