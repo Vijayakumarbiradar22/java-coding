@@ -20,7 +20,8 @@ public class hash {
         }
 
         //delete
-        
+        set.remove(3);
+        System.out.println(set);
     }
     
 }
