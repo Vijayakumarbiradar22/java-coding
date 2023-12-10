@@ -9,6 +9,8 @@ public class hash {
         set.add(2);
 
         System.out.println(set);
+
+        
     }
     
 }
