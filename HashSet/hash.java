@@ -26,10 +26,10 @@ public class hash {
 
         System.out.println("Size of set is "+set.size());
         
-        Iterator it = set.iterator();
-        while(it.hasNext()){
-            System.out.println(it.next());
-        }
+        // Iterator it = set.iterator();
+        // while(it.hasNext()){
+        //     System.out.println(it.next());
+        // }
     
     }
     
