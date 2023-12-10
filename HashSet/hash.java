@@ -22,6 +22,8 @@ public class hash {
         //delete
         set.remove(3);
         System.out.println(set);
+
+        System.out.println("Size of set is "+set.size());
     }
     
 }
