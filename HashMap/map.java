@@ -33,9 +33,9 @@ public class map {
             System.out.println(key+" "+map.get(key));
         }
 
-        map.remove("China");
-        System.out.println(map);
-        
+        // map.remove("China");
+        // System.out.println(map);
+
 
     } 
     
