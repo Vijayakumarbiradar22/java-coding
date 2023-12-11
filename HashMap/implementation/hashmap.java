@@ -134,15 +134,15 @@ public class hashmap {
     public static void main(String args[]){
         HashMap<String,Integer> map=new HashMap<>();
         map.put("India",190);
-        map.put("Chine",200);
+        map.put("China",200);
         map.put("US",50);
 
         ArrayList<String> keys=map.keySet();
         for(int i=0;i<keys.size();i++){
             System.out.println(keys.get(i)+" "+map.get(keys.get(i)));
         }
-        // map.remove("India");
-        // System.out.println(map.get("India"));
+        map.remove("China");
+        System.out.println(map.get("China"));
 
     } 
 }
