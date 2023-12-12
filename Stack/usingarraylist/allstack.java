@@ -8,11 +8,11 @@ public class allstack {
             return list.size()==0;   
         }
 
-        public void push(int data){
+        public static void push(int data){
             list.add(data);
         }
 
-        public int pop(){
+        public static int pop(){
             if(isEmpty()){
                 return -1;
             }
@@ -21,7 +21,7 @@ public class allstack {
             return top;
         }
 
-        public int peek(){
+        public static int peek(){
             if(isEmpty()){
                 return -1;
             }
