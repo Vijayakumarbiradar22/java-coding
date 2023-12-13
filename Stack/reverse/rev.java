@@ -2,6 +2,21 @@ package Stack.reverse;
 import java.util.*;
 public class rev {
     public static void reverse(Stack<Integer> s){
+        if(s.isEmpty()){
+            return;
+        }
+
+        int top=s.pop();
+        reverse(s);
+        pushAtBottom(top,s);
+
+    }
+
+    public static void pushAtBottom(int data, Stack<Integer> s){
+        if(s.isEmpty()){
+            s.push(data);
+            return;
+        }
         
     }
     public static void main(String args[]){
