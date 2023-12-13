@@ -17,7 +17,9 @@ public class rev {
             s.push(data);
             return;
         }
-        
+        int top = s.pop();
+        pushAtBottom(data, s);
+        s.push(top);
     }
     public static void main(String args[]){
         Stack<Integer> s = new Stack<>();
