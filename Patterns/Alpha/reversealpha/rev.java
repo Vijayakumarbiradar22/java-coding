@@ -7,6 +7,9 @@ public class rev {
             for(char j='A';j<=ch;j++){
                 System.out.print(j);
             }
+            // for(int s=1;s<2*i-2;s++){
+            //     System.out.print(" ");
+            // }
             for(char k=ch;k>='A';k--){
                 System.out.print(k);
             }
