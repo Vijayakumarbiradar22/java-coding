@@ -16,6 +16,7 @@ public class change {
             }
             System.out.println();
         }
+        sc.close();
     }
     
 }
