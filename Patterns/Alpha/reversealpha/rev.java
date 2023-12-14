@@ -7,6 +7,7 @@ public class rev {
             for(char j='A';j<=ch;j++){
                 System.out.print(j);
             }
+            
             System.out.println();
         }
     }
