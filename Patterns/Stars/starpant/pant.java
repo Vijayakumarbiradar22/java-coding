@@ -18,7 +18,7 @@ public class pant {
             }
             System.out.println();
         }
-
+        sc.close();
     }
     
 }
