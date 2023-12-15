@@ -25,6 +25,7 @@ public class dinum {
             }
             System.out.println();
         }
+        sc.close();
     }
     
 }
