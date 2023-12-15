@@ -19,6 +19,7 @@ public class halnum {
             }
             System.out.println();
         }
+        sc.close();
     }
     
 }
