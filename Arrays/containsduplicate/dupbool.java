@@ -20,7 +20,8 @@ public class dupbool {
         for(int i=0;i<n;i++){
             nums[i]=sc.nextInt();
         }
-        checkDuplicate(nums,n);
+        boolean result = checkDuplicate(nums,n);
+        System.out.println(result);
         sc.close();
     }
     
