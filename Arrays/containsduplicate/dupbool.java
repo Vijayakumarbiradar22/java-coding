@@ -21,6 +21,7 @@ public class dupbool {
             nums[i]=sc.nextInt();
         }
         checkDuplicate(nums,n);
+        sc.close();
     }
     
 }
