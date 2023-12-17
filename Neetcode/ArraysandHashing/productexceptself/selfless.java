@@ -8,8 +8,15 @@ public class selfless {
         int result[]=new int[n];
 
         for(int i=0;i<n;i++){
-            
+           result[i]=prefixProduct;
+           prefixProduct*=nums[i]; 
         }
+
+        for(int i=n-1;i>=0;i--){
+            result[i]*=suffixProduct;
+            suffixProduct*=nums[i];
+        }
+        return result;
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
