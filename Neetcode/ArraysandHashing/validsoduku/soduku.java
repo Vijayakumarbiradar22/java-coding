@@ -17,6 +17,7 @@ public class soduku {
                 board[i][j]=sc.nextInt();
             }
         }
+        sc.close();
         // isValidSoduku(board);
     }
     
