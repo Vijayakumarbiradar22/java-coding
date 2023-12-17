@@ -29,6 +29,7 @@ public class kfreq {
         for(int i:result){
             System.out.print(i+" ");
         }
+        sc.close();
     }
     
 }
