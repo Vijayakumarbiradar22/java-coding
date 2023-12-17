@@ -31,6 +31,7 @@ public class selfless {
         for(int i:output){
             System.out.print(i+" ");
         }
+        sc.close();
     }
     
 }
