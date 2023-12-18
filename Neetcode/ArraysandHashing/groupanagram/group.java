@@ -48,10 +48,7 @@ public class group {
             map.get(sortedStr).add(i);
         }
         System.out.println(new ArrayList<>(map.values())); 
-        // List<List<String>> result = groupAnagrams(strs);
-        // for(List<String> s:result){
-        //     System.out.println(s);
-        // }
+        
         sc.close();
         
     }
