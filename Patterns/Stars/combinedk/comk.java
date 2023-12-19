@@ -42,3 +42,5 @@ public class comk {
     }
     
 }
+
+//It is code for spacediamond(printing stars except diamond in a entire square)
