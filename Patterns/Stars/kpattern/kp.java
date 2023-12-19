@@ -19,6 +19,7 @@ public class kp {
             }
             System.out.println();
         }
+        sc.close();
     }
     
 }
