@@ -38,6 +38,7 @@ public class comk {
             }
             System.out.println();
         }
+        sc.close();
     }
     
 }
