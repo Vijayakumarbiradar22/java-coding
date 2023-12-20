@@ -6,6 +6,9 @@ public class flat {
        System.out.println("Enter the rpws:");
        int n=sc.nextInt();
        for(int i=1;i<=n;i++){
+        for(int s=1;s<=n-i;s++){
+            System.out.print(" ");
+        }
         for(int j=1;j<=i;j++){
             System.out.print("*");
         }
