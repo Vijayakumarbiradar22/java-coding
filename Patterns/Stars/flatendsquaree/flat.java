@@ -30,6 +30,7 @@ public class flat {
         }
         System.out.println();
        }
+       sc.close();
     }
     
 }
