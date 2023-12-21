@@ -143,8 +143,8 @@ public class rev {
         // list.removeFirst();
         // list.printList();
         
-        // int totalsize=list.getSize();
-        // System.out.println(totalsize);
+        int totalsize=list.getSize();
+        System.out.println(totalsize);
 
         list.reverseIterate();
         list.printList();
