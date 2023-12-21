@@ -14,6 +14,7 @@ public class cr {
                     System.out.print(" ");
                 }
             }
+            System.out.println();
         }
     }
     
