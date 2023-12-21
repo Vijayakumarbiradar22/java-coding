@@ -16,7 +16,7 @@ public class agustic {
     }
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the input string:");
+        System.out.println("Enter the string:");
         String str=sc.nextLine();
         String result=findSumOfAgusticValues(str);
         System.out.println(result);
