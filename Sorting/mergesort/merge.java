@@ -1,6 +1,7 @@
 package Sorting.mergesort;
 import java.util.Scanner;
 public class merge {
+    // It is based on conquer technique
     public static void devide(int arr[],int si,int ei){
         if(si>=ei){
             return;
