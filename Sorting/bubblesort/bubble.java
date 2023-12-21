@@ -22,8 +22,6 @@ public class bubble {
             for(int i=0;i<size;i++){
                 array[i]=sc.nextInt();
             }
-            //int[] array ={1,7,3,6,5};
-            //int size=array.length;
             bubbleSort(array,size);
 
             for(int i=0;i<size;i++){
