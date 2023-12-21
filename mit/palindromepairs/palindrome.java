@@ -37,7 +37,7 @@ public class palindrome {
         return count;
     }
 
-    // Helper method to check if a string is a palindrome
+    
     private static boolean isPalindrome(String str) {
         int left = 0, right = str.length() - 1;
         while (left < right) {
