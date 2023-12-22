@@ -15,6 +15,8 @@ public class binary {
 
         int result = binarySearch(nums,target);
         System.out.println(result);
+
+        sc.close();
     }
     
 }
