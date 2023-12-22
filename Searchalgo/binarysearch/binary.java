@@ -1,7 +1,7 @@
 package Searchalgo.binarysearch;
 import java.util.Scanner;
 public class binary {
-    public static int binarySearch(int nums[],int target){
+    public static void binarySearch(int nums[],int target){
         int length=nums.length;
         int left=0;
         int right=length-1;
@@ -10,14 +10,14 @@ public class binary {
             int mid=left+(right-left)/2;
 
             if(nums[mid]==target){
-                return mid;
+                System.out.println(mid);
             } else if (nums[mid]<target){
                 left=mid+1;
             } else {
                 right=mid-1;
             }
         }
-        return -1;
+        System.out.println("-1");
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
@@ -31,8 +31,8 @@ public class binary {
         System.out.println("Enter the target value:");
         int target=sc.nextInt();
 
-        int result = binarySearch(nums,target);
-        System.out.println(result);
+        binarySearch(nums,target);
+        
 
         sc.close();
     }
