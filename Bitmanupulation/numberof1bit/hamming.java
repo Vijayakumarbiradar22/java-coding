@@ -10,6 +10,7 @@ public class hamming {
         int n=sc.nextInt();
         int res = hammingWeight(n);
         System.out.println(res);
+        sc.close();
     }
     
 }
