@@ -20,7 +20,7 @@ public class bit {
         int count=countOnes(n);
         System.out.println(count);
 
-
+        
     }
     
 }
