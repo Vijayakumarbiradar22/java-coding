@@ -20,7 +20,11 @@ public class bit {
         int count=countOnes(n);
         System.out.println(count);
 
-        
+        int ans[]=new int[n+1];
+        for(int i=0;i<ans.length;i++){
+            ans[i]=countOnes(i);
+        }
+        System.out.println(ans);
     }
     
 }
