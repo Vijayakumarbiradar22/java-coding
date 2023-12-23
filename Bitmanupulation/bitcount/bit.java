@@ -25,6 +25,8 @@ public class bit {
             ans[i]=countOnes(i);
         }
         System.out.println(ans);
+
+        sc.close();
     }
     
 }
