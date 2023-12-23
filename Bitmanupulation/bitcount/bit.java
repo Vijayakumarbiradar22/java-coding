@@ -8,7 +8,7 @@ public class bit {
         if((n & bitMask)== bitMask){
             count++;
         }
-        
+        bitMask = bitMask<<1;
       } 
       return count;
     }
