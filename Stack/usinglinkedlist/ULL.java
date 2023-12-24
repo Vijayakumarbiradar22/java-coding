@@ -11,6 +11,17 @@ public class ULL {
             this.next=null;
         }
       }  
+
+      static class Stack {
+        public static Node head;
+        public static boolean isEmpty(){
+            return head==null;
+        }
+
+        public static void push(int data){
+            
+        }
+      }
     }
     
 }
