@@ -8,7 +8,7 @@ public class cframe {
         q.add(3);
         q.add(4);
 
-        while(q.isEmpty()){
+        while(!q.isEmpty()){
             System.out.println(q.peek());
             q.remove();
         }
