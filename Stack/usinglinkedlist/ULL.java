@@ -1,5 +1,5 @@
 package Stack.usinglinkedlist;
-import java.util.*;
+//import java.util.*;
 public class ULL {
     static class Node {
         int data;
@@ -13,11 +13,11 @@ public class ULL {
 
       static class Stack {
         public static Node head;
-        public static boolean isEmpty(){
+        public boolean isEmpty(){
             return head==null;
         }
 
-        public static void push(int data){
+        public void push(int data){
           Node newNode =new Node(data);
           if(isEmpty()){
              head=newNode;
@@ -28,7 +28,7 @@ public class ULL {
         }
       
 
-      public static int pop(){
+      public int pop(){
         if(isEmpty()){
             return -1;
         }
@@ -37,7 +37,7 @@ public class ULL {
         return top;
       }
 
-      public static int peek(){
+      public int peek(){
         if(isEmpty()){
             return -1;
         }
