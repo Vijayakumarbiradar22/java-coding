@@ -1,20 +1,20 @@
 package Queue.usingarray;
 //import java.util.*;
 public class que {
-    static int arr[];
-    static int size;
-    static int rear=-1;
+     int arr[];
+     int size;
+     int rear=-1;
 
     que(int n){
         arr=new int[n];
         this.size=n;
     }
 
-    public static boolean isEmpty(){
+    public boolean isEmpty(){
         return rear==-1;
     }
 
-    public static void add (int data){
+    public  void add (int data){
       if(rear==size-1){
         System.out.println("Queue is full");
         return;
@@ -23,7 +23,7 @@ public class que {
       arr[rear]=data;  
     }
 
-    public static int remove(){
+    public int remove(){
         if(isEmpty()){
             return -1;
         }
@@ -36,7 +36,7 @@ public class que {
         return front;
     }
 
-    public static int peek(){
+    public int peek(){
         if(isEmpty()){
             return -1;
         }
@@ -44,7 +44,15 @@ public class que {
     }
 
     public static void main(String args[]){
+        que q = new que(5);
+        q.add(1);
+        q.add(2);
+        q.add(3);
 
+        while(!q.isEmpty()){
+            System.out.println(q.peek());
+            q.remove();
+        }
     }
     
 }
