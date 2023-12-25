@@ -5,7 +5,7 @@ public class perm {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the string:");
         String str=sc.nextLine();
-        
+        printPerm(str,"",0);
     }
     
 }
