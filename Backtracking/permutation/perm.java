@@ -9,7 +9,7 @@ public class perm {
 
         for(int i=0;i<str.length();i++){
             char currChar=str.charAt(i);
-            String newStr=str.subString(0,i)+str.subString(i+1);
+            String newStr=str.substring(0, i)+str.substring(i+1);
             printPerm(newStr,perm+currChar,indx+1);
         }
     }
@@ -18,6 +18,7 @@ public class perm {
         System.out.println("Enter the string:");
         String str=sc.nextLine();
         printPerm(str,"",0);
+        sc.close();
     }
     
 }
