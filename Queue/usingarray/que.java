@@ -23,6 +23,19 @@ public class que {
       arr[rear]=data;  
     }
 
+    public static int remove(){
+        if(isEmpty()){
+            return -1;
+        }
+
+        int front=arr[0];
+        for(int i=0;i<rear;i++){
+            arr[i]=arr[i+1];
+        }
+        rear--;
+        return front;
+    }
+
     
 
     public static void main(String args[]){
