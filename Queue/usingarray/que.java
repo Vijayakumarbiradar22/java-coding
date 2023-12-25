@@ -36,7 +36,12 @@ public class que {
         return front;
     }
 
-    
+    public static int peek(){
+        if(isEmpty()){
+            return -1;
+        }
+        return arr[0];
+    }
 
     public static void main(String args[]){
 
