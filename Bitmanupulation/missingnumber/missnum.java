@@ -7,6 +7,7 @@ public class missnum {
        for(int element:nums){
         sum+=element;
        }
+       return (int)(actualSum-sum);
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
