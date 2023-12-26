@@ -13,6 +13,7 @@ public class missnum {
 
         int result = missingNum(nums,n);
         System.out.println(result);
+        sc.close();
     }
     
 }
