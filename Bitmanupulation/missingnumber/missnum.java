@@ -10,6 +10,9 @@ public class missnum {
         for(int i=0;i<n;i++){
             nums[i]=sc.nextInt();
         }
+
+        int result = missingNum(nums,n);
+        System.out.println(result);
     }
     
 }
