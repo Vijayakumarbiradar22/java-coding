@@ -2,7 +2,11 @@ package Bitmanupulation.missingnumber;
 import java.util.Scanner;
 public class missnum {
     public static int missingNum(int nums[],int n){
-        
+       long actualSum=(n*(n+1))/2 ;
+       long sum=0;
+       for(int element:nums){
+        sum+=element;
+       }
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
