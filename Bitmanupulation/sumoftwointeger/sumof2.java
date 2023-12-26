@@ -1,6 +1,17 @@
 package Bitmanupulation.sumoftwointeger;
 import java.util.Scanner;
 public class sumof2 {
+    public static int getSum(int a, int b){
+        if(b==0){
+            return a;
+        }
+
+        if(b<0){
+            return getSum(--a,++b);
+        } else {
+            return getSum(++a,--b); 
+        }
+    }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the value of a:");
