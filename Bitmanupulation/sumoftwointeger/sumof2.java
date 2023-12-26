@@ -10,6 +10,7 @@ public class sumof2 {
 
         int result = getSum(a,b);
         System.out.println(result);
+        sc.close();
     }
     
 }
