@@ -7,7 +7,7 @@ public class bitrev {
         int n=sc.nextInt();
         int result = reverseBit(n);
         System.out.println(result);
-         
+         sc.close();
     }
     
 }
