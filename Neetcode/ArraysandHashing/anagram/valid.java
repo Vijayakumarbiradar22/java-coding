@@ -18,7 +18,7 @@ public class valid {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter String s:");
         String s=sc.nextLine();
-        System.out.println("Enter the string t:");
+        System.out.println("Enter string t:");
         String t = sc.nextLine();
         boolean result = isAnagram(s,t);
         System.out.println(result);
