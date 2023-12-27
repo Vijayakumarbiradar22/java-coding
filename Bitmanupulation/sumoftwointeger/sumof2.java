@@ -5,7 +5,7 @@ public class sumof2 {
         if(b==0){
             return a;
         }
-
+         
         if(b<0){
             return getSum(--a,++b);
         } else {
