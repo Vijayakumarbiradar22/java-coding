@@ -11,8 +11,11 @@ public class stock {
             lsf=nums[i];
         }
         pist=nums[i]-lsf;
-        if()
+        if(op<pist){
+            op=pist;
+        }
        }
+       return op;
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
