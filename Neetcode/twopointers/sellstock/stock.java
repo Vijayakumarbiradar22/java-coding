@@ -2,7 +2,17 @@ package Neetcode.twopointers.sellstock;
 import java.util.Scanner;
 public class stock {
     public static int maxProfit(int nums[],int n){
-        
+       int lsf=Integer.MAX_VALUE;
+       int op=0;
+       int pist=0;
+       
+       for(int i=0;i<n;i++){
+        if(nums[i]<lsf){
+            lsf=nums[i];
+        }
+        pist=nums[i]-lsf;
+        if()
+       }
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
