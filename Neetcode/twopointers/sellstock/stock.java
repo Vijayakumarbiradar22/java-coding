@@ -11,6 +11,8 @@ public class stock {
             nums[i]=sc.nextInt();
         }
         
+
+        sc.close();
     }
     
 }
