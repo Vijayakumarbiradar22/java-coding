@@ -17,7 +17,7 @@ public class large {
             Scanner sc = new Scanner(System.in);
             System.out.println("Enter the no.of rows:");
             int r=sc.nextInt();
-            System.out.println("Enter the number of columns:");
+            System.out.println("Enter the no.of columns:");
             int c = sc.nextInt();
             int[][] arr = new int[r][c];
             System.out.println("Enter the elements:");
