@@ -24,7 +24,7 @@ public class fnlarge {
         System.out.println();
 
         int sum = arr[size-1]+arr[size-2];
-        System.out.println("Sum of last 2 element is: "+sum);
+        System.out.println("Sum of last two element is: "+sum);
     }
     
 }
