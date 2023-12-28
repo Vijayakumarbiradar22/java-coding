@@ -13,6 +13,8 @@ public class negative {
             }
             System.out.println();
         }
+
+        sc.close();
     }
     
 }
