@@ -15,7 +15,7 @@ public class diff {
           System.out.println();  
         }
 
-        for(int i=n;i>=1;i--){
+        for(int i=n-1;i>=1;i--){
             for(int s=1;s<=n-i;s++){
                 System.out.print(" ");
             }
