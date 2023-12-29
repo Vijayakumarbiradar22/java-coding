@@ -1,6 +1,9 @@
 package Patterns.Stars.diffstar;
 import java.util.*;
 public class diff {
-    
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        
+    }
     
 }
