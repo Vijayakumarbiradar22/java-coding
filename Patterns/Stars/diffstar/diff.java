@@ -11,6 +11,8 @@ public class diff {
           }
           System.out.println();  
         }
+
+        sc.close();
     }
     
 }
