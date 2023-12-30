@@ -11,8 +11,9 @@ public class even {
                 System.out.print(num);
                 num=num+2;
             }
+            System.out.println();
         }
-        
+
         sc.close();
     }
     
