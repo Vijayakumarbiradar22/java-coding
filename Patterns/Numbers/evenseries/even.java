@@ -12,6 +12,8 @@ public class even {
                 num=num+2;
             }
         }
+        
+        sc.close();
     }
     
 }
