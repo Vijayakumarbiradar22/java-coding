@@ -56,6 +56,7 @@ public class ull {
         ull q = new ull();
         q.add(1);
         q.add(2);
+        q.add(3);
         
 
 
