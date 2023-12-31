@@ -43,6 +43,11 @@ public class ull {
         head=head.next;
         return front;
     }
+
+    //peak
+    public static int peek(){
+        
+    }
     public static void main(String args[]){
 
     }
