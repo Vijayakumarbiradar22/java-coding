@@ -55,6 +55,7 @@ public class ull {
     public static void main(String args[]){
         ull q = new ull();
         q.add(1);
+        q.add(2);
         
 
 
