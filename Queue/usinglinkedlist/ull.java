@@ -19,6 +19,16 @@ public class ull {
     }
 
     //enqueue
+    public static void add(int data){
+        Node newNode = new Node(data);
+        if(tail==null){
+            tail=head=newNode;
+            return;
+        }
+        tail.next=newNode;
+        tail=newNode;
+    }
+
     
     public static void main(String args[]){
 
