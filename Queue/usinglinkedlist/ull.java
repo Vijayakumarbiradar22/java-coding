@@ -14,7 +14,7 @@ public class ull {
     static Node head=null;
     static Node tail=null;
 
-    public static boolean isEmpty(){
+    public boolean isEmpty(){
         return head==null & tail==null;
     }
 
@@ -30,7 +30,7 @@ public class ull {
     }
 
     //dequeue
-    public static int remove(){
+    public int remove(){
         if(isEmpty()){
             System.out.println("empty queue");
             return -1;
