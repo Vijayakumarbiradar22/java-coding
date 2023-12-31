@@ -46,9 +46,14 @@ public class ull {
 
     //peak
     public static int peek(){
-        
+        if(isEmpty()){
+            System.out.println("empty queue");
+            return -1;
+        }
+        return head.data;
     }
     public static void main(String args[]){
+        
 
     }
     
