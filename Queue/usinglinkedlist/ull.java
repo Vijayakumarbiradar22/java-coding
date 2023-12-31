@@ -11,6 +11,9 @@ public class ull {
         }
     }
 
+    static Node head=null;
+    static Node tail=null;
+
     
     public static void main(String args[]){
 
