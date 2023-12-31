@@ -19,7 +19,7 @@ public class ull {
     }
 
     //enqueue
-    public static void add(int data){
+    public void add(int data){
         Node newNode = new Node(data);
         if(tail==null){
             tail=head=newNode;
@@ -53,7 +53,10 @@ public class ull {
         return head.data;
     }
     public static void main(String args[]){
+        ull q = new ull();
+        q.add(1);
         
+
 
     }
     
