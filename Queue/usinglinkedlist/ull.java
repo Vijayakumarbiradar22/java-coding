@@ -29,7 +29,20 @@ public class ull {
         tail=newNode;
     }
 
-    
+    //dequeue
+    public static int remove(){
+        if(isEmpty()){
+            System.out.println("empty queue");
+            return -1;
+        }
+
+        int front = head.data;
+        if(head==tail){
+            tail=null;
+        }
+        head=head.next;
+        return front;
+    }
     public static void main(String args[]){
 
     }
