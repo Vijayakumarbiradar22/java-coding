@@ -19,6 +19,9 @@ public class cao {
         pen1.color="blue";
         pen1.type="gel";
 
+        Pen pen2 = new Pen();
+        pen2.color="red";
+        pen2.type="ballpoint";
         
 
     }
