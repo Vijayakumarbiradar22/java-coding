@@ -22,7 +22,8 @@ package OOPs.abstraction;
 public class ab {
     public static void main(String args[]){
         Horse h = new Horse();
-        
+        h.walk();
+        h.eats();
 
     }
     
