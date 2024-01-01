@@ -24,7 +24,6 @@ public class ab {
         Horse h = new Horse();
         h.walk();
         h.eats();
-
     }
     
 }
