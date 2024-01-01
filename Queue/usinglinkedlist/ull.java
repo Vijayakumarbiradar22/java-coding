@@ -1,5 +1,4 @@
 package Queue.usinglinkedlist;
-//import java.util.*;
 public class ull {
     static class Node{
         int data;
