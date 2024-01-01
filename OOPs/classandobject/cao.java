@@ -22,7 +22,9 @@ public class cao {
         Pen pen2 = new Pen();
         pen2.color="red";
         pen2.type="ballpoint";
-        
+
+        pen1.printColor();
+        pen2.printColor();
 
     }
     
