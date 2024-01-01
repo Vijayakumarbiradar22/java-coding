@@ -24,5 +24,4 @@ public class AL {
             System.out.println(list.get(i));
         }
     }
-    
 }
