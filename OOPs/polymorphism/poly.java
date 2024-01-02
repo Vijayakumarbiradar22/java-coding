@@ -20,8 +20,10 @@ class Student {
 public class poly {
     public static void main(String args[]){
         Student s1=new Student();
-        
+        s1.name="Vijay";
+        s1.age=21;
 
+        s1.printInfo(s1.age);
     }
     
 }
