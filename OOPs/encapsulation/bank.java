@@ -19,7 +19,7 @@ public class bank {
        Account account1 = new Account();
        account1.name="Vijay bank";
        account1.email="vijaybank22@gmail.com";
-        
+       account1.setPassword("vgb22"); 
     }
     
 }
