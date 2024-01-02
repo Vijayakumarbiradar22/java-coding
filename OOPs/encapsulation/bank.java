@@ -8,6 +8,10 @@ class Account {
     public String getPassword(){
         return this.password;
     }
+
+    public void setPassword(String pass){
+        this.password=pass;
+    }
 }
 
 public class bank {
