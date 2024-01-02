@@ -17,7 +17,7 @@ class Account {
 public class bank {
     public static void main(String args[]){
        Account account1 = new Account();
-       account1.name="Vijay bank";
+       account1.name="Vijay Bank";
        account1.email="vijaybank22@gmail.com";
        account1.setPassword("vgb22");
        System.out.println(account1.getPassword()); 
