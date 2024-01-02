@@ -19,6 +19,8 @@ class Student {
 
 public class poly {
     public static void main(String args[]){
+        Student s1=new Student();
+        
 
     }
     
