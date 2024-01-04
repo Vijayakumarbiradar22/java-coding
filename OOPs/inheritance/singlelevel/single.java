@@ -7,7 +7,9 @@ class Shape{
 }
 
 class Trianglr extends Shape{
-    
+    public void area(int l,int h){
+        
+    }
 }
 
 public class single {
