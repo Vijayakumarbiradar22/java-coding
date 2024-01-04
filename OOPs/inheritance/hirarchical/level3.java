@@ -19,6 +19,8 @@ class circle extends Shape{
 }
 
 public class level3 {
-    
+    public static void main(String args[]){
+        
+    }
     
 }
