@@ -6,7 +6,9 @@ class Shape{
     }
 }
 
-
+class Trianglr extends Shape{
+    
+}
 
 public class single {
     
