@@ -4,6 +4,12 @@ interface Animal {
     void walk();
 }
 
+interface Herbivore {
+
+}
+
+
+
 public class interface {
     
 }
