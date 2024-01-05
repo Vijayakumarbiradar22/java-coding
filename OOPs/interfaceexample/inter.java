@@ -14,7 +14,10 @@ class Horse implements Animal,Herbivore {
   } 
 }
 
-public class interface {
-    
+public class inter {
+  public static void main(String args[]){
+    Horse horse = new Horse();
+    horse.walk();
+  }  
     
 }
