@@ -8,7 +8,9 @@ interface Herbivore {
 
 }
 
-
+class Horse implements Animal,Herbivore {
+    
+}
 
 public class interface {
     
