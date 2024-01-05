@@ -1,6 +1,7 @@
 package Recursion.stackheight;
 import java.util.*;
 public class sh {
+    public static int calcPow
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the x:");
