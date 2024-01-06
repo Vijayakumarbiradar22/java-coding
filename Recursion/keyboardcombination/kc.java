@@ -17,7 +17,7 @@ public class kc {
     }   
 
     public static void main(String args[]){
-        String str="23";
+        String str="25";
         printCombi(str,0,"");
     }
     
