@@ -11,11 +11,13 @@ public class kc {
        char currChar = str.charAt(indx);
        String mapping = keypad[currChar-'0'];
 
-       
+       for(int i=0;i<mapping.length();i++){
+        printCombi(str,indx+1,combination+mapping.charAt(i));
+       }
     }   
 
     public static void main(String args[]){
-
+        String str="23";
     }
     
 }
