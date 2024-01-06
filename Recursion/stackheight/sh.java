@@ -8,6 +8,11 @@ public class sh {
         if(x==0){
             return 0;
         }
+        if(n%2==0){
+            return calcPow(x,n/2)*calcPow(x,n/2);
+        } else {
+            return calcPow(x,n/2)*calcPow(x,n/2)*x;
+        }
 
     }
     public static void main(String args[]){
