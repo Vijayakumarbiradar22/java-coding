@@ -2,7 +2,10 @@ package Recursion.stackheight;
 import java.util.*;
 public class sh {
     public static int calcPow(int x, int n){
-        
+        if(n==0){
+            return 1;
+        }
+
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
