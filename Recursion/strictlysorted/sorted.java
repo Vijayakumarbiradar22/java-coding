@@ -9,7 +9,7 @@ public class sorted {
       if(arr[indx]<arr[indx+1]){
         return isSorted(arr,indx+1);
       } else {
-        
+        return false;
       }
       
     }
