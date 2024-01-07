@@ -2,7 +2,11 @@ package Recursion.strictlysorted;
 
 public class sorted {
     public static boolean isSorted(int arr[], int indx){
-        
+      if(indx==arr.length-1){
+        return true;
+      }
+      
+      
     }
     public static void main(String args[]){
         int[] arr = {1,2,3,4,5};
