@@ -28,7 +28,7 @@ public class binary {
         for(int i=0;i<n;i++){
             nums[i]=sc.nextInt();
         }
-        System.out.println("Enter the target value:");
+        System.out.println("Enter a target value:");
         int target=sc.nextInt();
 
         int res = binarySearch(nums,target,n);
