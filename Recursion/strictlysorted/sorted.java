@@ -6,6 +6,9 @@ public class sorted {
         return true;
       }
       
+      if(arr[indx]<arr[indx+1]){
+        return isSorted(arr,indx+1);
+      }
       
     }
     public static void main(String args[]){
