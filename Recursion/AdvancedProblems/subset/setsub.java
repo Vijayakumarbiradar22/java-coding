@@ -15,7 +15,12 @@ public class setsub {
         }
 
         //will add 
-        
+        subset.add(n);
+        findSubset(n-1, subset);
+
+        //will not add
+        subset.remove(subset.size()-1);
+        findSubset(n-1, subset);
     }
     public static void main(String args[]){
       int n=3;
