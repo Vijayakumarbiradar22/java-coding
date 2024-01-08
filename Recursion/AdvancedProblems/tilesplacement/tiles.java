@@ -11,10 +11,12 @@ public class tiles {
         }
 
         //horizontal placement
-        int horizontal = placeTiles(n-1,m);
+        int horizontal = placeTiles(n-m,m);
 
         //vertical placement
-        
+        int vertical = placeTiles(n-1,m);
+
+        return horizontal+vertical;
     }
     public static void main(String args[]){
         int n=4;
