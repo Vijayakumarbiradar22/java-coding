@@ -11,6 +11,9 @@ public class tiles {
         }
 
         //horizontal placement
+        int horizontal = placeTiles(n-1,m);
+
+        //vertical placement
         
     }
     public static void main(String args[]){
