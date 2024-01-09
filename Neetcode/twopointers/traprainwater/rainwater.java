@@ -12,7 +12,7 @@ public class rainwater {
       }  
       int result=trap(heights);
       System.out.println(result);
-      
+      sc.close();
     }
     
 }
