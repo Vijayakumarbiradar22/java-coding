@@ -6,7 +6,17 @@ public class mostwater {
         int right=heights.length-1;
         int maxarea=0;
 
-        
+        while(left<right){
+            int currentarea = Math.min(heights[left],heights[right]*(right-left));
+            maxarea = Math.max(maxarea,currentarea);
+
+            if(heights[left]<heights[right]){
+                left++;
+            } else {
+                right--;
+            }
+        }
+        return maxarea;
     }
     public static void main(String args[]){
        Scanner sc = new  Scanner(System.in);
