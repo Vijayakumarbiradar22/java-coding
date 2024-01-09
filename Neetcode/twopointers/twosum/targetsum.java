@@ -29,6 +29,8 @@ public class targetsum {
         int target=sc.nextInt();
         int[] result = findTarget(nums,target);
         System.out.println(result);
+
+        sc.close();
     }
     
 }
