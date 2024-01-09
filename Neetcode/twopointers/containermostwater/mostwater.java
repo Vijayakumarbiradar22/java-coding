@@ -7,7 +7,7 @@ public class mostwater {
         int maxarea=0;
 
         while(left<right){
-            int currentarea = Math.min(heights[left],heights[right]*(right-left));
+            int currentarea = Math.min(heights[left],heights[right])*(right-left);
             maxarea = Math.max(maxarea,currentarea);
 
             if(heights[left]<heights[right]){
