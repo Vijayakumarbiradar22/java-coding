@@ -1,6 +1,13 @@
 package Neetcode.twopointers.containermostwater;
 import java.util.Scanner;
 public class mostwater {
+    public static int maxArea(int heights[]){
+        int left=0;
+        int right=heights.length-1;
+        int maxarea=0;
+
+        
+    }
     public static void main(String args[]){
        Scanner sc = new  Scanner(System.in);
        System.out.println("Enter the size of array");
@@ -11,7 +18,7 @@ public class mostwater {
         heights[i]=sc.nextInt();
        }
 
-       int result = findAnswer(heights);
+       int result = maxArea(heights);
        System.out.println(result);
 
     }
