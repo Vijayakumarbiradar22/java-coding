@@ -31,6 +31,8 @@ public class mostwater {
        int result = maxArea(heights);
        System.out.println(result);
 
+       sc.close();
+
     }
     
 }
