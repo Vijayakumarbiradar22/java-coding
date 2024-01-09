@@ -28,7 +28,14 @@ public class targetsum {
         System.out.println("Enter the target element:");
         int target=sc.nextInt();
         int[] result = findTarget(nums,target);
-        System.out.println(result);
+        //System.out.println(result);
+        if (result[0] != -1 && result[1] != -1) {
+            for (int i = 0; i < result.length; i++) {
+                System.out.print(result[i] + " ");
+            }
+        } else {
+            System.out.println("Target sum not found in the array.");
+        }
 
         sc.close();
     }
