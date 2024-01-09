@@ -19,7 +19,7 @@ public class rainwater {
         int sum=0;
 
         for(int i=1;i<n;i++){
-            sum+=Integer.min(rmax[i],lmax[i+1]-heights[i]);
+            sum+=Integer.min(rmax[i],lmax[i])-heights[i];
         }
         return sum;
     }
@@ -38,3 +38,6 @@ public class rainwater {
     }
     
 }
+
+//output
+//height = [0,1,0,2,1,0,1,3,2,1,2,1]
