@@ -15,7 +15,7 @@ public class perm {
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the string:");
+        System.out.println("Enter the string value:");
         String str=sc.nextLine();
         printPerm(str,"",0);
         sc.close();
