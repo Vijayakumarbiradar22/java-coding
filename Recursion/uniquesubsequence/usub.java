@@ -17,7 +17,7 @@ public class usub {
         usubseq(str, indx+1, newString, set);
     }
     public static void main(String args[]){
-        String str = "aaa";
+        String str = "aaaa";
         HashSet<String> set = new HashSet<>();
         usubseq(str, 0, "", set);
     }
