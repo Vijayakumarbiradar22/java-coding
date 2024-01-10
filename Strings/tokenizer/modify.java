@@ -4,7 +4,7 @@ import java.util.StringTokenizer;
 public class modify {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the string value");
+        System.out.println("Enter the string value:");
         String str=sc.nextLine();
         String delim = " ";
 
