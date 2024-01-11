@@ -6,7 +6,7 @@ public class same {
       
       for(char i='A';i<=chr;i++){
         for(char j='A';j<=chr;j++){
-            System.out.print(j+" ");
+            System.out.print(i+" ");
         }
         System.out.println();
       }
