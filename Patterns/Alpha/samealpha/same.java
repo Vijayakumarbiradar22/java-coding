@@ -5,7 +5,10 @@ public class same {
       char chr='E';
       
       for(char i='A';i<='E';i++){
-        
+        for(char j='A';j<=i;j++){
+            System.out.println(i);
+        }
+        System.out.println();
       }
     }
     
