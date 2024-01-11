@@ -13,6 +13,7 @@ public class next {
                 System.out.print(j+" ");
             }
             System.out.println();
+            sc.close();
         }
         }
     }
