@@ -6,10 +6,11 @@ public class same {
       
       for(char i='A';i<=chr;i++){
         for(char j='A';j<=chr;j++){
-            System.out.println(i);
+            System.out.print(j+" ");
         }
         System.out.println();
       }
+      
     }
     
 }
