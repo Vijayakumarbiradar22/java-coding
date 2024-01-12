@@ -8,6 +8,7 @@ public class at {
         for(char j='A';j<=i;j++){
             System.out.print(j);
         }
+        System.out.println();
        }
     }
     
