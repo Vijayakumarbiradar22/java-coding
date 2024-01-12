@@ -9,7 +9,7 @@ public class decnum {
         decreaseNumber(n-1);
     }
     public static void main(String args[]){
-        int n=6;
+        int n=5;
         decreaseNumber(n);
     }
     
