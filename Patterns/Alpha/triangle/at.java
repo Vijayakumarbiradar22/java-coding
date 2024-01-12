@@ -10,6 +10,12 @@ public class at {
         }
         System.out.println();
        }
+
+       for(char i=chr;i>='A';i--){
+        for(char j='A';j<=i;j++){
+            System.out.print(j);
+        }
+       }
     }
     
 }
