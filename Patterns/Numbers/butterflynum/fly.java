@@ -26,7 +26,9 @@ public class fly {
         for(int s=1;s<=sp;s++){
             System.out.print(" ");
         }
-        
+        for(int j=1;j<=i;j++){
+            System.out.print(j);
+        }
         System.out.println();
        }
 
