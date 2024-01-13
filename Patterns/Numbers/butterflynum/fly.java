@@ -35,6 +35,7 @@ public class fly {
         System.out.println();
        }
 
+       sc.close();
     }
     
 }
