@@ -1,6 +1,8 @@
 package Patterns.Numbers.butterflynum;
 
 public class fly {
-    public 
+    public static void main(String args[]){
+        
+    }
     
 }
