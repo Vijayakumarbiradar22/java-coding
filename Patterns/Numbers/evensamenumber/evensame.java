@@ -9,6 +9,7 @@ public class evensame {
             System.out.print(num);
             num=2;
         }
+        System.out.println();
        } 
     }
     
