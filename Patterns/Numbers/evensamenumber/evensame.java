@@ -1,5 +1,5 @@
 package Patterns.Numbers.evensamenumber;
-
+import java.util.Scanner;
 public class evensame {
     public static void main (String args[]){
        int n=5;
