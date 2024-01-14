@@ -5,7 +5,7 @@ public class evensame {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of rows:");
         int n = sc.nextInt();
-       int n=5;
+       //int n=5;
        int num=2;
        for(int i=1;i<=n;i++){
         for(int j=1;j<=n;j++){
@@ -13,7 +13,9 @@ public class evensame {
         }
         System.out.println();
         num=num+2;
-       } 
+       }
+       
+       
     }
     
 }
