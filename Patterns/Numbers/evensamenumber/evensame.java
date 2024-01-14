@@ -15,7 +15,7 @@ public class evensame {
         num=num+2;
        }
        
-       
+       sc.close();
     }
     
 }
