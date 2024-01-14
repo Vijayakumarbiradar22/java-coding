@@ -6,10 +6,10 @@ public class evensame {
        int num=2;
        for(int i=1;i<=n;i++){
         for(int j=1;j<=n;j++){
-            System.out.print(num);
-            num=num+2;
+            System.out.print(num);  
         }
         System.out.println();
+        num=num+2;
        } 
     }
     
