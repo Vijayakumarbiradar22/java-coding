@@ -13,6 +13,7 @@ public class revnum {
             System.out.println();
         }
 
+        sc.close();
     }
     
 }
