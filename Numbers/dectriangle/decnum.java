@@ -12,6 +12,7 @@ public class decnum {
             System.out.println();
         }
 
+        sc.close();
     }
     
 }
