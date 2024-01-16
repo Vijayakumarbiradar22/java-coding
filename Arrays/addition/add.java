@@ -16,7 +16,13 @@ public class add {
             }
         }
         System.out.println("Enter the array 2:");
-        
+        for(int i=0;i<r;i++){
+            for(int j=0;j<c;j++){
+                arr2[i][j]=sc.nextInt();
+            }
+        }
+
+        //int[][] arr3
         
 }
     
