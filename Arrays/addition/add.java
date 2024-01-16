@@ -31,7 +31,7 @@ public class add {
                 for(int k=0;k<arr3.length;k++){
                     arr3[i][j]=arr1[i][j]+arr2[i][j];
                 }
-                System.out.println(arr3[i][j]+" ");
+                System.out.print(arr3[i][j]+" ");
 
             }
             System.out.println();
