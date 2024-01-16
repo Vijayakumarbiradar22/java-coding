@@ -9,6 +9,13 @@ public class add {
         int c = sc.nextInt();
         int[][] arr1 = new int[r][c];
         int[][] arr2 = new int[r][c];
+        System.out.println("Enter the array 1:");
+        for(int i=0;i<r;i++){
+            for(int j=0;j<c;j++){
+                arr1[i][j]=sc.nextInt();
+            }
+        }
+        System.out.println("Enter the array 2:");
         
         
 }
