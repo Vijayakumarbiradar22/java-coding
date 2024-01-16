@@ -22,7 +22,9 @@ public class add {
             }
         }
 
-        //int[][] arr3
+        int[][] arr3 = new int[arr1.length][arr2.length];
+
+        
         
 }
     
