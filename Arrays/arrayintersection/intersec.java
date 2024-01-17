@@ -41,24 +41,5 @@ public class intersec {
             System.out.print(i+" ");
         }
         sc.close();
-    }
-    
+    }   
 }
-
-
-
-// HashSet<Integer> set = new HashSet<>();
-
-// for(int num:arr1){
-//     set.add(num);
-// }
-
-// ArrayList<Integer> result = new ArrayList<>();
-
-// for(int num:arr2){
-//     if(set.contains(num)){
-//         result.add(num);
-//         set.remove(num);
-//     }
-// }
-// return result;
