@@ -9,6 +9,10 @@ public class union {
         set.add(i);
        }
 
+       for(int i:arr2){
+        set.add(i);
+       }
+
        
     }
     public static void main(String args[]){
