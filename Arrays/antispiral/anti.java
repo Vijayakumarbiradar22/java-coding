@@ -7,6 +7,13 @@ public class anti {
            int r = sc.nextInt();
             System.out.println("Enter the no.of cols:");
             int c = sc.nextInt();
+            int[][] mat = new int[r][c];
+            System.out.println("Enter the elements of matrix:");
+            for(int i=0;i<r;i++){
+                for(int j=0;j<c;j++){
+                    mat[i][j]=sc.nextInt();
+                }
+            }
             
 
 
