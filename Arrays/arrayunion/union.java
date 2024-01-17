@@ -3,7 +3,13 @@ import java.util.Scanner;
 import java.util.*;
 public class union {
     public static ArrayList<Integer> Unionarray(int arr1[],int arr2[],int size1,int size2){
-        
+       TreeSet<Integer> set = new TreeSet<>();
+       
+       for(int i:arr1){
+        set.add(i);
+       }
+
+       
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
