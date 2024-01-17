@@ -5,7 +5,10 @@ public class anti {
         Scanner sc = new Scanner(System.in);
            System.out.println("Enter the no.of rows:");
            int r = sc.nextInt();
+            System.out.println("Enter the no.of cols:");
+            int c = sc.nextInt();
             
+
 
 
     }
