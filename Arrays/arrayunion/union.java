@@ -38,6 +38,7 @@ public class union {
             arr2[i]=sc.nextInt();
         }
 
+        System.out.println("Union of array1 and array2:");
         ArrayList<Integer> uni = Unionarray(arr1,arr2,size1,size2);
         for(int i:uni){
             System.out.print(i+" ");
