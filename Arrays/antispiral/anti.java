@@ -33,7 +33,12 @@ public class anti {
                 }
                 rowend--;
 
-                for()
+                for(int row=rowend;row>=rowstart;row--){
+                    System.out.print(mat[row][colend]+" ");
+                }
+                colend--;
+
+                
 
             }
 
