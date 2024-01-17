@@ -18,6 +18,8 @@ public class union {
        for(int i:set){
         list.add(i);
        }
+
+       return list;
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
