@@ -11,7 +11,13 @@ public class intersec {
 
        ArrayList<Integer> result = new ArrayList<>();
 
-       
+       for(int num:arr2){
+        if(set.contains(num)){
+            result.add(num);
+            set.remove(num);
+        }
+       }
+       return result;
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
