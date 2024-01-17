@@ -38,7 +38,12 @@ public class anti {
                 }
                 colend--;
 
-                
+                for(int col=colend;col>=colstart;col--){
+                    System.out.print(mat[rowstart][col]+" ");
+                }
+                rowstart++;
+
+                sc.close();
 
             }
 
