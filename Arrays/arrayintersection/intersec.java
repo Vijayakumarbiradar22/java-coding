@@ -3,21 +3,8 @@ import java.util.Scanner;
 import java.util.*;
 public class intersec {
     public static ArrayList<Integer> findIntersection(int arr1[],int arr2[]){
-        HashSet<Integer> set = new HashSet<>();
-
-        for(int num:arr1){
-            set.add(num);
-        }
-
-        ArrayList<Integer> result = new ArrayList<>();
-
-        for(int num:arr2){
-            if(set.contains(num)){
-                result.add(num);
-                set.remove(num);
-            }
-        }
-        return result;
+       HashSet<Integer> set = new HashSet<>();
+       
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
@@ -44,3 +31,21 @@ public class intersec {
     }
     
 }
+
+
+
+// HashSet<Integer> set = new HashSet<>();
+
+// for(int num:arr1){
+//     set.add(num);
+// }
+
+// ArrayList<Integer> result = new ArrayList<>();
+
+// for(int num:arr2){
+//     if(set.contains(num)){
+//         result.add(num);
+//         set.remove(num);
+//     }
+// }
+// return result;
