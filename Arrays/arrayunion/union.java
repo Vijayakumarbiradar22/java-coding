@@ -13,7 +13,11 @@ public class union {
         set.add(i);
        }
 
-       
+       ArrayList<Integer> list = new ArrayList<>();
+
+       for(int i:set){
+        list.add(i);
+       }
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
