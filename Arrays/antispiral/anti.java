@@ -14,7 +14,23 @@ public class anti {
                     mat[i][j]=sc.nextInt();
                 }
             }
-            
+
+            System.out.println("Anti spiral order is:");
+            int rowstart=0;
+            int rowend = r-1;
+            int colstart = 0;
+            int colend = c-1;
+
+            while(rowstart<=rowend && colstart<=colend){
+
+                for(int row=0;row<=rowend;row++){
+                    System.out.println(mat[row][colstart]);
+                }
+                colstart++;
+
+                for()
+
+            }
 
 
 
