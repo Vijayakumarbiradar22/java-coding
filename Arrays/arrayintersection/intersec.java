@@ -4,6 +4,13 @@ import java.util.*;
 public class intersec {
     public static ArrayList<Integer> findIntersection(int arr1[],int arr2[]){
        HashSet<Integer> set = new HashSet<>();
+
+       for(int num:arr1){
+        set.add(num);
+       }
+
+       ArrayList<Integer> result = new ArrayList<>();
+
        
     }
     public static void main(String args[]){
