@@ -23,10 +23,15 @@ public class anti {
 
             while(rowstart<=rowend && colstart<=colend){
 
-                for(int row=0;row<=rowend;row++){
-                    System.out.println(mat[row][colstart]);
+                for(int row=rowstart;row<=rowend;row++){
+                    System.out.print(mat[row][colstart]+" ");
                 }
                 colstart++;
+
+                for(int col=colstart;col<=colend;col++){
+                    System.out.print(mat[rowend][col]+" ");
+                }
+                rowend--;
 
                 for()
 
