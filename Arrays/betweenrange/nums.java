@@ -10,8 +10,13 @@ public class nums {
        for(int i=0;i<n;i++){
         arr[i]=sc.nextInt();
        }
-       int count=0;
+       System.out.println("Enter the start index:");
+       int start=sc.nextInt();
        
+       int count=0;
+       for(int i=0;i<n;i++){
+        if(a)
+       }
 
 
 
