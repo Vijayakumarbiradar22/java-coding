@@ -12,12 +12,17 @@ public class nums {
        }
        System.out.println("Enter the start index:");
        int start=sc.nextInt();
-       
+       System.out.println("Enter the end index:");
+       int end=sc.nextInt();
+
        int count=0;
        for(int i=0;i<n;i++){
-        if(a)
+        if(arr[i]>=start && arr[i]<=end){
+            count+=1;
+            System.out.print(arr[i]+" ");
+        }
        }
-
+       
 
 
         sc.close();
