@@ -4,6 +4,9 @@ public class evenoc {
     public static int getOccurance(int arr[], int len){
         for(int i=0;i<len;i++){
             int count=0;
+            for(int j=0;j<len;j++){
+                
+            }
         }
         // for(int i=0;i<len;i++){
         //     int count=0;
