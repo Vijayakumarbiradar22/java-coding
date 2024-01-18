@@ -22,6 +22,7 @@ public class nums {
             System.out.print(arr[i]+" ");
         }
        }
+       System.out.println();
 
        if(count>0){
         System.out.println(count+" numbers available");
