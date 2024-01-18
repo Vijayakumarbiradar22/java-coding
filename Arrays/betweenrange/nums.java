@@ -22,6 +22,8 @@ public class nums {
             System.out.print(arr[i]+" ");
         }
        }
+
+       
        
 
 
