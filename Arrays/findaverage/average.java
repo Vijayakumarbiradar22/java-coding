@@ -9,7 +9,7 @@ public class average {
         for(int i=0;i<length;i++){
             sum=sum+arr[i];
         }
-        System.out.println("Average is:"+sum/length);
+        System.out.println("Average is="+sum/length);
     }
     
 }
