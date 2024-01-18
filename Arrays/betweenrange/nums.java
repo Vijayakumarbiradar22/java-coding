@@ -23,10 +23,11 @@ public class nums {
         }
        }
 
-       
-       
-
-
+       if(count>0){
+        System.out.println(count+" numbers available");
+       } else {
+        System.out.println("No numbers available");
+       }
         sc.close();
     }
     
