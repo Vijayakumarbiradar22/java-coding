@@ -12,15 +12,6 @@ public class fnlarge {
                 }
             }
         }
-        // for(int i=0;i<size;i++){
-        //     for(int j=i+1;i<size;i++){
-        //         if(arr[i]>arr[j]){
-        //             temp=arr[i];
-        //             arr[i]=arr[j];
-        //             arr[j]=temp;
-        //         }
-        //     }
-        // }
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
