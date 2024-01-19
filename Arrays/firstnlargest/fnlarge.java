@@ -32,6 +32,8 @@ public class fnlarge {
 
         int sum = arr[n-1]+arr[n-2];
         System.out.println("Sum of last 2 elements is "+sum);
+
+        sc.close();
     }
     
 }
