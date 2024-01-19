@@ -10,8 +10,10 @@ public class large {
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
         }
+
+        int max = arr[0];
+        int min = arr[0];
         
-        // int[] arr = {2,6,4,2,3};
         // int max=arr[0];
         // int min=arr[0];
         // for(int i=1;i<arr.length;i++){
