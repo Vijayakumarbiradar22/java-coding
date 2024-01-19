@@ -27,6 +27,7 @@ public class large {
         System.out.println(max);
         System.out.println(min);
         
+        sc.close();
     }
     
 }
