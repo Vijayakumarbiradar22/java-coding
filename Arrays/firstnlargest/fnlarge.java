@@ -17,6 +17,7 @@ public class fnlarge {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of array:");
         int n = sc.nextInt();
+        System.out.println("Enter the elements of array:");
         
         int arr[]={4,1,6,2,8,3,9};
         int size=arr.length;
