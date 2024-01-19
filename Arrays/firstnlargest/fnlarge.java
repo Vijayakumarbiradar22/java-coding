@@ -1,19 +1,22 @@
 package Arrays.firstnlargest;
-
+import java.util.Scanner;
 public class fnlarge {
     public static void bubbleSort(int arr[],int size){
         int temp;
-        for(int i=0;i<size;i++){
-            for(int j=i+1;i<size;i++){
-                if(arr[i]>arr[j]){
-                    temp=arr[i];
-                    arr[i]=arr[j];
-                    arr[j]=temp;
-                }
-            }
-        }
+        // for(int i=0;i<size;i++){
+        //     for(int j=i+1;i<size;i++){
+        //         if(arr[i]>arr[j]){
+        //             temp=arr[i];
+        //             arr[i]=arr[j];
+        //             arr[j]=temp;
+        //         }
+        //     }
+        // }
     }
     public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the size of array:");
+        
         int arr[]={4,1,6,2,8,3,9};
         int size=arr.length;
         bubbleSort(arr,size);
