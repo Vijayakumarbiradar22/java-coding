@@ -1,8 +1,15 @@
 package Arrays.firstnlargest;
 import java.util.Scanner;
 public class fnlarge {
-    public static void bubbleSort(int arr[],int size){
+    public static void bubbleSort(int arr[],int n){
         int temp;
+        for(int i=0;i<n;i++){
+            for(int j=i+1;j<n;j++){
+                if(arr[i]>arr[j]){
+                    
+                }
+            }
+        }
         // for(int i=0;i<size;i++){
         //     for(int j=i+1;i<size;i++){
         //         if(arr[i]>arr[j]){
