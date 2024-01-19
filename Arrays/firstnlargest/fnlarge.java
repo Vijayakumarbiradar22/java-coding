@@ -17,11 +17,13 @@ public class fnlarge {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of array:");
         int n = sc.nextInt();
+        int arr[] = new int[n];
         System.out.println("Enter the elements of array:");
+        for(int i=0;i<n;i++){
+            arr[i]=sc.nextInt();
+        }
         
-        int arr[]={4,1,6,2,8,3,9};
-        int size=arr.length;
-        bubbleSort(arr,size);
+        bubbleSort(arr,n);
 
         for(int i=0;i<size;i++){
             System.out.print(arr[i]+ " ");
