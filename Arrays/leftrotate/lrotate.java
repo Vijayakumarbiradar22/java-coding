@@ -2,7 +2,11 @@ package Arrays.leftrotate;
 import java.util.Scanner;
 public class lrotate {
     public static void leftrotate(int arr[],int n,int rt){
-        
+        int p=1;
+        while(p<=rt){
+            int last=arr[0];
+
+        }
     }
     
     public static void main(String args[]){
