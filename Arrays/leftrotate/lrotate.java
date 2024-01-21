@@ -1,6 +1,9 @@
 package Arrays.leftrotate;
 import java.util.Scanner;
 public class lrotate {
+    public static void leftrotate(int arr[],int n,int rt){
+        
+    }
     
     public static void main(String args[]){
            Scanner sc = new Scanner(System.in);
