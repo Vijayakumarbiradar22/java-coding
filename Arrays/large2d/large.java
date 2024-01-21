@@ -16,7 +16,10 @@ public class large {
                 }
             }
 
-            
+            int result = findLargest(arr,r,c);
+            System.out.println(result);
+
+            sc.close();
     }
     
 }
