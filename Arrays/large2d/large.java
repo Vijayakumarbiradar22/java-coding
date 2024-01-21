@@ -1,6 +1,17 @@
 package Arrays.large2d;
 import java.util.Scanner;
-public class large {
+public class large {public static int findLargest(int[][] arr,int r, int c){
+    int max = arr[0][0];
+
+    for(int i=0;i<r;i++){
+        for(int j=0;j<c;j++){
+            if(arr[r][c]>max){
+                max=arr[r][c];
+            }
+        }
+    }
+    return max;
+}
    
     public static void main(String args[]){
             Scanner sc = new Scanner(System.in);
