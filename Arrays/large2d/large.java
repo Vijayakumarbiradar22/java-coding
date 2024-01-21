@@ -5,7 +5,7 @@ public class large {public static int findLargest(int[][] arr,int r, int c){
 
     for(int i=0;i<r;i++){
         for(int j=0;j<c;j++){
-            if(arr[r][c]>max){
+            if(arr[i][j]>max){
                 max=arr[r][c];
             }
         }
@@ -23,7 +23,7 @@ public class large {public static int findLargest(int[][] arr,int r, int c){
             System.out.println("Enter the array elements:");
             for(int i=0;i<r;i++){
                 for(int j=0;j<c;j++){
-                    arr[r][c]=sc.nextInt();
+                    arr[i][j]=sc.nextInt();
                 }
             }
 
