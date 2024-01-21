@@ -11,6 +11,9 @@ public class lrotate {
            for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
            }
+           System.out.println("Enter the rotation times:");
+           int rt=sc.nextInt();
+
            
 
     }
