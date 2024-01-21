@@ -14,7 +14,13 @@ public class lrotate {
            System.out.println("Enter the rotation times:");
            int rt=sc.nextInt();
 
-           
+           leftrotate(arr,n,rt);
+
+           for(int i=0;i<n;i++){
+            System.out.print(arr[i]+" ");
+           }
+
+           sc.close();
 
     }
     
