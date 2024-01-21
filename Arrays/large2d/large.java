@@ -6,7 +6,7 @@ public class large {public static int findLargest(int[][] arr,int r, int c){
     for(int i=0;i<r;i++){
         for(int j=0;j<c;j++){
             if(arr[i][j]>max){
-                max=arr[r][c];
+                max=arr[i][j];
             }
         }
     }
