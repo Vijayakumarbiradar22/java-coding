@@ -8,6 +8,21 @@ public class sub {
         int end=0;
         int s=0;
 
+        for(int i=0;i<n;i++){
+            max_end_here+=arr[i];
+
+            if(max_so_far<max_end_here){
+                max_so_far=max_end_here;
+                start=s;
+                end=i;
+            }
+
+            if(max_end_here<0){
+                max_end_here=0;
+                s=i+1;
+            }
+        }
+
         
     }
    
