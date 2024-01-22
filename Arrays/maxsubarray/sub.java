@@ -23,7 +23,9 @@ public class sub {
             }
         }
 
-        
+        System.out.println("Maximum sum is:"+max_so_far);
+        System.out.println("Start index is:"+start);
+        System.out.println("End index is:"+end);
     }
    
     public static void main(String args[]){
