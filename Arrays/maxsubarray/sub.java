@@ -1,6 +1,15 @@
 package Arrays.maxsubarray;
 import java.util.Scanner;
 public class sub {
+    public static void maxSubArray(int arr[],int n){
+        int max_so_far=Integer.MIN_VALUE;
+        int max_end_here=0;
+        int start=0;
+        int end=0;
+        int s=0;
+
+        
+    }
    
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
