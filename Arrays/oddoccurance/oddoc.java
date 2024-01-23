@@ -40,6 +40,8 @@ public class oddoc {
 
         System.out.println(getOccurance(arr,n));
 
+        sc.close();
+
         // int arr[]={2,5,3,2,1,2,5,3,1};
         // int len=arr.length;
 
