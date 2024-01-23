@@ -17,6 +17,8 @@ public class oddoc {
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the size of array:");
+        int n=sc.nextInt();
         
 
         // int arr[]={2,5,3,2,1,2,5,3,1};
