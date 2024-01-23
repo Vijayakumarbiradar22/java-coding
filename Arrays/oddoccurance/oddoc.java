@@ -1,8 +1,17 @@
 package Arrays.oddoccurance;
 import java.util.Scanner;
 public class oddoc {
-    public static int getOccurance(int arr[], int len){
-        
+    public static int getOccurance(int arr[], int n){
+        for(int i=0;i<n;i++){
+            int count=0;
+            for(int j=0;j<n;j++){
+                if(arr[i]==arr[j]){
+                    count++;
+                }
+            }
+
+            
+        }
         // for(int i=0;i<len;i++){
         //     int count=0;
         //     for(int j=0;j<len;j++){
