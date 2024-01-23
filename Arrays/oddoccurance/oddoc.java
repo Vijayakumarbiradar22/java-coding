@@ -2,6 +2,7 @@ package Arrays.oddoccurance;
 import java.util.Scanner;
 public class oddoc {
     public static int getOccurance(int arr[], int len){
+        
         // for(int i=0;i<len;i++){
         //     int count=0;
         //     for(int j=0;j<len;j++){
@@ -21,7 +22,11 @@ public class oddoc {
         int n=sc.nextInt();
         int[] arr = new int[n];
         System.out.println("Enter the elements:");
-        
+        for(int i=0;i<n;i++){
+            arr[i]=sc.nextInt();
+        }
+
+        System.out.println(getOccurance(arr,n));
 
         // int arr[]={2,5,3,2,1,2,5,3,1};
         // int len=arr.length;
