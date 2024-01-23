@@ -15,18 +15,6 @@ public class oddoc {
             }
         }
         return -1;
-        // for(int i=0;i<len;i++){
-        //     int count=0;
-        //     for(int j=0;j<len;j++){
-        //         if(arr[i]==arr[j]){
-        //             count++;
-        //         }
-        //     }
-        //         if(count%2!=0){
-        //             return arr[i];
-        //         }
-        //     }
-        //         return -1; 
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
@@ -41,11 +29,6 @@ public class oddoc {
         System.out.println(getOccurance(arr,n));
 
         sc.close();
-
-        // int arr[]={2,5,3,2,1,2,5,3,1};
-        // int len=arr.length;
-
-        // System.out.println(getOccurance(arr,len));
     }
     
 }
