@@ -1,26 +1,30 @@
 package Arrays.repeatingele;
 import java.util.Scanner;
 public class repeat {
-    public static void printRepeat(int arr[],int size){
-        for(int i=0;i<size-1;i++){
-            for(int j=i+1;j<size;j++){
-                if(arr[i]==arr[j]){
-                    System.out.println("Repeating elements are:"+arr[i]+" ");
-                }
-            }
-        }
-    }
+    // public static void printRepeat(int arr[],int size){
+    //     for(int i=0;i<size-1;i++){
+    //         for(int j=i+1;j<size;j++){
+    //             if(arr[i]==arr[j]){
+    //                 System.out.println("Repeating elements are:"+arr[i]+" ");
+    //             }
+    //         }
+    //     }
+    // }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of array:");
-        int size=sc.nextInt();
-        int arr[]=new int[size];
-        System.out.println("Enter the elements:");
-        for(int i=0;i<size;i++){
-            arr[i]=sc.nextInt();
-        }
-        printRepeat(arr,size);
-        sc.close();
+        int n = sc.nextInt();
+        
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("Enter the size of array:");
+        // int size=sc.nextInt();
+        // int arr[]=new int[size];
+        // System.out.println("Enter the elements:");
+        // for(int i=0;i<size;i++){
+        //     arr[i]=sc.nextInt();
+        // }
+        // printRepeat(arr,size);
+        // sc.close();
     }
     
 }
