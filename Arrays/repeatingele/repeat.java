@@ -25,6 +25,7 @@ public class repeat {
         int result = printRepeat(arr,n);
         System.out.println(result);
         
+        sc.close();
     }
     
 }
