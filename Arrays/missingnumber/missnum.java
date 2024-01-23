@@ -22,7 +22,7 @@ public class missnum {
            }
 
            int result=findMissing(arr,n);
-           System.out.println(result);
+           System.out.println("The missing number is:"+result);
 
            sc.close();
     }
