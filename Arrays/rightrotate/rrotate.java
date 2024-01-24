@@ -30,7 +30,7 @@ public class rrotate {
             System.out.print(arr[i]+" ");
         }
 
-        
+        sc.close();
             // Scanner sc = new Scanner(System.in);
             // System.out.println("Enter the size of array:");
             // int size = sc.nextInt();
