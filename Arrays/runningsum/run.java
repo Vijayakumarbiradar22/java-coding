@@ -20,6 +20,11 @@ public class run {
             num[i]=sc.nextInt();
         }
 
+        int[] output = findRunningSum(num,n);
+        for(int i=0;i<n;i++){
+        System.out.print(output[i]+" ");
+        }
+
         
         // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the size of array:");
