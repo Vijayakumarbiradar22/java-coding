@@ -16,6 +16,9 @@ public class run {
         int n = sc.nextInt();
         int num[]=new int[n];
         System.out.println("Enter the elements:");
+        for(int i=0;i<n;i++){
+            num[i]=sc.nextInt();
+        }
         
         // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the size of array:");
