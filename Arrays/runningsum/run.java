@@ -1,6 +1,15 @@
 package Arrays.runningsum;
 import java.util.Scanner;
 public class run {
+    public static int[] findRunningSum(int num[],int n){
+        int result[]=new int[n];
+        result[0]=num[0];
+        for(int i=1;i<n;i++){
+            result[i]=num[i]+result[i-1];
+        }
+        return result;
+
+    }
     // public static int[] findRunningSum(int num[],int n){
     //     int[] result=new int[n];
     //     result[0]=num[0];
