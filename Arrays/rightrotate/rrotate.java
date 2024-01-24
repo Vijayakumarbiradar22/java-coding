@@ -23,6 +23,13 @@ public class rrotate {
         }
         System.out.println("Enter the rotation times:");
         int rt = sc.nextInt();
+
+        rightRotate(arr,n,rt);
+
+        for(int i=0;i<n;i++){
+            System.out.print(arr[i]+" ");
+        }
+
         
             // Scanner sc = new Scanner(System.in);
             // System.out.println("Enter the size of array:");
