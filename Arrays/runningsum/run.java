@@ -8,17 +8,8 @@ public class run {
             result[i]=num[i]+result[i-1];
         }
         return result;
-
     }
-    // public static int[] findRunningSum(int num[],int n){
-    //     int[] result=new int[n];
-    //     result[0]=num[0];
-    //     for(int i=1;i<n;i++){
-    //         result[i]=num[i]+result[i-1];
-    //     }
-    //     return result;
-    // }
-     
+    
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of array:");
@@ -34,8 +25,7 @@ public class run {
         System.out.print(output[i]+" ");
         }
 
-        sc.close();
-        
+        sc.close(); 
     }
     
 }
