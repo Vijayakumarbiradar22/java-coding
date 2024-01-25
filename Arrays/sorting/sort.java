@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class sort {
     public static void bubbleSort(int arr[],int n){
         int temp;
-
         for(int i=0;i<n;i++){
             for(int j=i+1;j<n;j++){
                 if(arr[i]>arr[j]){
@@ -24,15 +23,10 @@ public class sort {
             for(int i=0;i<n;i++){
                 arr[i]=sc.nextInt();
             }
-
             bubbleSort(arr,n);
-
             for(int i=0;i<n;i++){
              System.out.print(arr[i]+" ");   
             }
             sc.close();
-        
-
-    }
-    
+    }  
 }
