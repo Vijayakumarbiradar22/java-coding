@@ -8,7 +8,15 @@ public class sort {
             int n = sc.nextInt();
             int arr[]=new int[n];
             System.out.println("Enter the elements:");
-            
+            for(int i=0;i<n;i++){
+                arr[i]=sc.nextInt();
+            }
+
+            bubbleSort(arr,n);
+
+            for(int i=0;i<n;i++){
+                
+            }
         
 
     }
