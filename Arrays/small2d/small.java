@@ -2,6 +2,7 @@ package Arrays.small2d;
 import java.util.Scanner;
 public class small {
     public static int findMin(int arr[][],int r,int c){
+        int min = arr[0][0];
         
     }
     // public static int findmin(int[][] arr,int r, int c){
