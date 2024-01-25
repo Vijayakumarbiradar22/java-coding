@@ -29,6 +29,8 @@ public class small {
 
         int result = findMin(arr,r,c);
         System.out.println(result);
+
+        sc.close();
         // int[][] arr = {{3,2,7},{4,6,5}};
         // int r=2,c=3;
         // int result = findmin(arr,r,c);
