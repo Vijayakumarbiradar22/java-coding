@@ -12,7 +12,6 @@ public class small {
         }
         return min;
     }
-    
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of rows:");
@@ -32,10 +31,6 @@ public class small {
         System.out.println(result);
 
         sc.close();
-        // int[][] arr = {{3,2,7},{4,6,5}};
-        // int r=2,c=3;
-        // int result = findmin(arr,r,c);
-        // System.out.println(result);
     }
     
 }
