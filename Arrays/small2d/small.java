@@ -18,6 +18,10 @@ public class small {
         int r = sc.nextInt();
         System.out.println("Enter the number of cols:");
         int c = sc.nextInt();
+
+        int[][] arr = new int[r][c];
+
+        
         // int[][] arr = {{3,2,7},{4,6,5}};
         // int r=2,c=3;
         // int result = findmin(arr,r,c);
