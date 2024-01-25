@@ -21,6 +21,12 @@ public class small {
 
         int[][] arr = new int[r][c];
 
+        for(int i=0;i<r;i++){
+            for(int j=0;j<c;j++){
+                arr[i][j]=sc.nextInt();
+            }
+        }
+
         
         // int[][] arr = {{3,2,7},{4,6,5}};
         // int r=2,c=3;
