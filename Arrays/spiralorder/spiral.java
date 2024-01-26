@@ -21,7 +21,6 @@ public class spiral {
         int colend=c-1;
 
         while(rowstart<=rowend && colstart<=colend){
-
             for(int col=colstart;col<=colend;col++){
                 System.out.print(mat[rowstart][col]+" ");
             }
@@ -41,9 +40,7 @@ public class spiral {
                 System.out.print(mat[row][colstart]+" ");
             }
             colstart++;
-
         }
-
         sc.close();
     }   
 }
