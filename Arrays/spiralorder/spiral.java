@@ -33,6 +33,11 @@ public class spiral {
             }
             colend--;
 
+            for(int col=colend;col>=colstart;col--){
+                System.out.print(mat[rowend][col]);
+            }
+            rowend--;
+
             
 
         }
