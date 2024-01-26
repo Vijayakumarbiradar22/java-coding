@@ -26,6 +26,11 @@ public class spiral {
             for(int col=colstart;col<=colend;col++){
                 System.out.print(mat[rowstart][col]+" ");
             }
+            rowstart++;
+
+            for(int row=rowstart;row<=rowend;row++){
+                System.out.print(mat[row][colend]);
+            }
             colend--;
 
             
