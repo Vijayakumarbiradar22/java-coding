@@ -8,7 +8,7 @@ public class spiral {
         System.out.println("Enter the number of cols:");
         int c = sc.nextInt();
         int[][] mat = new int[r][c];
-        System.out.println("Enter the elements:");
+        System.out.println("Enter the elements of matrix:");
         for(int i=0;i<r;i++){
             for(int j=0;j<c;j++){
                 mat[i][j]=sc.nextInt();
