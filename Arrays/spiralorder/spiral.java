@@ -7,9 +7,9 @@ public class spiral {
         int r = sc.nextInt();
         System.out.println("Enter the number of cols:");
         int c = sc.nextInt();
-        int arr[][] = new int[r][c];
+        int[][] arr = new int[r][c];
         System.out.println("Enter the elements:");
-        
+
         // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the no.of rows:");
         // int r=sc.nextInt();
