@@ -29,7 +29,7 @@ public class spiral {
             rowstart++;
 
             for(int row=rowstart;row<=rowend;row++){
-                System.out.print(mat[row][colend]);
+                System.out.print(mat[row][colend]+" ");
             }
             colend--;
 
