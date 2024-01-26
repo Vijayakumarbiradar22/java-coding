@@ -16,6 +16,10 @@ public class spiral {
         }
 
         System.out.println("Spiral order is");
+        int rowstart=0;
+        int rowend=r-1;
+        int colstart=0;
+        int colend=c-1;
         
         // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the no.of rows:");
