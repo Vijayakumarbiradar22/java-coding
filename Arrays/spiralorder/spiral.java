@@ -38,7 +38,10 @@ public class spiral {
             }
             rowend--;
 
-            
+            for(int row=rowend;row>=rowstart;row--){
+                System.out.print(mat[row][colstart]);
+            }
+            colstart++;
 
         }
         // Scanner sc = new Scanner(System.in);
