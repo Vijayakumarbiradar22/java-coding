@@ -14,6 +14,8 @@ public class spiral {
                 arr[i][j]=sc.nextInt();
             }
         }
+
+        System.out.println("Spiral order is");
         
         // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the no.of rows:");
