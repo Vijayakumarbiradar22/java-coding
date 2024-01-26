@@ -20,7 +20,10 @@ public class spiral {
         int rowend=r-1;
         int colstart=0;
         int colend=c-1;
-        
+
+        while(rowstart<=rowend && colstart<=colend){
+            
+        }
         // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the no.of rows:");
         // int r=sc.nextInt();
