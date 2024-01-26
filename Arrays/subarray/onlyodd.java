@@ -10,6 +10,18 @@ public class onlyodd {
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
         }
+
+        int od=0;
+
+        for(int i=0;i<n;i++){
+            if(arr[i]%2!=0){
+                od+=1;
+            }
+        }
+
+        int[] arr1 = new int[od];
+        int x=0;
+
         
 
         // Scanner sc = new Scanner(System.in);
