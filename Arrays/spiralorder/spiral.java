@@ -14,7 +14,6 @@ public class spiral {
                 mat[i][j]=sc.nextInt();
             }
         }
-
         System.out.println("Spiral order is");
         int rowstart=0;
         int rowend=r-1;
