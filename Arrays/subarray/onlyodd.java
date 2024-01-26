@@ -33,6 +33,8 @@ public class onlyodd {
             System.out.print(arr1[i]+" ");
         }
 
+        sc.close();
+
         // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the size of array:");
         // int n=sc.nextInt();
