@@ -10,6 +10,13 @@ public class sub {
         int[][] arr1 = new int[r][c];
         int[][] arr2 = new int[r][c];
 
+        System.out.println("Enter the elements of array1:");
+        for(int i=0;i<r;i++){
+            for(int j=0;j<c;j++){
+                arr1[i][j]=sc.nextInt();
+            }
+        }
+
         
         // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the no.of rows:");
