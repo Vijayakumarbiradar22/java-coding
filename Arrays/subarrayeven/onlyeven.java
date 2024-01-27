@@ -28,6 +28,10 @@ public class onlyeven {
             x++;
            } 
         }
+
+        for(int i=0;i<arr1.length;i++){
+            
+        }
         // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the array size:");
         // int n=sc.nextInt();
