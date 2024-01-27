@@ -14,8 +14,12 @@ public class onlyeven {
         int even=0;
 
         for(int i=0;i<n;i++){
-            
+           if(arr[i]%2==0){
+            even+=1;
+           } 
         }
+
+        
         // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the array size:");
         // int n=sc.nextInt();
