@@ -7,6 +7,9 @@ public class sub {
         int r=sc.nextInt();
         System.out.println("Enter the number of cols:");
         int c =sc.nextInt();
+        int[][] arr1 = new int[r][c];
+        int[][] arr2 = new int[r][c];
+
         
         // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the no.of rows:");
