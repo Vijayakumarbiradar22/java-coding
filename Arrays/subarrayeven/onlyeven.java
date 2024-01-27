@@ -19,7 +19,12 @@ public class onlyeven {
            } 
         }
 
-        
+        int arr1[]=new int[even];
+        int x=0;
+
+        for(int i=0;i<n;i++){
+            
+        }
         // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the array size:");
         // int n=sc.nextInt();
