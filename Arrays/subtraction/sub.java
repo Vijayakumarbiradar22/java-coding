@@ -5,6 +5,9 @@ public class sub {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of rows");
         int r=sc.nextInt();
+        System.out.println("Enter the number of cols:");
+        int c =sc.nextInt();
+        
         // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the no.of rows:");
         // int r = sc.nextInt();
