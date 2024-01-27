@@ -24,6 +24,9 @@ public class sub {
             }
         }
 
+        int[][] arr3 = new int[arr1.length][arr2.length];
+
+        System.out.println("Array1 minus Array2 is:");
         
         // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the no.of rows:");
