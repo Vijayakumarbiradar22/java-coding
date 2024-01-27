@@ -34,5 +34,4 @@ public class onlyeven {
         }
         sc.close();
     }
-    
 }
