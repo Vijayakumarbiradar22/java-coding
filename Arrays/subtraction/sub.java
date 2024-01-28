@@ -17,21 +17,17 @@ public class sub {
             }
         }
 
-        System.out.println("Enter the :");
+        System.out.println("Enter the array2 elements:");
         for(int i=0;i<r;i++){
             for(int j=0;j<c;j++){
                 arr2[i][j]=sc.nextInt();
             }
         }
-
         int[][] arr3 = new int[arr1.length][arr2.length];
-
         System.out.println("Array1 minus Array2 is:");
-
         for(int i=0;i<r;i++){
             for(int j=0;j<c;j++){
                 arr3[i][j]=0;
-
                 for(int k=0;k<arr3.length;k++){
                     arr3[i][j]=arr1[i][j]-arr2[i][j];
                 }
@@ -39,7 +35,6 @@ public class sub {
             }
             System.out.println();
         }
-
         sc.close();
         // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the no.of rows:");
