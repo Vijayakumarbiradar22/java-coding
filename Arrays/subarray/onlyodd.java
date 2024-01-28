@@ -1,5 +1,5 @@
 package Arrays.subarray;
-import java.util.Scanner;
+import java.util.*;
 public class onlyodd {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
@@ -29,7 +29,6 @@ public class onlyodd {
         for(int i=0;i<arr1.length;i++){
             System.out.print(arr1[i]+" ");
         }
-
         sc.close();
     }
     
