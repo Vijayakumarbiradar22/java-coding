@@ -17,7 +17,7 @@ public class sub {
             }
         }
 
-        System.out.println("Enter the elements of array2:");
+        System.out.println("Enter the :");
         for(int i=0;i<r;i++){
             for(int j=0;j<c;j++){
                 arr2[i][j]=sc.nextInt();
