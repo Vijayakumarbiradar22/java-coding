@@ -15,7 +15,7 @@ public class lrotate {
     
     public static void main(String args[]){
            Scanner sc = new Scanner(System.in);
-           System.out.println("Enter the :");
+           System.out.println("Enter the array size:");
            int n = sc.nextInt();
            int arr[]=new int[n];
            System.out.println("Enter the elements:");
