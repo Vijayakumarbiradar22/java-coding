@@ -18,6 +18,4 @@ public class combi {
         System.out.println(result);
         sc.close();
     }
-   
-    
 }
