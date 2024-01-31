@@ -16,6 +16,8 @@ public class dtob {
         int num =  sc.nextInt();
         String binary = convertBinary(num);
         System.out.println(binary);
+
+        sc.close();
     }
     
 }
