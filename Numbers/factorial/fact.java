@@ -9,6 +9,8 @@ public class fact {
         System.out.println(factorial);
     }
     public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        
         int n=5;
         findFact(n);
     }
