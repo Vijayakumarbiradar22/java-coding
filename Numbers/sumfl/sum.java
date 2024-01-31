@@ -1,5 +1,5 @@
 package Numbers.sumfl;
-
+import java.util.Scanner;
 public class sum {
     public static void main(String args[]){
         int num=1234;
