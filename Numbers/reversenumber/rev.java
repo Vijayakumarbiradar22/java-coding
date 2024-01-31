@@ -1,5 +1,5 @@
 package Numbers.reversenumber;
-
+import java.util.Scanner;
 public class rev {
     public static void main(String args[]){
         int rem,revNum=0;
