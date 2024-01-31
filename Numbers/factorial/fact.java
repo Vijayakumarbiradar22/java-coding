@@ -1,5 +1,5 @@
 package Numbers.factorial;
-
+import java.util.Scanner;
 public class fact {
     public static void findFact(int n){
         int factorial=1;
