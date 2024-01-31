@@ -13,6 +13,7 @@ public class btod {
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the binary number:");
         
         String binary = "1011";
         int decimalNumber = convertToDecimal(binary);
