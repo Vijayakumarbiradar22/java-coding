@@ -11,6 +11,8 @@ public class dtob {
         return sb.toString();
     }
     public static void main(String args[]){
+        Scanner sc = new Scanner(Systemm.in);
+        
         int num=11;
         String binary = convertBinary(num);
         System.out.println(binary);
