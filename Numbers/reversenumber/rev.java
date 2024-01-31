@@ -18,6 +18,7 @@ public class rev {
         } else {
             System.out.println("Not palindrome");
         }
+        sc.close();
     }
     
 }
