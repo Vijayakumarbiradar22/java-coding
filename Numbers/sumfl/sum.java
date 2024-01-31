@@ -4,7 +4,7 @@ public class sum {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number:");
-        
+        int num=sc.nextInt();
         int num=1234;
         int rem,first=0;
         int last = num%10;
