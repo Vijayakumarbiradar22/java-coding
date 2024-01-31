@@ -5,7 +5,6 @@ public class sum {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number:");
         int num=sc.nextInt();
-        int num=1234;
         int rem,first=0;
         int last = num%10;
         while(num>0){
@@ -13,7 +12,6 @@ public class sum {
             first=rem;
             num=num/10;
         }
-
         System.out.println(first+last);
     }
     
