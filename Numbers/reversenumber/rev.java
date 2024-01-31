@@ -2,6 +2,7 @@ package Numbers.reversenumber;
 import java.util.Scanner;
 public class rev {
     public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
         int rem,revNum=0;
         int num=1234;
         int temp=num;
