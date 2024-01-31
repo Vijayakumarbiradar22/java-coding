@@ -1,5 +1,5 @@
 package Numbersystem.decimaltobinary;
-
+import java.util.Scanner;
 public class dtob {
     public static String convertBinary(int num){
         StringBuilder sb = new StringBuilder();
