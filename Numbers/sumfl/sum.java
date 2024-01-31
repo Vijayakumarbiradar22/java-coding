@@ -13,7 +13,6 @@ public class sum {
             num=num/10;
         }
         System.out.println(first+last);
-
         sc.close();
     }
     

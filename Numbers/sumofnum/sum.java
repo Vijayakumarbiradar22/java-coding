@@ -11,7 +11,6 @@ public class sum {
                 sum=sum+rem;
                 num=num/10;
             }
-        
         System.out.println(sum);
             sc.close();
     }
