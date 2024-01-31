@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class onlyeven {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the array size:");
+        System.out.println("Enter the :");
         int n=sc.nextInt();
         int arr[]=new int[n];
         System.out.println("Enter the elements of array:");
