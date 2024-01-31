@@ -12,6 +12,8 @@ public class btod {
         return dec;
     }
     public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        
         String binary = "1011";
         int decimalNumber = convertToDecimal(binary);
         System.out.println(decimalNumber);
