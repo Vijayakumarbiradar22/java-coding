@@ -18,6 +18,7 @@ public class btod {
         // String binary = "1011";
         int decimalNumber = convertToDecimal(binary);
         System.out.println(decimalNumber);
+        sc.close();
     }
     
 }
