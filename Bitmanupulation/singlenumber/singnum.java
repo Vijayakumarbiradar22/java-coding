@@ -31,6 +31,7 @@ public class singnum {
         // int res = singleNumber(nums);
         // System.out.println(res);
         // sc.close();
+        sc.close();
     }
     
 }
