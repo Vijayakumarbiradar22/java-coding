@@ -20,6 +20,8 @@ public class singnum {
         for(int i=0;i<n;i++){
             nums[i]=sc.nextInt();
         }
+        int result=singleNumber(nums);
+        System.out.println(result);
         // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the size of array:");
         // int n=sc.nextInt();
