@@ -10,7 +10,7 @@ public class fact {
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the number:");
+        System.out.println("Enter the number for factorial:");
         int n = sc.nextInt();
         findFact(n);
         sc.close();
