@@ -5,9 +5,7 @@ public class rep {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the String:");
         String str=sc.nextLine();
-        // String str="apple";
         String res="";
-
         for(int i=0;i<str.length();i++){
             if(str.charAt(i)=='a'){
                 res+='i';
