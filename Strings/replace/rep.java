@@ -17,6 +17,7 @@ public class rep {
             }
         }
         System.out.println(res);
+        sc.close();
     }
     
 }
