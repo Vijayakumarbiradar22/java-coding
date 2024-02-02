@@ -1,5 +1,5 @@
 package Strings.replace;
-
+import java.util.Scanner;
 public class rep {
     public static void main(String args[]){
         String str="apple";
