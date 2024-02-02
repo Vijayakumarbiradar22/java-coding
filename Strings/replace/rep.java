@@ -2,6 +2,7 @@ package Strings.replace;
 import java.util.Scanner;
 public class rep {
     public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
         String str="apple";
         String res="";
 
