@@ -15,6 +15,5 @@ public class com {
                 System.out.println("Strings are not same");
             }
         sc.close();
-    }
-    
+    }  
 }
