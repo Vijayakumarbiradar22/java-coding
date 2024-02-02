@@ -1,5 +1,5 @@
 package Stack.usinglinkedlist;
-//import java.util.*;
+
 public class ULL {
     static class Node {
         int data;
@@ -27,7 +27,6 @@ public class ULL {
           head=newNode;  
         }
       
-
       public int pop(){
         if(isEmpty()){
             return -1;
