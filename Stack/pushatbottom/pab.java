@@ -15,13 +15,10 @@ public class pab {
         s.push(1);
         s.push(2);
         s.push(3);
-
         pushAtBottom(4,s);
-
         while(!s.isEmpty()){
             System.out.println(s.peek());
             s.pop();
         }
     }
-    
 }
