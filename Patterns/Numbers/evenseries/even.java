@@ -13,8 +13,6 @@ public class even {
             }
             System.out.println();
         }
-
         sc.close();
-    }
-    
+    } 
 }
