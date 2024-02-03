@@ -16,6 +16,7 @@ public class cr {
             }
             System.out.println();
         }
+        sc.close();
     }
     
 }
