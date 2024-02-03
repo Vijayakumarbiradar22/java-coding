@@ -7,7 +7,9 @@ public class sp {
         int n= sc.nextInt();
 
         for(int i=1;i<=n;i++){
-            
+            for(int j=1;j<=n;j++){
+                
+            }
         }
         // int n=5;
         // for(int i=1;i<=n;i++){
