@@ -8,8 +8,11 @@ public class kp {
 
         for(int i=n;i>=1;i--){
             for(int j=1;j<=i;j++){
-                
+                System.out.print("*");
+            } else {
+                System.out.print(" ");
             }
+            
         }
 ;        // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the total rows:");
