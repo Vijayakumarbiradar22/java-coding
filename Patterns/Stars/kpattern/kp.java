@@ -13,7 +13,9 @@ public class kp {
             System.out.println();
         }
 
-        
+        for(int i=2;i<=n;i++){
+
+        }
 
 ;        // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the total rows:");
@@ -33,6 +35,7 @@ public class kp {
         //     System.out.println();
         // }
         // sc.close();
+        sc.close();
     }
     
 }
