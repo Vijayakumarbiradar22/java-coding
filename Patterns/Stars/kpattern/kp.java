@@ -17,7 +17,7 @@ public class kp {
             for(int j=1;i<=i;j++){
                 System.out.print("*");
             }
-            
+            System.out.println();
         }
 
 ;        // Scanner sc = new Scanner(System.in);
