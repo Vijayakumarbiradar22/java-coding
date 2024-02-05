@@ -5,6 +5,9 @@ public class pant {
         Scanner sc  = new Scanner(System.in);
         System.out.println("Enter the number of rows:");
         int n = sc.nextInt();
+        int x=n;
+        int y=n;
+
         
         // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the total rows:");
