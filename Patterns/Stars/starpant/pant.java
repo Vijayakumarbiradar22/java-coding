@@ -8,7 +8,9 @@ public class pant {
         int x=n;
         int y=n;
 
-        
+        for(int i=1;i<=n;i++){
+            
+        }
         // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the total rows:");
         // int n=sc.nextInt();
