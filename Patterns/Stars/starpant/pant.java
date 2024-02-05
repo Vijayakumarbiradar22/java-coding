@@ -20,7 +20,7 @@ public class pant {
             y++;
             System.out.println();
         }
-        
+        sc.close();
         // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the total rows:");
         // int n=sc.nextInt();
