@@ -9,7 +9,7 @@ public class pant {
         int y=n;
 
         for(int i=1;i<=n;i++){
-            for(int j=1;j<=n*2;j++){
+            for(int j=1;j<n*2;j++){
                 if(j>x&&j<y){
                    System.out.print(" "); 
                 } else {
