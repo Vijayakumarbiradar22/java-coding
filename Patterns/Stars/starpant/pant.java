@@ -12,8 +12,11 @@ public class pant {
             for(int j=1;j<=n*2;j++){
                 if(j>x&&j<y){
                    System.out.print(" "); 
-                } 
+                } else {
+                    System.out.print("*");
+                }
             }
+            
         }
         // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the total rows:");
