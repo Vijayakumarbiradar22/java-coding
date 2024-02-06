@@ -17,6 +17,10 @@ public class halrom {
            System.out.println();
         }
 
+        for(int i=n-2;i>=1;i--){
+            
+        }
+
         sc.close();
         // Scanner sc = new Scanner(System.in);
         //     System.out.println("Enter the rows:");
