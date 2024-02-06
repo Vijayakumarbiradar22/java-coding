@@ -14,6 +14,7 @@ public class halrom {
                 System.out.print(" ");
             }
            } 
+           System.out.println();
         }
         // Scanner sc = new Scanner(System.in);
         //     System.out.println("Enter the rows:");
