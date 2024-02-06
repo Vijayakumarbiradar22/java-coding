@@ -25,7 +25,7 @@ public class halrom {
                 System.out.print(" ");
             }
            } 
-           
+           System.out.println();
         }
 
         sc.close();
