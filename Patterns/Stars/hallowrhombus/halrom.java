@@ -22,9 +22,10 @@ public class halrom {
             if(j==n-i+1 || j==n+i-1 || i==n){
                 System.out.print("*");
             } else {
-                
+                System.out.print(" ");
             }
            } 
+           
         }
 
         sc.close();
