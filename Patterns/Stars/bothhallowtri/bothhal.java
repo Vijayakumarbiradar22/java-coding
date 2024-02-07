@@ -15,6 +15,10 @@ public class bothhal {
             }
             System.out.println();
         }
+
+        for(int i=1;i<=n;i++){
+            
+        }
         // System.out.println("Enter the rows:");
         // int n=sc.nextInt();
         // for(int i=n;i>=1;i--){
