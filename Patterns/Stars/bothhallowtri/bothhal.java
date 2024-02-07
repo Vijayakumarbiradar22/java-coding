@@ -13,7 +13,7 @@ public class bothhal {
                     System.out.print(" ");
                 }
             }
-            
+            System.out.println();
         }
         // System.out.println("Enter the rows:");
         // int n=sc.nextInt();
