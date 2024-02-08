@@ -20,9 +20,11 @@ public class comk {
         }
 
         for(int i=2;i<=n;i++){
+
            for(int j=1;j<=i;j++){
-            
+            System.out.print("*");
            } 
+           System.out.println();
         }
         // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the number of rows:");
