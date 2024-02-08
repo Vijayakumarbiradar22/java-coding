@@ -20,7 +20,9 @@ public class comk {
         }
 
         for(int i=2;i<=n;i++){
-
+            for(int s=1;s<=n-i;s++){
+                
+            }
            for(int j=1;j<=i;j++){
             System.out.print("*");
            } 
