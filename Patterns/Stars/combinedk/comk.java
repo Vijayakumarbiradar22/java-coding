@@ -18,6 +18,10 @@ public class comk {
             }
             System.out.println();
         }
+
+        for(int i=2;i<=n;i++){
+            
+        }
         // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the number of rows:");
         // int n=sc.nextInt();
@@ -56,8 +60,7 @@ public class comk {
         // }
         // sc.close();
         sc.close();
-    }
-    
+    }   
 }
 
 //It is code for spacediamond(printing stars except diamond in a entire square)
