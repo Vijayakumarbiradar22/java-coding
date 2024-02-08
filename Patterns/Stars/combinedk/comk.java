@@ -16,7 +16,7 @@ public class comk {
             for(int j=1;j<=i;j++){
                 System.out.print("*");
             }
-            
+            System.out.println();
         }
         // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the number of rows:");
@@ -55,6 +55,7 @@ public class comk {
         //     System.out.println();
         // }
         // sc.close();
+        sc.close();
     }
     
 }
