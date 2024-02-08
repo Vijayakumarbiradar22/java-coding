@@ -5,7 +5,10 @@ public class comk {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of rows:");
         int n = sc.nextInt();
-        
+
+        for(int i=n;i>=1;i--){
+            
+        }
         // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the number of rows:");
         // int n=sc.nextInt();
