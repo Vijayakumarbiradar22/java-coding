@@ -15,6 +15,6 @@ public class invhaltri {
                 }
                 System.out.println();
             }
-            
+            sc.close();
         }
     }
