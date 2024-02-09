@@ -12,7 +12,9 @@ public class half {
             System.out.println();
         }
 
-        
+        for(int i=n;i>=1;i--){
+            
+        }
         // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the no.of rows:");
         // int n = sc.nextInt();
