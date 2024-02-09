@@ -15,6 +15,6 @@ public class invhal {
                 }
                 System.out.println(); 
         }
-        
+        sc.close();
     }
 }
