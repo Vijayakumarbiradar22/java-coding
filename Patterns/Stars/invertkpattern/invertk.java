@@ -26,7 +26,5 @@ public class invertk {
         System.out.println();
        }
        sc.close();
-
     }
-    
 }
