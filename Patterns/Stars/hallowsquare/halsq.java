@@ -15,5 +15,6 @@ public class halsq {
                 }
                 System.out.println();
             }
+            sc.close();
         }
     }
