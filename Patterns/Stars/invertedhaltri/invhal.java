@@ -2,7 +2,7 @@ package Patterns.Stars.invertedhaltri;
 import java.util.Scanner;
 public class invhal {
     public static void main(String args[]){
-        try (Scanner sc = new Scanner(System.in)) {
+        Scanner sc = new Scanner(System.in);
             System.out.println("Enter the no.of rows:");
             int n=sc.nextInt();
             for(int i=n;i>=1;i--){
@@ -13,11 +13,8 @@ public class invhal {
                         System.out.print(" ");
                     }
                 }
-                System.out.println();
-            
+                System.out.println(); 
         }
+        
     }
-
-    }
-    
 }
