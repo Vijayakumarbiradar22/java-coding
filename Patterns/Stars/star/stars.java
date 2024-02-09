@@ -14,6 +14,6 @@ public class stars {
                 }
                 System.out.println();
             }
-            
+            sc.close();
         }
     }
