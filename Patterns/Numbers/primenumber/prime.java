@@ -16,7 +16,12 @@ public class prime {
     public static void primePattern(int rows){
         int currNum=1;
         for(int i=1;i<=rows;i++){
+           for(int j=1;j<=i;j++){
+            while(!isprime(currNum)){
+                currNum++;
+            }
             
+           } 
         }
     //     int currNum=1;
     //   for(int i=1;i<=rows;i++){
