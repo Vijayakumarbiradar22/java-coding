@@ -17,12 +17,13 @@ public class prime {
         int currNum=1;
         for(int i=1;i<=rows;i++){
            for(int j=1;j<=i;j++){
-            while(!isprime(currNum)){
+            while(!isPrime(currNum)){
                 currNum++;
             }
             System.out.print(currNum+" ");
             currNum++;
            } 
+           System.out.println();
         }
     //     int currNum=1;
     //   for(int i=1;i<=rows;i++){
