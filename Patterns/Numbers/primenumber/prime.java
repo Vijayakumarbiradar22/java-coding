@@ -20,7 +20,8 @@ public class prime {
             while(!isprime(currNum)){
                 currNum++;
             }
-            
+            System.out.print(currNum+" ");
+            currNum++;
            } 
         }
     //     int currNum=1;
