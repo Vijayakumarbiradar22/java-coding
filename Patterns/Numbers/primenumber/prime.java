@@ -2,7 +2,10 @@ package Patterns.Numbers.primenumber;
 import java.util.Scanner;
 public class prime {
     public static boolean isPrime(int num){
-        
+       if(num<2){
+        return false;
+       } 
+       
     }
     // public static boolean isPrime(int num){
     //     if(num<2){
