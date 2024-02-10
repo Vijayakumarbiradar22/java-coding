@@ -25,6 +25,7 @@ public class binomial {
             }
             System.out.println();
         }
+        sc.close();
         // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the number of rows:");
         // int n=sc.nextInt();
