@@ -11,11 +11,8 @@ public class nextnum {
                 System.out.print(num);
                 num++;
             }
-            
+            System.out.println();
         }
-
         sc.close();
-
     }
-    
 }
