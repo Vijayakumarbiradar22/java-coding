@@ -15,16 +15,20 @@ public class prime {
 
     public static void primePattern(int rows){
         int currNum=1;
-      for(int i=1;i<=rows;i++){
-            for(int j=1;j<=i;j++){
-                while(!isPrime(currNum)){
-                    currNum++;
-                }
-                System.out.print(currNum+" ");
-                currNum++;
-            }
-            System.out.println();
+        for(int i=1;i<=rows;i++){
+            
         }
+    //     int currNum=1;
+    //   for(int i=1;i<=rows;i++){
+    //         for(int j=1;j<=i;j++){
+    //             while(!isPrime(currNum)){
+    //                 currNum++;
+    //             }
+    //             System.out.print(currNum+" ");
+    //             currNum++;
+    //         }
+    //         System.out.println();
+    //     }
     }
 
     public static void main(String args[]){
