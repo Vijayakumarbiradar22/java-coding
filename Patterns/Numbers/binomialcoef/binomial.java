@@ -1,6 +1,9 @@
 package Patterns.Numbers.binomialcoef;
 import java.util.Scanner;
 public class binomial {
+    public static int fact(int n){
+        
+    }
     // public static int fact(int n){
     //     int factorial=1;
     //     for(int i=2;i<=n;i++){
