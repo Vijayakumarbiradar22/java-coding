@@ -19,7 +19,7 @@ public class missnum {
             arr[i]=sc.nextInt();
         }
         int result = findMissing(arr,n);
-        System.out.println(result);
+        System.out.println("Missing number is:"+result);
         sc.close();
 
     }
