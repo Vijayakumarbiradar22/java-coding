@@ -1,7 +1,10 @@
 package Arrays.missingnumber;
 import java.util.Scanner;
 public class missnum {
-   
+    public static int findMissing(int arr[],int n){
+        
+    }
+    
     
     
     public static void main(String args[]){
@@ -17,6 +20,6 @@ public class missnum {
         int result = findMissing(arr,n);
         System.out.println(result);
         sc.close();
-        
+
     }
 }
