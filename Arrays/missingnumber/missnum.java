@@ -14,6 +14,8 @@ public class missnum {
             arr[i]=sc.nextInt();
         }
 
+        int result = findMissing(arr,n);
+        System.out.println(result);
         
     }
 }
