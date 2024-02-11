@@ -3,6 +3,10 @@ import java.util.Scanner;
 public class missnum {
     public static int findMissing(int arr[],int n){
         int sum = ((n+1)*(n+2)/2);
+
+        for(int i=0;i<n;i++){
+            
+        }
     }
     
     
