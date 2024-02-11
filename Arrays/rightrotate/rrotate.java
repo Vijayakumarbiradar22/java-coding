@@ -11,18 +11,7 @@ public class rrotate {
             arr[0]=first;
             p++;
         }
-        
-        // int help=1;
-        // while(help<=rt){
-        //     int first = arr[n-1];
-        //     for(int i=n-2;i>=0;i--){
-        //         arr[i+1]=arr[i];
-        //     }
-        //     arr[0]=first;
-        //     help++;
         }
-    
-    
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of array:");
@@ -34,13 +23,10 @@ public class rrotate {
         }
         System.out.println("Enter the rotation times:");
         int rt = sc.nextInt();
-
         rightRotate(arr,n,rt);
-
         for(int i=0;i<n;i++){
             System.out.print(arr[i]+" ");
         }
-
         sc.close();
         }
     }
