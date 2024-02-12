@@ -11,8 +11,9 @@ public class com {
         if(name1.equals(name2)){
             System.out.println("Strings are same.");
         } else{
-            
+           System.out.println("Strings are not same."); 
         }
+        
         //  Scanner sc = new Scanner(System.in);
         //     System.out.println("Enter first string:");
         //     String name1 = sc.nextLine();
