@@ -13,6 +13,8 @@ public class rev {
             int back=sb.length()-1-i;
 
             char frontchar=sb.charAt(front);
+            char backchar=sb.charAt(back);
+
             
         }
     //     Scanner sc = new Scanner(System.in);
