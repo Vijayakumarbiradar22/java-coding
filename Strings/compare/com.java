@@ -13,7 +13,7 @@ public class com {
         } else{
            System.out.println("Strings are not same."); 
         }
-        
+        sc.close();
         //  Scanner sc = new Scanner(System.in);
         //     System.out.println("Enter first string:");
         //     String name1 = sc.nextLine();
