@@ -16,7 +16,7 @@ public class rev {
             char backchar=sb.charAt(back);
 
             sb.setCharAt(front, backchar);
-            
+            sb.setCharAt(back, frontchar);
         }
     //     Scanner sc = new Scanner(System.in);
     //     System.out.println("Enter the string:");
