@@ -18,6 +18,9 @@ public class rev {
             sb.setCharAt(front, backchar);
             sb.setCharAt(back, frontchar);
         }
+        System.out.println(sb);
+        sc.close();
+        
     //     Scanner sc = new Scanner(System.in);
     //     System.out.println("Enter the string:");
     //     String str=sc.nextLine();
