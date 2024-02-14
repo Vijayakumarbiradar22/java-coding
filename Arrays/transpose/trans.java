@@ -18,6 +18,7 @@ public class trans {
 
         for(int i=0;i<r;i++){
            for(int j=i;j<c;j++){
+            int temp=mat[i][j];
             
            } 
         }
