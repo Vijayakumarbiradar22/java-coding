@@ -17,7 +17,9 @@ public class trans {
         System.out.println("Transpose of matrix is:");
 
         for(int i=0;i<r;i++){
+           for(int j=i;j<c;j++){
             
+           } 
         }
     }
     
