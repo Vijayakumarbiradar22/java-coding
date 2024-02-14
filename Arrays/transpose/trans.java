@@ -20,7 +20,7 @@ public class trans {
            for(int j=i;j<c;j++){
             int temp=mat[i][j];
             mat[i][j]=mat[j][i];
-            
+            mat[j][i]=temp;
            } 
         }
     }
