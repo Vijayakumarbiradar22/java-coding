@@ -31,7 +31,7 @@ public class trans {
             System.out.println();
         }
 
-        
+        sc.close();
     }
     
 }
