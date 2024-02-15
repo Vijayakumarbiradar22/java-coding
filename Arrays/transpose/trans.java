@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class trans {
     public static void transpose(int mat[][],int r,int c){
         for(int i=0;i<r;i++){
-            for(int j=i;i<c;j++){
+            for(int j=i;j<c;j++){
                 int temp=mat[i][j];
                 mat[i][j]=mat[j][i];
                 mat[j][i]=temp;
