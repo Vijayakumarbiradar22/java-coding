@@ -25,6 +25,8 @@ public class rec {
             mx=Integer.max(mx, array[i]);
         }
         System.out.println(ans);
+
+        sc.close();
     }
     
 }
