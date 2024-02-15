@@ -1,6 +1,11 @@
 package Arrays.transpose;
 import java.util.Scanner;
 public class trans {
+    public static void transpose(int mat[][],int r,int c){
+        for(int i=0;i<r;i++){
+            
+        }
+    }
     public static void main(String args[]){
       Scanner sc = new Scanner(System.in);
        System.out.println("Enter the number of rows:");
@@ -15,13 +20,14 @@ public class trans {
             }
         }
         System.out.println("Transpose of matrix is:");
-        for(int i=0;i<r;i++){
-           for(int j=i;j<c;j++){
-            int temp=mat[i][j];
-            mat[i][j]=mat[j][i];
-            mat[j][i]=temp;
-           } 
-        }
+        transpose(mat,r,c);
+        // for(int i=0;i<r;i++){
+        //    for(int j=i;j<c;j++){
+        //     int temp=mat[i][j];
+        //     mat[i][j]=mat[j][i];
+        //     mat[j][i]=temp;
+        //    } 
+        // }
         for(int i=0;i<r;i++){
             for(int j=0;j<c;j++){
                 System.out.print(mat[i][j]+" ");
