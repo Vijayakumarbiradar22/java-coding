@@ -8,6 +8,9 @@ public class rec {
         int array[]=new int[n];
 
         System.out.println("Enter the elements of array:");
+        for(int i=0;i<n;i++){
+            array[i]=sc.nextInt();
+        }
         
     }
     
