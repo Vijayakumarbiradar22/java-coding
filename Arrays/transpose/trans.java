@@ -25,13 +25,6 @@ public class trans {
         }
         System.out.println("Transpose of matrix is:");
         transpose(mat,r,c);
-        // for(int i=0;i<r;i++){
-        //    for(int j=i;j<c;j++){
-        //     int temp=mat[i][j];
-        //     mat[i][j]=mat[j][i];
-        //     mat[j][i]=temp;
-        //    } 
-        // }
         for(int i=0;i<r;i++){
             for(int j=0;j<c;j++){
                 System.out.print(mat[i][j]+" ");
@@ -39,6 +32,5 @@ public class trans {
             System.out.println();
         }
         sc.close();
-    }
-    
+    } 
 }
