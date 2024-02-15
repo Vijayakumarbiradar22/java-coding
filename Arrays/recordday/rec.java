@@ -15,6 +15,8 @@ public class rec {
             System.out.println("1");
         }
 
+        int ans=0;
+        int mx=-1;
         
 
     }
