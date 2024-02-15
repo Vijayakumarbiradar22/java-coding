@@ -5,6 +5,7 @@ public class trans {
         for(int i=0;i<r;i++){
             for(int j=i;i<c;j++){
                 int temp=mat[i][j];
+                mat[i][j]=mat[j][i];
                 
             }
         }
