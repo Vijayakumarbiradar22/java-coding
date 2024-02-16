@@ -16,7 +16,7 @@ public class mix {
             System.out.println();
         }
 
-        
+        sc.close();
     }
     
 }
