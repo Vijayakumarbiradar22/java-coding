@@ -7,7 +7,11 @@ public class mix {
         int n = sc.nextInt();
         for(int i=0;i<n;i++){
             for(int j=1;j<=n;j++){
-                
+                if(i%2==0){
+                    System.out.print("*"+" ");
+                } else {
+                    
+                }
             }
         }
     }
