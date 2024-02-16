@@ -13,8 +13,10 @@ public class mix {
                     System.out.print(i+" ");
                 }
             }
-            
+            System.out.println();
         }
+
+        
     }
     
 }
