@@ -15,6 +15,8 @@ public class oddeven {
             }
             System.out.println();
         }
+
+        sc.close();
     }
     
 }
