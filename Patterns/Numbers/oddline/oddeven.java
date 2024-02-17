@@ -10,9 +10,10 @@ public class oddeven {
                 if(i%2==0){
                   System.out.print(i);  
                 } else {
-                    
+                   System.out.print(i+1); 
                 }
             }
+            
         }
     }
     
