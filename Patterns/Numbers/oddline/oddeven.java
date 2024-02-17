@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class oddeven {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-       System.out.println("Enter the number of rows:");
+       System.out.println("Enter the nof rows:");
         int n=sc.nextInt();
         int odd=1;
         int even=2;
