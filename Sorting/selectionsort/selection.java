@@ -12,7 +12,9 @@ public class selection {
         }
 
         for(int i=0;i<n;i++){
-            
+            for(int j=i+1;j<=n;j++){
+                
+            }
         }
 
         // for(int i=0;i<n-1;i++){
