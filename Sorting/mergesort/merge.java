@@ -18,6 +18,14 @@ public class merge {
         int indx1=si;
         int indx2=mid+1;
         int x=0;
+
+        while(indx1<=mid && indx2<=ei){
+            if(arr[indx1]<arr[indx2]){
+                merged[x++]=arr[indx1++];
+            } else {
+                
+            }
+        }
     //     int merged[]=new int[ei-si+1];
 
     //     int indx1=si;
