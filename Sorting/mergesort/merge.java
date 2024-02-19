@@ -23,9 +23,11 @@ public class merge {
             if(arr[indx1]<arr[indx2]){
                 merged[x++]=arr[indx1++];
             } else {
-                
+                merged[x++]=arr[indx2++];
             }
         }
+
+        
     //     int merged[]=new int[ei-si+1];
 
     //     int indx1=si;
