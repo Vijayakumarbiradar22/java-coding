@@ -27,6 +27,10 @@ public class merge {
             }
         }
 
+        while(indx1<=mid){
+            merged[x++]=arr[indx1++];
+        }
+
         
     //     int merged[]=new int[ei-si+1];
 
