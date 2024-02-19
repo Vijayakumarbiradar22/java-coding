@@ -7,6 +7,8 @@ public class merge {
             return;
         }
 
+        int mid=si+(ei-si)/2;
+        devide(arr,si,mid);
         
     }
     // public static void devide(int arr[],int si,int ei){
