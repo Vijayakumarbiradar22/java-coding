@@ -36,7 +36,7 @@ public class merge {
         }
 
         for(int i=0,j=si;i<merged.length;i++,j++){
-            
+           arr[j]=merged[i]; 
         }
 
     //     int merged[]=new int[ei-si+1];
