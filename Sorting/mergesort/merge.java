@@ -15,7 +15,9 @@ public class merge {
 
     public static void conquer(int arr[],int si,int mid,int ei){
         int merged[]=new int[ei-si+1];
-        
+        int indx1=si;
+        int indx2=mid+1;
+        int x=0;
     //     int merged[]=new int[ei-si+1];
 
     //     int indx1=si;
