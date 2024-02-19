@@ -12,16 +12,6 @@ public class merge {
         devide(arr,mid+1,ei);
         conquer(arr,si,mid,ei);
     }
-    // public static void devide(int arr[],int si,int ei){
-    //     if(si>=ei){
-    //         return;
-    //     }
-
-    //     int mid=si+(ei-si)/2;
-    //     devide(arr,si,mid);
-    //     devide(arr,mid+1,ei);
-    //     conquer(arr,si,mid,ei);
-    // }
 
     public static void conquer(int arr[],int si,int mid,int ei){
         int merged[]=new int[ei-si+1];
