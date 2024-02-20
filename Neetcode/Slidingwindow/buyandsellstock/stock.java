@@ -1,7 +1,10 @@
 package Neetcode.Slidingwindow.buyandsellstock;
 import java.util.*;
 public class stock {
-    
+    public static int maxProfit(prices[]){
+        int lsf=Integer.MAX_VALUE;
+        
+    }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of array:");
