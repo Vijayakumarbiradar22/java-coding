@@ -10,6 +10,8 @@ public class stock {
         for(int i=0;i<n;i++){
             prices[i]=sc.nextInt();
         }
-    }
-    
+        int result=maxProfit(prices);
+        System.out.println(result);
+        
+    } 
 }
