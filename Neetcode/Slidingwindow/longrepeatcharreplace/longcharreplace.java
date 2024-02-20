@@ -1,4 +1,4 @@
-package Strings.longrepeatcharreplace;
+package Neetcode.Slidingwindow.longrepeatcharreplace;
 import java.util.*;
 public class longcharreplace {
     public static int characterReplacement(String s,int k){

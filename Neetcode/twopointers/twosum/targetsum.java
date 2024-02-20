@@ -1,4 +1,4 @@
-package Neetcode.twopointers.twosum;
+package Neetcode.Twopointers.twosum;
 import java.util.Scanner;
 public class targetsum {
     public static int[] findTarget(int nums[],int target){

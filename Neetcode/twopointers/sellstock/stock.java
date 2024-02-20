@@ -1,4 +1,4 @@
-package Neetcode.twopointers.sellstock;
+package Neetcode.Twopointers.sellstock;
 import java.util.Scanner;
 public class stock {
     public static int maxProfit(int nums[],int n){

@@ -1,4 +1,4 @@
-package Neetcode.twopointers.traprainwater;
+package Neetcode.Twopointers.traprainwater;
 import java.util.Scanner;
 public class rainwater {
     public static int trapWater(int[] heights){

@@ -1,4 +1,4 @@
-package Strings.longestsubstring;
+package Neetcode.Slidingwindow.longestsubstring;
 import java.util.Scanner;
 import java.util.*;
 public class lenoflongsub {

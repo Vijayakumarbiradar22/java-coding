@@ -1,4 +1,4 @@
-package Neetcode.twopointers.containermostwater;
+package Neetcode.Twopointers.containermostwater;
 import java.util.Scanner;
 public class mostwater {
     public static int maxArea(int heights[]){
