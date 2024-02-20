@@ -7,6 +7,9 @@ public class longcharreplace {
         String s=sc.nextLine();
         System.out.println("Enter the value of k:");
         int k=sc.nextInt();
+        int result=characterReplacement(s,k);
+        System.out.println(result);
+        
     }
     
 }
