@@ -10,8 +10,13 @@ public class longcharreplace {
         for(int r=0;r<s.length();r++){
             arr[s.charAt(r)-'A']++;
             max=Math.max(max,arr[s.charAt(r)-'A']);
-            
+            if(r-l+1-max>k){
+                arr[s.charAt(l)-'A']--;
+                l++;
+            }
+            res=Math.max(res,r-l+1);
         }
+        return res;
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
