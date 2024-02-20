@@ -7,7 +7,9 @@ public class stock {
         int n=sc.nextInt();
         int[] prices = new int[n];
         System.out.println("Enter the prices:");
-        for()
+        for(int i=0;i<n;i++){
+            prices[i]=sc.nextInt();
+        }
     }
     
 }
