@@ -3,6 +3,9 @@ import java.util.*;
 public class stock {
     public static int maxProfit(prices[]){
         int lsf=Integer.MAX_VALUE;
+        int op=0;
+        int pist=0;
+
         
     }
     public static void main(String args[]){
