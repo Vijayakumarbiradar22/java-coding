@@ -1,6 +1,7 @@
 package Strings.longrepeatcharreplace;
 import java.util.*;
 public class longcharreplace {
+    
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the String:");
@@ -9,7 +10,8 @@ public class longcharreplace {
         int k=sc.nextInt();
         int result=characterReplacement(s,k);
         System.out.println(result);
-        
+        sc.close();
+
     }
     
 }
