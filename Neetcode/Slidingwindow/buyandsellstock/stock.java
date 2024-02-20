@@ -1,7 +1,7 @@
 package Neetcode.Slidingwindow.buyandsellstock;
 import java.util.*;
 public class stock {
-    public static int maxProfit(prices[]){
+    public static int maxProfit(int prices[]){
         int lsf=Integer.MAX_VALUE;
         int op=0;
         int pist=0;
