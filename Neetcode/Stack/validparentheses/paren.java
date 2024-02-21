@@ -13,14 +13,14 @@ public class paren {
             } else if (stack.isEmpty() || stack.pop()!=c){
                 return false;
             }
-            
         }
+        return stack.isEmpty();
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the String:");
         String s = sc.nextLine();
-        String result = isValid(s);
+        boolean result = isValid(s);
         System.out.println(result);
         sc.close();
     }
