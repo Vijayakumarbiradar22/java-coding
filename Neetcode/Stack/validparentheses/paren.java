@@ -10,9 +10,10 @@ public class paren {
                 stack.push('}');
             } else if(c=='['){
                 stack.push(']');
-            } else if (){
-                
+            } else if (stack.isEmpty() || stack.pop()!=c){
+                return false;
             }
+            
         }
     }
     public static void main(String args[]){
