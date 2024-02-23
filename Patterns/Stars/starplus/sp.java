@@ -13,6 +13,7 @@ public class sp {
                    System.out.print(" "); 
                 }
             }
+            System.out.println();
         }
         sc.close();
     }
