@@ -17,5 +17,4 @@ public class sp {
         }
         sc.close();
     }
-    
 }
