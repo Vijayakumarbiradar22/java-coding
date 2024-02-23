@@ -15,5 +15,4 @@ public class odd {
         }
         sc.close();
     }
-    
 }
