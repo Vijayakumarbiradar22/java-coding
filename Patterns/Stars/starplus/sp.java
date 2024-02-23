@@ -10,7 +10,7 @@ public class sp {
                 if(i==(n/2)+1 || j==(n/2)+1){
                     System.out.print("*");
                 } else {
-                    
+                   System.out.print(" "); 
                 }
             }
         }
