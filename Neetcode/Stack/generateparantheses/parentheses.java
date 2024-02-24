@@ -10,7 +10,11 @@ public class parentheses {
     }
 
     public static void recurse(List<String> res,int left,int right,String s,int n){
-        if()
+        if(s.length()==n*2){
+            res.add(s);
+            return;
+        }
+        
     }
     public static void main(String args[]){
        Scanner sc = new Scanner(System.in);
