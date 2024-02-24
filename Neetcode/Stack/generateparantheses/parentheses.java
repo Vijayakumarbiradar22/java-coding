@@ -19,7 +19,9 @@ public class parentheses {
             recurse(res,left+1,right,s+"(",n);
         }
 
-        
+        if(right<left){
+            recurse(res, left, right+1, s+")", n);
+        }
     }
     public static void main(String args[]){
        Scanner sc = new Scanner(System.in);
