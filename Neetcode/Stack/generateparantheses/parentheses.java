@@ -1,7 +1,6 @@
 package Neetcode.Stack.generateparantheses;
 import java.util.*;
-
-import Sorting.insertionsort.insertion;
+//import Sorting.insertionsort.insertion;
 public class parentheses {
     public static List<String> generateparenthesis(int n){
         List<String> res = new ArrayList<String>();
