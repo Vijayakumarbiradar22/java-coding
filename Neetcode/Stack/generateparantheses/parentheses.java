@@ -5,8 +5,8 @@ public class parentheses {
        Scanner sc = new Scanner(System.in);
        System.out.println("Enter the number of parentheses:"); 
        int n=sc.nextInt();
-
+        List<String> result = generateparantheses(n);
+        System.out.println(result);
        sc.close();
     }
-    
 }
