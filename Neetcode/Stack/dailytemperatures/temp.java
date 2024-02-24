@@ -27,5 +27,4 @@ public class temp {
         }
         sc.close();
     }
-    
 }
