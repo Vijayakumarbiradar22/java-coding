@@ -14,6 +14,11 @@ public class parentheses {
             res.add(s);
             return;
         }
+
+        if(left<n){
+            recurse(res,left+1,right,s+"(",n);
+        }
+
         
     }
     public static void main(String args[]){
