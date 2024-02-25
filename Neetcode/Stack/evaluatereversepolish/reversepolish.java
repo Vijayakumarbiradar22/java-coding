@@ -1,7 +1,9 @@
 package Neetcode.Stack.evaluatereversepolish;
 import java.util.*;
 public class reversepolish {
-    
+    public static int evalRPN(String[] tokens){
+        
+    }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of array:");
@@ -11,7 +13,8 @@ public class reversepolish {
         for(int i=0;i<n;i++){
             tokens[i]=sc.nextLine();
         }
-        String stackres=evlRPN(tokens);
+        int stackres=evalRPN(tokens);
+        
         
         sc.close();
     }
