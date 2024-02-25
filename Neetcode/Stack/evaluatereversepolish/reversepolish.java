@@ -36,7 +36,7 @@ public class reversepolish {
         String tokens[]=new String[n];
         System.out.println("Enter the tokens:");
         for(int i=0;i<n;i++){
-            tokens[i]=sc.nextLine();
+            tokens[i]=sc.next();
         }
         int stackres=evalRPN(tokens);
         System.out.println(stackres);
