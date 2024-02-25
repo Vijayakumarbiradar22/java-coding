@@ -2,6 +2,7 @@ package Neetcode.Stack.evaluatereversepolish;
 import java.util.*;
 public class reversepolish {
     public static int evalRPN(String[] tokens){
+        Stack<Long> stack = new Stack<>();
         
     }
     public static void main(String args[]){
