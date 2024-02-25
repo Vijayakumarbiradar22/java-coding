@@ -39,7 +39,7 @@ public class reversepolish {
             tokens[i]=sc.nextLine();
         }
         int stackres=evalRPN(tokens);
-        
+        System.out.println(stackres);
         
         sc.close();
     }
