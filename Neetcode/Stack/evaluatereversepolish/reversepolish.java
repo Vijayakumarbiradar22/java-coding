@@ -10,8 +10,23 @@ public class reversepolish {
               long integer1=stack.pop();
               char operator=tokens[i].charAt(0);
               long resolvedAns=resolves(integer1,integer2,operator);
-                
+                stack.push(resolvedAns);
+            } else {
+                stack.push(Long.parseLong(tokens[i]));
             }
+        }
+        return stack.pop().intValue();
+    }
+
+    public static long resolves(long a,long b, char operator){
+        if(operator=='+'){
+            return a+b;
+        } else if(operator=='-'){
+            return a-b;
+        } else if(operator=='*'){
+            return a*b;
+        } else {
+            return a/b;
         }
     }
     public static void main(String args[]){
