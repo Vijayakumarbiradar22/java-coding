@@ -2,7 +2,7 @@ package Patterns.Numbers.palindromenum;
 import java.util.Scanner;
 public class palin {
     public static void main(String args[]){
-        try (Scanner sc = new Scanner(System.in)) {
+        Scanner sc = new Scanner(System.in);
             System.out.println("Enter the number of rows:");
             int n=sc.nextInt();
             for(int i=1;i<=n;i++){
@@ -18,7 +18,6 @@ public class palin {
 
                 System.out.println();
             }
+            sc.close();
         }
     }
-    
-}
