@@ -29,7 +29,7 @@ public class fleet {
             position[i]=sc.nextInt();
         }
         int speed[]=new int[n];
-        System.out.println("Enter the spped array:");
+        System.out.println("Enter the speed array:");
         for(int i=0;i<n;i++){
           speed[i]=sc.nextInt();  
         }
