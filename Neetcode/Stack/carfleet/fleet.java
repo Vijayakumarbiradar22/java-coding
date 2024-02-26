@@ -12,8 +12,11 @@ public class fleet {
         for(int i=0;i<n;i++){
             position[i]=sc.nextInt();
         }
+        int speeed[]=new int[n];
         System.out.println("Enter the spped array:");
-        
+        for(int i=0;i<n;i++){
+            
+        }
 
         sc.close();
     }
