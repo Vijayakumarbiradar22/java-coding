@@ -10,8 +10,10 @@ public class fleet {
         int position[]=new int[n];
         System.out.println("Enter the position array:");
         for(int i=0;i<n;i++){
-            
+            position[i]=sc.nextInt();
         }
+        System.out.println("Enter the spped array:");
+        
 
         sc.close();
     }
