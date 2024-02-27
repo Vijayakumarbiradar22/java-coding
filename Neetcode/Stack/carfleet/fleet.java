@@ -21,7 +21,7 @@ public class fleet {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the target number:");
         int target=sc.nextInt();
-        System.out.println("Enter the size of position array");
+        System.out.println("Enter the position array");
         int n=sc.nextInt();
         int position[]=new int[n];
         System.out.println("Enter the position array:");
