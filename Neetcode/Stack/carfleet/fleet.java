@@ -24,7 +24,7 @@ public class fleet {
         System.out.println("Enter the position array size:");
         int n=sc.nextInt();
         int position[]=new int[n];
-        System.out.println("Enter the position array:");
+        System.out.println("Enter the elements position array:");
         for(int i=0;i<n;i++){
             position[i]=sc.nextInt();
         }
