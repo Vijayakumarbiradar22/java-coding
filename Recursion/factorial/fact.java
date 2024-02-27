@@ -14,6 +14,7 @@ public class fact {
         System.out.println("Enter the number:");
         int n=sc.nextInt();
         int result = findFact(n);
+        System.out.println(result);
         
         // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the number:");
