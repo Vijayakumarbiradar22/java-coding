@@ -13,6 +13,8 @@ public class fact {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number:");
         int n=sc.nextInt();
+        int result = findFact(n);
+        
         // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the number:");
         // int n = sc.nextInt();
