@@ -19,7 +19,7 @@ public class fleet {
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the target:");
+        System.out.println("Enter the target number:");
         int target=sc.nextInt();
         System.out.println("Enter the size of position array");
         int n=sc.nextInt();
