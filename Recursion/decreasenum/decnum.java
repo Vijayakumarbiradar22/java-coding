@@ -12,6 +12,7 @@ public class decnum {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         decreaseNumber(n);
+        sc.close();
     }
     
 }
