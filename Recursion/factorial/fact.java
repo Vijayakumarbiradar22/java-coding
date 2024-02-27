@@ -1,11 +1,11 @@
 package Recursion.factorial;
 import java.util.*;
-public class fact {\
+public class fact {
     public static int findFact(int n){
         if(n==0 || n==1){
             return 1;
         } else {
-            
+            return n*findFact(n-1);
         }
 
     }
