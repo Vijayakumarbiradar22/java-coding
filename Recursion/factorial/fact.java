@@ -7,16 +7,13 @@ public class fact {
         } else {
             return n*findFact(n-1);
         }
-
     }
-
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the number:");
+        System.out.println("Enter the number to finf Factorial:");
         int n=sc.nextInt();
         int result = findFact(n);
         System.out.println(result);
         sc.close();
     }
-    
 }
