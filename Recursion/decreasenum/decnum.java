@@ -2,6 +2,9 @@ package Recursion.decreasenum;
 import java.util.Scanner;
 public class decnum {
     public static void decreaseNumber(int n){
+        if(n==0){
+            return;
+        }
        System.out.println(n);
        decreaseNumber(n-1);
     }
@@ -10,6 +13,5 @@ public class decnum {
         int n = sc.nextInt();
         decreaseNumber(n);
         sc.close();
-    }
-    
+    } 
 }
