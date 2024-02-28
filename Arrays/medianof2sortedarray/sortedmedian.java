@@ -11,6 +11,8 @@ public class sortedmedian {
       for(int i=0;i<n1;i++){
         nums1[i]=sc.nextInt();
       }
+      System.out.println("Enter the size of array2:");
+      int n2=sc.nextInt();
       
     }
     
