@@ -1,7 +1,14 @@
 package Arrays.searchinarray;
 import java.util.Scanner;
 public class search {
-    
+    public static int search(int[] nums,int target){
+        int low=0;
+        int high=nums.length-1;
+        while(low<=high){
+            int mid=(low+high)/2;
+        }
+        
+    }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of array;");
