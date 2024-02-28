@@ -13,7 +13,9 @@ public class sortedmedian {
       }
       System.out.println("Enter the size of array2:");
       int n2=sc.nextInt();
-      
+      int[] nums2 = new int[n2];
+      System.out.println("Enter the elements of array2:");
+
     }
     
 }
