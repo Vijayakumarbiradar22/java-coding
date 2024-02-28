@@ -13,7 +13,11 @@ public class search {
                 if(nums[low]<=target && target<nums[mid]){
                     high=mid-1;
                 } else {
-                    
+                   low=mid+1; 
+                }
+            } else {
+                if(nums[mid]<target && target<=nums[high]){
+                    low=mid+1;
                 }
             }
         }
