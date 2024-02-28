@@ -6,7 +6,12 @@ public class sortedmedian {
       Scanner sc = new Scanner(System.in);
       System.out.println("Enter the size of array1:");
       int n1=sc.nextInt();
-        
+      int[] nums1=new int[n1];
+      System.out.println("Enter the elements of array1;");  
+      for(int i=0;i<n1;i++){
+        nums1[i]=sc.nextInt();
+      }
+      
     }
     
 }
