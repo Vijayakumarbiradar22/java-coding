@@ -12,7 +12,11 @@ public class sortedmedian {
         for(int i=0;i<n1;i++){
             merged[k++]=nums1[i];
         }
-        
+        for(int i=0;i<n2;i++){
+            merged[k++]=nums2[i];
+        }
+
+        Arrays.sort(merged);
     }
     public static void main(String args[]){
       Scanner sc = new Scanner(System.in);
