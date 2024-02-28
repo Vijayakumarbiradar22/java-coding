@@ -6,6 +6,10 @@ public class search {
         int high=nums.length-1;
         while(low<=high){
             int mid=(low+high)/2;
+            if(nums[mid]==target){
+                return mid;
+            }
+            
         }
         
     }
