@@ -1,7 +1,7 @@
 package Arrays.searchinarray;
 import java.util.Scanner;
 public class search {
-    public static int search(int[] nums,int target){
+    public static int search(int nums[],int target){
         int low=0;
         int high=nums.length-1;
         while(low<=high){
@@ -18,10 +18,12 @@ public class search {
             } else {
                 if(nums[mid]<target && target<=nums[high]){
                     low=mid+1;
+                } else {
+                    high=mid-1;
                 }
             }
-        }
-        
+        }  
+        return -1;
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
@@ -38,5 +40,4 @@ public class search {
         System.out.println(result);
         sc.close();
     }
-    
 }
