@@ -2,7 +2,7 @@ package Arrays.medianof2sortedarray;
 import java.util.Scanner;
 import java.util.Arrays;
 public class sortedmedian {
-    public static int findMedianSortedArray(int[] nums1,int[] nums2){
+    public static double findMedianSortedArray(int[] nums1,int[] nums2){
         int n1=nums1.length;
         int n2=nums2.length;
 
@@ -17,6 +17,13 @@ public class sortedmedian {
         }
 
         Arrays.sort(merged);
+
+        int total=merged.length;
+        if(total%2==1){
+            return (double) merged[total/2];
+        } else {
+            
+        }
     }
     public static void main(String args[]){
       Scanner sc = new Scanner(System.in);
