@@ -22,7 +22,9 @@ public class sortedmedian {
         if(total%2==1){
             return (double) merged[total/2];
         } else {
-            
+          int mid1=merged[(total/2)-1];
+          int mid2=merged[total/2];
+          return ((double) mid1 + (double) mid2)/2.0;  
         }
     }
     public static void main(String args[]){
