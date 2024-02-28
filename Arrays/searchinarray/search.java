@@ -10,6 +10,10 @@ public class search {
         for(int i=0;i<n;i++){
             nums[i]=sc.nextInt();
         }
+        System.out.println("Enter the target:");
+        int target=sc.nextInt();
+        int result=search(nums,target);
+        System.out.println(result);
         
     }
     
