@@ -15,6 +15,12 @@ public class sortedmedian {
       int n2=sc.nextInt();
       int[] nums2 = new int[n2];
       System.out.println("Enter the elements of array2:");
+      for(int i=0;i<n2;i++){
+        nums2[i]=sc.nextInt();
+      }
+      double result = findMedianSortedArray(nums1,nums2);
+      System.out.println(result);
+      
 
     }
     
