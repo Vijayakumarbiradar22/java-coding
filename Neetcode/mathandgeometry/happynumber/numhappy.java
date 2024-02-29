@@ -15,8 +15,14 @@ public class numhappy {
        return false;
     }
 
-    public static int square(int n){
-        
+    public static int square(int num){
+        int ans=0;
+        while(num>0){
+            int rem=num%10;
+            ans+=rem*rem;
+            num=num/10;
+        }
+        return ans;
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
