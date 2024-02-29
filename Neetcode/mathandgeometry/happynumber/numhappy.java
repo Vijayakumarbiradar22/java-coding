@@ -28,7 +28,8 @@ public class numhappy {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number:");
         int n=sc.nextInt();
-        isHappy(n);
+        boolean result = isHappy(n);
+        System.out.println(result);
         sc.close();
     }
 }
