@@ -1,7 +1,16 @@
 package Neetcode.mathandgeometry.plusone;
 import java.util.*;
 public class oneplus {
-    
+    public static int[] plusOne(int[] digits){
+        for(int i=digits.length;i>=0;i--){
+            if(digits[i]<9){
+                digits[i]++;
+                return digits;
+            }
+            digits[i]=0;
+        }
+        
+    }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of array:");
