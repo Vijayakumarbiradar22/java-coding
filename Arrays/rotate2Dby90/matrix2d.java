@@ -41,12 +41,11 @@ public class matrix2d {
 
         System.out.println("Matrix rotated by 90 degree:");
         for(int i=0;i<r;i++){
-            for(int j=0;i<c;j++){
+            for(int j=0;j<c;j++){
                 System.out.print(mat[i][j]+" ");
             }
             System.out.println();
         }
-
         sc.close();
     }
     
