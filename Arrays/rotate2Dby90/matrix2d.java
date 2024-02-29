@@ -7,6 +7,8 @@ public class matrix2d {
         int r=sc.nextInt();
         System.out.println("Enter the number of cols:");
         int c=sc.nextInt();
+        int mat[][]=new int[r][c];
+        System.out.println("Enter the elements of matrix:");
         
     }
     
