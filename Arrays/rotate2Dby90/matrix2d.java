@@ -1,7 +1,15 @@
 package Arrays.rotate2Dby90;
 import java.util.Scanner;
 public class matrix2d {
-    
+    public static void rotate(int[][] mat){
+        //step1 Transpose of matrix:
+        int len=mat.length;
+        for(int i=0;i<len;i++){
+            for(int j=i+1;j<len;j++){
+                
+            }
+        }
+    }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of rows:");
