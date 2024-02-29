@@ -13,7 +13,11 @@ public class matrix2d {
         }
         //step2 Reverse the row
         for(int i=0;i<len;i++){
-            
+            int l=0;
+            int h=len-1;
+            while(l<h){
+                
+            }
         }
     }
     public static void main(String args[]){
