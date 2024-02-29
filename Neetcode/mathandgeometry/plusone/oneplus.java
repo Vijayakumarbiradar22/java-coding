@@ -9,7 +9,9 @@ public class oneplus {
             }
             digits[i]=0;
         }
-        
+        digits=new int[digits.length+1];
+        digits[0]=1;
+        return digits;
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
@@ -22,9 +24,8 @@ public class oneplus {
         }
         int result[]=plusOne(digits);
         for(int i=0;i<n;i++){
-            System.out.print(digits[i]+" ");
+            System.out.print(result[i]+" ");
         }
-        
         sc.close();
     }
     
