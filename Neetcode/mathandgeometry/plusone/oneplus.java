@@ -23,10 +23,12 @@ public class oneplus {
             digits[i]=sc.nextInt();
         }
         int result[]=plusOne(digits);
-        for(int i=0;i<n;i++){
+        for(int i=0;i<result.length;i++){
             System.out.print(result[i]+" ");
         }
         sc.close();
     }
     
 }
+
+//out of bound error it will update soon.
