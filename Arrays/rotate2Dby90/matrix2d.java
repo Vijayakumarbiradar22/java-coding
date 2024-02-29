@@ -9,7 +9,20 @@ public class matrix2d {
         int c=sc.nextInt();
         int mat[][]=new int[r][c];
         System.out.println("Enter the elements of matrix:");
+        for(int i=0;i<r;i++){
+            for(int j=0;j<c;j++){
+                mat[i][j]=sc.nextInt();
+            }
+        }
+        rotate(mat);
+
         
+        for(int i=0;i<r;i++){
+            for(int j=0;i<c;j++){
+                System.out.print(mat[i][j]+" ");
+            }
+            System.out.println();
+        }
     }
     
 }
