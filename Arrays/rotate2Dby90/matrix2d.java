@@ -6,8 +6,14 @@ public class matrix2d {
         int len=mat.length;
         for(int i=0;i<len;i++){
             for(int j=i+1;j<len;j++){
-                
+               int temp=mat[i][j];
+               mat[i][j]=mat[j][i];
+               mat[j][i]=temp; 
             }
+        }
+        //step2 Reverse the row
+        for(int i=0;i<len;i++){
+            
         }
     }
     public static void main(String args[]){
