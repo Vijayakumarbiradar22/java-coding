@@ -16,7 +16,11 @@ public class matrix2d {
             int l=0;
             int h=len-1;
             while(l<h){
-                
+                int temp=mat[i][l];
+                mat[i][l]=mat[i][h];
+                mat[i][h]=temp;
+                l++;
+                h--;
             }
         }
     }
