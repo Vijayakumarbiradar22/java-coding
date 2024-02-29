@@ -2,6 +2,8 @@ package Neetcode.mathandgeometry.happynumber;
 import java.util.*;
 public class numhappy {
     public static boolean isHappy(int n){
+       int slow=n;
+       int fast=n;
         
     }
     public static void main(String args[]){
