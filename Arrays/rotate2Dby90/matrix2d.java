@@ -47,6 +47,5 @@ public class matrix2d {
             System.out.println();
         }
         sc.close();
-    }
-    
+    } 
 }
