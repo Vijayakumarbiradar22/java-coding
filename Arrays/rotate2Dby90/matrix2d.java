@@ -1,6 +1,7 @@
 package Arrays.rotate2Dby90;
 import java.util.Scanner;
 public class matrix2d {
+    
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of rows:");
@@ -23,6 +24,8 @@ public class matrix2d {
             }
             System.out.println();
         }
+
+        sc.close();
     }
     
 }
