@@ -11,7 +11,12 @@ public class numhappy {
         if(slow==1){
             return true;
         }
-       }
+       } while(slow!=fast);
+       return false;
+    }
+
+    public static int square(int n){
+        
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
