@@ -23,7 +23,7 @@ public class power {
         System.out.println("Enter the value of n:");
         int n=sc.nextInt();
         double result = myPower(x,n);
-        
+        System.out.println(result);
         sc.close();
     }
 }
