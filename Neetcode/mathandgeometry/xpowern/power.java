@@ -5,6 +5,9 @@ public class power {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the value of x:");
         double x=sc.nextDouble();
+        System.out.println("Enter the value of n:");
+        int n=sc.nextInt();
+        
     }
     
 }
