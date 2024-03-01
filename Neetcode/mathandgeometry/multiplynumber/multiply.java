@@ -33,7 +33,6 @@ public class multiply {
         String num2=sc.nextLine();
         String result = multiplyString(num1,num2);
         System.out.println(result);
-
         sc.close();
     }
     
