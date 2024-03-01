@@ -7,7 +7,8 @@ public class power {
         double x=sc.nextDouble();
         System.out.println("Enter the value of n:");
         int n=sc.nextInt();
-        
+        double result = myPower(x,n);
+
+        sc.close();
     }
-    
 }
