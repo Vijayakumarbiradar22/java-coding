@@ -30,6 +30,5 @@ public class multiply {
         String result = multiplyString(num1,num2);
         System.out.println(result);
         sc.close();
-    }
-    
+    } 
 }
