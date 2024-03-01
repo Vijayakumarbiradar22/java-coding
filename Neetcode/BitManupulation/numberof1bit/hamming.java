@@ -1,4 +1,4 @@
-package Bitmanupulation.numberof1bit;
+package Neetcode.BitManupulation.numberof1bit;
 import java.util.Scanner;
 public class hamming {
     public static int hammingWeight(int n){

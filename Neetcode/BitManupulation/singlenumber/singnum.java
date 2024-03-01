@@ -1,4 +1,4 @@
-package Bitmanupulation.singlenumber;
+package Neetcode.BitManupulation.singlenumber;
 import java.util.Scanner;
 public class singnum {
     public static int singleNumber(int nums[]){

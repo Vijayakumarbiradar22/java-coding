@@ -1,4 +1,4 @@
-package Bitmanupulation.missingnumber;
+package Neetcode.BitManupulation.missingnumber;
 import java.util.Scanner;
 public class missnum {
     public static int missingNum(int nums[],int n){

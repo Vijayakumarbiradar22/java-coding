@@ -1,4 +1,4 @@
-package Bitmanupulation.reversebit;
+package Neetcode.BitManupulation.reversebit;
 import java.util.Scanner;
 public class bitrev {
     public static int reverseBit(int n){

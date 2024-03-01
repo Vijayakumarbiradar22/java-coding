@@ -1,4 +1,4 @@
-package Bitmanupulation.sumoftwointeger;
+package Neetcode.BitManupulation.sumoftwointeger;
 import java.util.Scanner;
 public class sumof2 {
     public static int getSum(int a, int b){

@@ -1,4 +1,4 @@
-package Bitmanupulation.bitcount;
+package Neetcode.BitManupulation.bitcount;
 import java.util.Scanner;
 public class bit {
     public static int countOnes(int n){
