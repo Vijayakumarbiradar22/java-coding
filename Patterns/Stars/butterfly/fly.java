@@ -17,8 +17,14 @@ public class fly {
                 System.out.print(" ");
             }
 
-            
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            System.out.println();
         }
+
+        //Lower part
+        
 
         sc.close();
         // Scanner sc = new Scanner(System.in);
