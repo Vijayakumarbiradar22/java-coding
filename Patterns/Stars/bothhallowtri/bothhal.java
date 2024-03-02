@@ -16,7 +16,11 @@ public class bothhal {
             System.out.println();
         }
 
-        for()
+        for(int i=2;i<=n;i++){
+            for(int j=1;j<=2*n-1;j++){
+                
+            }
+        }
 
         sc.close();
         // Scanner sc = new Scanner(System.in);
