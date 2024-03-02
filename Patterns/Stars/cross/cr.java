@@ -5,7 +5,11 @@ public class cr {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter th enumber of rows:");
         int n=sc.nextInt();
-        
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=n;j++){
+                
+            }
+        }
 
         sc.close();
         // Scanner sc = new Scanner(System.in);
