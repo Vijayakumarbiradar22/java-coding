@@ -24,7 +24,7 @@ public class bothhal {
                 System.out.println(" ");
                }
             }
-            
+            System.out.println();
         }
 
         sc.close();
