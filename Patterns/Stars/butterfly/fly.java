@@ -30,6 +30,11 @@ public class fly {
                 System.out.print("*");
             }
 
+            int sp = 2*(n-i);
+            for(int s=1;s<=sp;s++){
+                System.out.print(" ");
+            }
+
             
         }
 
