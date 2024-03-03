@@ -12,6 +12,10 @@ public class half {
             System.out.println();
         }
 
+        for(int i=n;i>=1;i--){
+            
+        }
+
 
         sc.close();
         // Scanner sc = new Scanner(System.in);
