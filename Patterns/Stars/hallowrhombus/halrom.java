@@ -24,10 +24,8 @@ public class halrom {
                     System.out.print(" ");
                 }
             }
-            
+            System.out.println();
         }
-
-
         sc.close();
         // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the no.of rows:");
