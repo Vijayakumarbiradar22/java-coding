@@ -5,7 +5,9 @@ public class halsq {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of rows:");
         int n=sc.nextInt();
-        
+        for(int i=1;i<=n;i++){
+            
+        }
 
         sc.close();
         // Scanner sc = new Scanner(System.in);
