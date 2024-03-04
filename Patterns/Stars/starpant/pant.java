@@ -12,7 +12,7 @@ public class pant {
                 if(j>x&&j<y){
                     System.out.print(" ");
                 } else {
-                    
+                    System.out.print("*");
                 }
             }
         }
