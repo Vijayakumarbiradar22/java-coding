@@ -18,5 +18,4 @@ public class pant {
         }
         sc.close();
     }
-    
 }
