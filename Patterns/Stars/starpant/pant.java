@@ -15,7 +15,11 @@ public class pant {
                     System.out.print("*");
                 }
             }
+            x--;
+            y++;
+            System.out.println();
         }
         sc.close();
     }
+    
 }
