@@ -15,7 +15,6 @@ public class halsq {
            } 
            System.out.println();
         }
-
         sc.close();
         // Scanner sc = new Scanner(System.in);
         //     System.out.println("Enter the number of rows:");
