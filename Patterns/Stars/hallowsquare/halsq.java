@@ -13,7 +13,7 @@ public class halsq {
                 System.out.print(" ");
             }
            } 
-           
+           System.out.println();
         }
 
         sc.close();
