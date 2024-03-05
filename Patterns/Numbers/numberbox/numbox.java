@@ -18,6 +18,8 @@ public class numbox {
                 System.out.print(n+1-min+ " ");
             }
             System.out.println();
+
+            sc.close();
         }
     }
     
