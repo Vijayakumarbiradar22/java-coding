@@ -20,6 +20,5 @@ public class numbox {
             System.out.println();
             sc.close();
         }
-    }
-    
+    }  
 }
