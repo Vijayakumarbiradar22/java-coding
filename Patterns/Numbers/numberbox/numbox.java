@@ -1,5 +1,5 @@
 package Patterns.Numbers.numberbox;
-
+import java.util.Scanner;
 public class numbox {
     public static void main(String args[]){
         int n=4;
