@@ -13,6 +13,8 @@ public class numbox {
                 if(i>n) a=2*n-i;
                 int b=j;
                 if(j>n) b=2*n-i;
+                if(a<b) min=a;
+                else min=b;
             }
         }
         // for(int i=1;i<=2*n-1;i++){
