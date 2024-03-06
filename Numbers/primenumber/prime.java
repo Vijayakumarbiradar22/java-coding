@@ -16,7 +16,7 @@ public class prime {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the start number:");
         int start=sc.nextInt();
-        System.out.println("Enter thhe end number:");
+        System.out.println("Enter the end number:");
         int end = sc.nextInt();
         for(int i=start;i<end;i++){
             while(!isPrime(i)){
