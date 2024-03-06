@@ -134,6 +134,7 @@ public class rev {
         list.addLast("20");
         list.addLast("30");
         list.addLast("40");
+        
 
         list.printList();
 
