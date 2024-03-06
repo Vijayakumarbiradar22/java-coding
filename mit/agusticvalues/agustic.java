@@ -22,6 +22,4 @@ public class agustic {
         System.out.println(result);
         sc.close();
     }
-    
-
 }
