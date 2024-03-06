@@ -1,6 +1,6 @@
 package HashSet;
 import java.util.HashSet;
-//import java.util.Iterator;
+// import java.util.Iterator;
 public class hash {
     public static void main(String args[]){
         HashSet<Integer> set = new HashSet<>();
@@ -9,6 +9,7 @@ public class hash {
         set.add(2);
         set.add(3);
         set.add(2);
+        
 
         System.out.println(set);
 
@@ -23,7 +24,7 @@ public class hash {
         //delete
         set.remove(3);
         System.out.println(set);
-        System.out.println("Size of set is "+set.size());
+        System.out.println("Size of set "+set.size());
         
         // Iterator it = set.iterator();
         // while(it.hasNext()){
