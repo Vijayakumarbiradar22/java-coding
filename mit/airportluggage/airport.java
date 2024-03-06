@@ -22,10 +22,7 @@ public class airport {
         }
         System.out.println("Enter the T:");
         int t=sc.nextInt();
-
         System.out.println(weightMachine(n,weights,t));
         sc.close();
-
     }
-    
 }
