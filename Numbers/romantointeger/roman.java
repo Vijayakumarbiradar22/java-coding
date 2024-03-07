@@ -24,7 +24,7 @@ public class roman {
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter Roman number:");
+        System.out.println("Enter the Roman number:");
         String r = sc.nextLine();
         int result=romanToInt(r);
         System.out.println(result);
