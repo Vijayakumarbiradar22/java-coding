@@ -6,7 +6,7 @@ public class check {
             System.out.println("Enter the number:");
             int num=sc.nextInt();
             if(num%2==0){
-                System.out.println("Even");
+                System.out.println("Number isEven");
             } else {
                 System.out.println("Odd");
             sc.close();
