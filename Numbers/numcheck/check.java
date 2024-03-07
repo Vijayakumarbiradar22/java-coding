@@ -8,7 +8,7 @@ public class check {
             if(num%2==0){
                 System.out.println("Number isEven");
             } else {
-                System.out.println("Odd");
+                System.out.println("Number is Odd");
             sc.close();
         }
     }
