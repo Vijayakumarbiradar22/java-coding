@@ -12,7 +12,7 @@ public class combi {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the n:");
         int n = sc.nextInt();
-        System.out.println("Enter r:");
+        System.out.println("Enter the r:");
         int r = sc.nextInt();
         int result = fact(n)/(fact(r)*(fact(n-r)));
         System.out.println(result);
