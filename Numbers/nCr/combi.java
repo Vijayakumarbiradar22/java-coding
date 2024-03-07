@@ -10,7 +10,7 @@ public class combi {
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter n:");
+        System.out.println("Enter the n:");
         int n = sc.nextInt();
         System.out.println("Enter r:");
         int r = sc.nextInt();
