@@ -14,7 +14,7 @@ public class rev {
         }
         System.out.println(revNum);
         if(revNum==temp){
-            System.out.println("Palindrome");
+            System.out.println("Number is Palindrome");
         } else {
             System.out.println("Not palindrome");
         }
