@@ -16,7 +16,7 @@ public class seq {
     }
     public static void main(String args[]){
             Scanner sc = new Scanner(System.in);
-            System.out.println("Enter the string value:");
+            System.out.println("Enter a string value:");
             String str = sc.nextLine();        
             subseq(str, 0, "");
             sc.close();
