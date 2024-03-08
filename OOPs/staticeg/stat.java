@@ -3,7 +3,6 @@ package OOPs.staticeg;
 class Student {
     String name;
     static String school;
-
     public static void changeSchool(){
         school="newschool";
     }
@@ -15,5 +14,4 @@ public class stat {
         Student student1=new Student();
        student1.name ="Vijaykumar";
     }
-    
 }
