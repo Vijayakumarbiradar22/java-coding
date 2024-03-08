@@ -23,5 +23,4 @@ public class power {
             System.out.println(result);
             sc.close();
     }
-    
 }
