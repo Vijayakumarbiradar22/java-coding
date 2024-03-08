@@ -18,5 +18,4 @@ public class dtob {
         System.out.println(binary);
         sc.close();
     }
-    
 }
