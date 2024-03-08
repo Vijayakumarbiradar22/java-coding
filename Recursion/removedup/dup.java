@@ -18,7 +18,7 @@ public class dup {
         }
     }
     public static void main(String args[]){
-        String str="vijjaay";
+        String str="viijjaay";
         removeDup(str, 0, "");
 
     }
