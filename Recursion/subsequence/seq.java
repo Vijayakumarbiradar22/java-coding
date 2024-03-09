@@ -6,7 +6,6 @@ public class seq {
             System.out.println(newString);
             return;
         }
-
         char currChar=str.charAt(indx);
         //to be
         subseq(str, indx+1, newString+currChar);
@@ -20,7 +19,5 @@ public class seq {
             String str = sc.nextLine();        
             subseq(str, 0, "");
             sc.close();
-
     }
-    
 }
