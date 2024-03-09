@@ -11,12 +11,10 @@ public class hallowalpha {
                 if(j==1 || j==n || i==1 || i==n){
                    System.out.print((char) (alpha+j)); 
                 } else {
-                    
+                    System.out.print(" ");
                 }
             }
         }
-
-
         sc.close();
     }
     
