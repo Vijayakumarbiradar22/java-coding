@@ -17,7 +17,7 @@ public class pascal {
                 System.out.print(" ");
             }
             for(int j=0;j<=i;j++){
-                System.out.print(fact(i)/(fact(j)*(fact(i-j))));
+                System.out.print(fact(i)/(fact(j)*(fact(i-j)))+" ");
             }
             System.out.println();
         }
