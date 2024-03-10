@@ -1,6 +1,10 @@
 package Patterns.Numbers.pascaltriangle;
 import java.util.Scanner;
 public class pascal {
+    public static int fact(int n){
+        int factorial=1;
+        
+    }
     // public static int fact(int n){
     //     int factorial=1;
     //     for(int i=2;i<=n;i++){
