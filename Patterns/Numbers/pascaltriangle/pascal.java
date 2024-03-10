@@ -19,9 +19,8 @@ public class pascal {
             for(int j=0;j<=i;j++){
                 System.out.print(fact(i)/(fact(j)*(fact(i-j))));
             }
-
+            System.out.println();
         }
-
         sc.close();
         // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the number of rows:");
