@@ -4,7 +4,7 @@ public class rev {
     public static void main(String args[]){
         int num=10;
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the no.of rows:");
+        System.out.println("Enter the of rows:");
         int n=sc.nextInt();
 
         for(int i=1;i<=n;i++){
