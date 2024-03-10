@@ -29,7 +29,7 @@ public class prime {
 
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the of rows:");
+        System.out.println("Enter the number of rows:");
         int rows=sc.nextInt();
         primePattern(rows);
       sc.close();
