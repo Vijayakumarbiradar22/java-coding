@@ -12,7 +12,8 @@ public class fact {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number to find factorial:");
         int n = sc.nextInt();
-        findFact(n);
+        int result = findFact(n);
+        System.out.println(result);
         sc.close();
     }
 }
