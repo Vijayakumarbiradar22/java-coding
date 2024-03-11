@@ -20,9 +20,9 @@ public class arm {
             num=num/10;
         }
         if(original==sum){
-            System.out.println(num+" is an Armstrong number");
+            System.out.println(original+" is an Armstrong number");
         } else {
-           System.out.println(num+" is not an Armstrong number"); 
+           System.out.println(original+" is not an Armstrong number"); 
         }
         sc.close();
     }
