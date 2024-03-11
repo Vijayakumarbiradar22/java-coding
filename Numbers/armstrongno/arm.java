@@ -22,9 +22,8 @@ public class arm {
         if(original==sum){
             System.out.println(num+" is an Armstrong number");
         } else {
-            
+           System.out.println(num+" is not an Armstrong number"); 
         }
-
         sc.close();
         // int count=0;
         // double rem,sum=0;
