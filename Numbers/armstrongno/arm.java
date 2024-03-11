@@ -7,7 +7,7 @@ public class arm {
         int num=sc.nextInt();
         int count=0;
         double rem,sum=0;
-        
+        int original=num;
         // int count=0;
         // double rem,sum=0;
         // Scanner sc = new Scanner(System.in);
