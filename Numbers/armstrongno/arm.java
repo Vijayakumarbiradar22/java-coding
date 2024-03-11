@@ -12,7 +12,9 @@ public class arm {
             num=num/10;
             count++;
         }
-        
+
+
+        sc.close();
         // int count=0;
         // double rem,sum=0;
         // Scanner sc = new Scanner(System.in);
