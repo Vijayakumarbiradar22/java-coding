@@ -8,6 +8,11 @@ public class arm {
         int count=0;
         double rem,sum=0;
         int original=num;
+        while(num!=0){
+            num=num/10;
+            count++;
+        }
+        
         // int count=0;
         // double rem,sum=0;
         // Scanner sc = new Scanner(System.in);
