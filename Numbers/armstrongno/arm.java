@@ -5,6 +5,8 @@ public class arm {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number to check Armstrong:");
         int num=sc.nextInt();
+        int count=0;
+        double rem,sum=0;
         
         // int count=0;
         // double rem,sum=0;
