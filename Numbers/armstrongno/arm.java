@@ -16,6 +16,8 @@ public class arm {
         num=original;
         while(num!=0){
             rem=num%10;
+            sum=sum+Math.pow(rem,count);
+            
         }
 
 
