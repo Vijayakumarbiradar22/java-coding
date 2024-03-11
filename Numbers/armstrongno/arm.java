@@ -13,6 +13,11 @@ public class arm {
             count++;
         }
 
+        num=original;
+        while(num!=0){
+            rem=num%10;
+        }
+
 
         sc.close();
         // int count=0;
