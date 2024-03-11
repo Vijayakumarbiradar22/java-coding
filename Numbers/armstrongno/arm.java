@@ -17,9 +17,13 @@ public class arm {
         while(num!=0){
             rem=num%10;
             sum=sum+Math.pow(rem,count);
+            num=num/10;
+        }
+        if(original==sum){
+            System.out.println(num+" is an Armstrong number");
+        } else {
             
         }
-
 
         sc.close();
         // int count=0;
