@@ -20,7 +20,6 @@ public class fib {
         System.out.println(a);
         System.out.println(b);
         findFib(a,b,n-2);
-
         sc.close();
     }
     
