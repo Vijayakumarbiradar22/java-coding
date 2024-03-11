@@ -12,7 +12,9 @@ public class fib {
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        int n=7;
+        System.out.println("Enter the number of terms:");
+        int n=sc.nextInt();
+        // int n=7;
         int a=0;
         int b=1;
         System.out.println(a);
