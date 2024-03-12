@@ -18,21 +18,6 @@ public class rev {
         } else {
             System.out.println(temp+" is not palindrome number");
         }
-        // System.out.println("Enter the number:");
-        // int num=sc.nextInt();
-        // int rem,revNum=0;
-        // int temp=num;
-        // while(num>0){
-        //     rem=num%10;
-        //     revNum=revNum*10+rem;
-        //     num=num/10;
-        // }
-        // System.out.println(revNum);
-        // if(revNum==temp){
-        //     System.out.println("Number is Palindrome");
-        // } else {
-        //     System.out.println("Number is not palindrome");
-        // }
         sc.close();
     }
     
