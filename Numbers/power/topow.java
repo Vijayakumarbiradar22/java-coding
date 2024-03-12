@@ -24,15 +24,6 @@ public class topow {
         int n=sc.nextInt();
         int result = findPower(x,n);
         System.out.println(result);
-
         sc.close();
-        //     Scanner sc = new Scanner(System.in);
-        //     System.out.println("Enter x:");
-        //     int x = sc.nextInt();
-        //     System.out.println("Enter n:");
-        //     int n = sc.nextInt();
-        //     int result = findPower(x,n);
-        //     System.out.println(result);
-        // sc.close();
     }
 }
