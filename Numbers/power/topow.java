@@ -28,7 +28,4 @@ public class topow {
             findPower(x,n);
         sc.close();
     }
-    
-    
-    
 }
