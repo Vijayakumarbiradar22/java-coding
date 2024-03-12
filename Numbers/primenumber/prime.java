@@ -35,6 +35,7 @@ public class prime {
                 System.out.print(i+" ");
             }
         }
+        sc.close();
         // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter start number:");
         // int start=sc.nextInt();
