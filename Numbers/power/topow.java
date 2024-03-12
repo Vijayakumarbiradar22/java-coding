@@ -24,8 +24,9 @@ public class topow {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the x:");
         int x=sc.nextInt();
-
         
+
+        sc.close();
         //     Scanner sc = new Scanner(System.in);
         //     System.out.println("Enter x:");
         //     int x = sc.nextInt();
