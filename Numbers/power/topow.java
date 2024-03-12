@@ -2,7 +2,13 @@ package Numbers.power;
 import java.util.Scanner;
 public class topow {
     public static int findPower(int x, int n){
-        
+        if(n==0){
+            return 1;
+        }
+
+        if(x==0){
+            return 0;
+        }
     }
 
     // public static int findPower(int x, int n){
