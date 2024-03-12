@@ -9,6 +9,12 @@ public class topow {
         if(x==0){
             return 0;
         }
+
+        if(n%2==0){
+            return findPower(x, n/2) * findPower(x, n/2);
+        } else {
+            
+        }
     }
 
     // public static int findPower(int x, int n){
