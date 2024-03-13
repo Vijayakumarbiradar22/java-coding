@@ -4,6 +4,8 @@ public class sum {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         
+
+        sc.close();
         // int rem,sum=0;
         //     Scanner sc = new Scanner(System.in);
         //     System.out.println("Enter the number:");
