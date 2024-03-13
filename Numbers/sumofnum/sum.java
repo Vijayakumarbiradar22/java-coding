@@ -5,8 +5,13 @@ public class sum {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number");
         int num=sc.nextInt();
-        
-
+        int rem,sum=0;
+        while(num!=0){
+            rem=num%10;
+            sum=sum+rem;
+            num=num/10;
+        }
+        System.out.println("Sum of "+num+" is "+sum);
         sc.close();
         // int rem,sum=0;
         //     Scanner sc = new Scanner(System.in);
