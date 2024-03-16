@@ -9,8 +9,8 @@ public class power {
             return 0;
         }
 
-        int powm1 = findPower(x,n-1);
-        int pow = x*powm1;
+        int pow1=findPower(x, n-1);
+        int pow=x*pow1;
         return pow;
     }
     public static void main(String args[]){
