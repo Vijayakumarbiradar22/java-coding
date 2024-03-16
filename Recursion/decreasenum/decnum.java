@@ -6,15 +6,8 @@ public class decnum {
             return;
         }
         System.out.println(n);
-        
+        decreaseNum(n-1);
     }
-    // public static void decreaseNumber(int n){
-    //     if(n==0){
-    //         return;
-    //     }
-    //    System.out.println(n);
-    //    decreaseNumber(n-1);
-    // }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number:");
