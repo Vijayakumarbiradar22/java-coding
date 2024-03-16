@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class check {
     public static void main(String args[]){
             Scanner sc = new Scanner(System.in);
-            System.out.println("Enter the number:");
+            System.out.println("Enter the number t find even or odd:");
             int num=sc.nextInt();
             if(num%2==0){
                 System.out.println("Number is Even");
@@ -12,5 +12,4 @@ public class check {
             sc.close();
         }
     }
-    
 }
