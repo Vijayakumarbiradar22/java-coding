@@ -11,7 +11,9 @@ public class decnum {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number:");
-        
+        int n=sc.nextInt();
+        decreaseNum(n);
+        sc.close();
         // Scanner sc = new Scanner(System.in);
         // int n = sc.nextInt();
         // decreaseNumber(n);
