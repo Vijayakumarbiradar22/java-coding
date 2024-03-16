@@ -20,6 +20,7 @@ public class sumnum {
         int end=sc.nextInt();
         int sum = 0;
         printSum(start,end,sum);
+        sc.close();
     }
     
 }
