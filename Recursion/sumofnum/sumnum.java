@@ -1,5 +1,5 @@
 package Recursion.sumofnum;
-
+import java.util.Scanner;
 public class sumnum {
     public static void printSum(int i,int n, int sum){
         if(i==n){
@@ -13,10 +13,13 @@ public class sumnum {
 
     }
     public static void main(String args[]){
-        int i=1;
-        int n=10;
+        Scanner sc =new Scanner(System.in);
+        System.out.println("Enter the start number:");
+        int start=sc.nextInt();
+        System.out.println("Enter the end number:");
+        int end=sc.nextInt();
         int sum = 0;
-        printSum(i,n,sum);
+        printSum(start,end,sum);
     }
     
 }
