@@ -4,7 +4,7 @@ public class sumnum {
     public static void printSum(int i,int n, int sum){
         if(i==n){
             sum=sum+i;
-            System.out.println("Sum of the number is "+sum);
+            System.out.println("Sum of number is "+sum);
             return;
         }
 
