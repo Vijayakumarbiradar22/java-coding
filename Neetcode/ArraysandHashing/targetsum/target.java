@@ -25,7 +25,7 @@ public class target {
         for(int i=0;i<n;i++){
             nums[i]=sc.nextInt();
         }
-        System.out.println("Enter the target num:");
+        System.out.println("Enter the target number:");
         int target=sc.nextInt();
 
         int[] output = twoSum(nums,target,n);
