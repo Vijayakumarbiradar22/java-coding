@@ -11,7 +11,7 @@ public class soduku {
         System.out.println("Enter the columns:");
         int c = sc.nextInt();
         int[][] board=new int[r][c];
-        System.out.println("Enter the soduku matrix:");
+        System.out.println("Enter soduku matrix:");
         for(int i=0;i<r;i++){
             for(int j=0;j<c;j++){
                 board[i][j]=sc.nextInt();
