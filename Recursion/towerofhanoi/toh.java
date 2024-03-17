@@ -8,7 +8,7 @@ public class toh {
         }
         else{
             towerofhanoi(n-1, src, dest, help);
-            System.out.println("Transfer disk"+n+" from "+src+" to "+dest);
+            System.out.println("Transfer the disk"+n+" from "+src+" to "+dest);
             towerofhanoi(n-1, help, src, dest);
         }
     }
