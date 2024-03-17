@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class toh {
     public static void towerofhanoi(int n,String src,String help,String dest){
         if(n==1){
-            System.out.println("Transfer disk"+n+" from "+src+" to "+dest);
+            System.out.println("Transfer the disk"+n+" from "+src+" to "+dest);
             return;
         }
         else{
