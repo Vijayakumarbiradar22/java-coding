@@ -24,7 +24,7 @@ public class kfreq {
         for(int i=0;i<n;i++){
             nums[i]=sc.nextInt();
         }
-        System.out.println("Enter :");
+        System.out.println("Enter the k value:");
         int k=sc.nextInt();
         int result[]= topKfrequency(nums,k);
         for(int i:result){
