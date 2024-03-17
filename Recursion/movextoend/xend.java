@@ -20,7 +20,7 @@ public class xend {
         }
     }
     public static void main(String args[]){
-        String str = "axxbxcxdxxx";
+        String str = "xaxxbxcxdxx";
         moveallx(str, 0, 0, "");
     }
 }
