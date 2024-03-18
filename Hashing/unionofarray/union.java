@@ -17,7 +17,7 @@ public class union {
         System.out.println("Enter size of array1:");
         int n1=sc.nextInt();
         int arr1[]=new int[n1];
-        System.out.println("Enter the elements of array1:");
+        System.out.println("Enter elements of array1:");
         for(int i=0;i<n1;i++){
             arr1[i]=sc.nextInt();
         }
