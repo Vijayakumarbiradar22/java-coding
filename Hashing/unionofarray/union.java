@@ -16,6 +16,9 @@ public class union {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of array1:");
+        int n1=sc.nextInt();
+        System.out.println("Enter the size of array2:");
+        int n2=sc.nextInt();
         
 
         // int arr1[]={7,3,9};
