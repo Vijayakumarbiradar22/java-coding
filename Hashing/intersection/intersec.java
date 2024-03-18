@@ -18,9 +18,11 @@ public class intersec {
     }
 
     public static void main(String args[]){
-        int arr1[]={7,3,9};
-        int arr2[]={6,3,9,2,9,4};
+        Scanner sc = new Scanner(System.in);
+        // int arr1[]={7,3,9};
+        // int arr2[]={6,3,9,2,9,4};
         System.out.println(findIntersec(arr1,arr2));
+        sc.close();
     }
     
 }
