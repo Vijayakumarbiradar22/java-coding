@@ -10,12 +10,11 @@ public class union {
         for(int i=0;i<arr2.length;i++){
             set.add(arr2[i]);
         }
-
         return set.size();
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the size of array1:");
+        System.out.println("Enter size of array1:");
         int n1=sc.nextInt();
         int arr1[]=new int[n1];
         System.out.println("Enter the elements of array1:");
