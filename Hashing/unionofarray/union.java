@@ -14,6 +14,8 @@ public class union {
         return set.size();
     }
     public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        
         int arr1[]={7,3,9};
         int arr2[]={6,3,9,2,9,4};
         System.out.println(findUnion(arr1,arr2));
