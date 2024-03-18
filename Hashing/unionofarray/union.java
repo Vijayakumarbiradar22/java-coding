@@ -17,9 +17,16 @@ public class union {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of array1:");
         int n1=sc.nextInt();
+        int arr1[]=new int[n1];
+        System.out.println("Enter the elements of array1:");
+        for(int i=0;i<n1;i++){
+            arr1[i]=sc.nextInt();
+        }
+
         System.out.println("Enter the size of array2:");
         int n2=sc.nextInt();
         
+
 
         // int arr1[]={7,3,9};
         // int arr2[]={6,3,9,2,9,4};
