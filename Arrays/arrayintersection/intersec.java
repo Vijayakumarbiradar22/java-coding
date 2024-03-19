@@ -24,14 +24,14 @@ public class intersec {
         System.out.println("Enter the size of array1:");
         int size1=sc.nextInt();
         int arr1[]=new int[size1];
-        System.out.println("Enter the elements of array1:");
+        System.out.println("Enter elements of array1:");
         for(int i=0;i<size1;i++){
             arr1[i]=sc.nextInt();
         }
         System.out.println("Enter the size of array2:");
         int size2=sc.nextInt();
         int arr2[]=new int[size2];
-        System.out.println("Enter the elements of array2:");
+        System.out.println("Enter elements of array2:");
         for(int i=0;i<size2;i++){
             arr2[i]=sc.nextInt();
         }
