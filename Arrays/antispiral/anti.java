@@ -15,7 +15,7 @@ public class anti {
                 }
             }
 
-            System.out.println("Anti spiral order is:");
+            System.out.println("Anti spiral order of matrix is:");
             int rowstart=0;
             int rowend = r-1;
             int colstart = 0;
