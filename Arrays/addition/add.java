@@ -15,7 +15,7 @@ public class add {
                 arr1[i][j]=sc.nextInt();
             }
         }
-        System.out.println("Enter the array 2:");
+        System.out.println("Enter the elements of array 2:");
         for(int i=0;i<r;i++){
             for(int j=0;j<c;j++){
                 arr2[i][j]=sc.nextInt();
