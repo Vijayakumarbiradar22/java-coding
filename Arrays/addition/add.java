@@ -5,7 +5,7 @@ public class add {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number of rows:");
         int r =sc.nextInt();
-        System.out.println("Enter the number of cols:");
+        System.out.println("Enter number of cols:");
         int c = sc.nextInt();
         int[][] arr1 = new int[r][c];
         int[][] arr2 = new int[r][c];
