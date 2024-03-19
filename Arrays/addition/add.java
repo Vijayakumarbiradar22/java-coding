@@ -23,7 +23,7 @@ public class add {
         }
 
         int[][] arr3 = new int[arr1.length][arr2.length];
-        System.out.println("Sum af array is:");
+        System.out.println("Sum  array is:");
         for(int i=0;i<arr1.length;i++){
             for(int j=0;j<arr2.length;j++){
                 arr3[i][j]=0;
