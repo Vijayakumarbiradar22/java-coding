@@ -30,7 +30,7 @@ public class union {
         for(int i=0;i<size1;i++){
             arr1[i]=sc.nextInt();
         }
-        System.out.println("Enter the size of array2:");
+        System.out.println("Ente size of array2:");
         int size2=sc.nextInt();
         int arr2[]=new int[size2];
         System.out.println("Enter the elements of array2:");
