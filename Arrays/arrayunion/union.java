@@ -33,7 +33,7 @@ public class union {
         System.out.println("Ente size of array2:");
         int size2=sc.nextInt();
         int arr2[]=new int[size2];
-        System.out.println("Enter the elements of array2:");
+        System.out.println("Enter elements of array2:");
         for(int i=0;i<size2;i++){
             arr2[i]=sc.nextInt();
         }
