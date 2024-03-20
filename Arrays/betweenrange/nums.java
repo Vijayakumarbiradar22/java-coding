@@ -10,7 +10,7 @@ public class nums {
        for(int i=0;i<n;i++){
         arr[i]=sc.nextInt();
        }
-       System.out.println("Enter the start index:");
+       System.out.println("Enter start index:");
        int start=sc.nextInt();
        System.out.println("Enter the end index:");
        int end=sc.nextInt();
