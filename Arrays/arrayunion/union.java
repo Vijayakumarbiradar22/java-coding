@@ -23,7 +23,7 @@ public class union {
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the size of array1:");
+        System.out.println("Enter size of array1:");
         int size1=sc.nextInt();
         int arr1[]=new int[size1];
         System.out.println("Enter the elements of array1:");
