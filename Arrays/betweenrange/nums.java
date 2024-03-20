@@ -12,7 +12,7 @@ public class nums {
        }
        System.out.println("Enter start index:");
        int start=sc.nextInt();
-       System.out.println("Enter the end index:");
+       System.out.println("Enter end index:");
        int end=sc.nextInt();
 
        int count=0;
