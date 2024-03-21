@@ -15,7 +15,7 @@ public class map {
         if(map.containsKey("China")){
             System.out.println("Key Present in the map");
         } else {
-            System.out.println(" Key is not present");
+            System.out.println(" Key is not present in the map");
         }
 
         System.out.println(map.get("China"));

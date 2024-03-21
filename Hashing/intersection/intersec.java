@@ -36,5 +36,4 @@ public class intersec {
         System.out.println(findIntersec(arr1,arr2));
         sc.close();
     }
-    
 }
