@@ -32,11 +32,5 @@ public class map {
         for(String key:keys){
             System.out.println(key+" "+map.get(key));
         }
-
-        // map.remove("China");
-        // System.out.println(map);
-
-
     } 
-    
 }
