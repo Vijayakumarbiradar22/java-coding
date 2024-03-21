@@ -8,7 +8,7 @@ public class map {
         map.put("America",30);
         map.put("China",110);
         System.out.println(map);
-        map.put("china",180);
+        map.put("China",180);
         System.out.println(map);
 
         //search
