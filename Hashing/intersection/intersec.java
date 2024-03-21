@@ -33,9 +33,6 @@ public class intersec {
         for(int i=0;i<n2;i++){
             arr2[i]=sc.nextInt();
         }
-
-        // int arr1[]={7,3,9};
-        // int arr2[]={6,3,9,2,9,4};
         System.out.println(findIntersec(arr1,arr2));
         sc.close();
     }
