@@ -30,7 +30,9 @@ public class intersec {
         int n2=sc.nextInt();
         int arr2[]=new int[n2];
         System.out.println("Enter the elements of array2:");
-        
+        for(int i=0;i<n2;i++){
+            arr2[i]=sc.nextInt();
+        }
 
         // int arr1[]={7,3,9};
         // int arr2[]={6,3,9,2,9,4};
