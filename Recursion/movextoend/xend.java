@@ -1,5 +1,5 @@
 package Recursion.movextoend;
-
+import java.util.*;
 public class xend {
     public static void moveallx(String str,int indx,int count,String newString){
         if(indx==str.length()){
@@ -20,6 +20,7 @@ public class xend {
         }
     }
     public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
         String str = "xaxxbxcxdxx";
         moveallx(str, 0, 0, "");
     }
