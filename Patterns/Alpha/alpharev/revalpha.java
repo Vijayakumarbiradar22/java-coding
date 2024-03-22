@@ -11,7 +11,7 @@ public class revalpha {
                 System.out.print(alpha);
                 alpha++;
             }
-            
+            System.out.println();
         }
         sc.close();
     }
