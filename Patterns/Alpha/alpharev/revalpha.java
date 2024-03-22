@@ -7,9 +7,9 @@ public class revalpha {
         int n=sc.nextInt();
         char alpha=65;
         for(int i=1;i<=n;i++){
-            for(int j=1;j<=2*n-1;j++){
+            for(char j=alpha;j<='E';j++){
                 System.out.print(alpha);
-                alpha++;
+                // alpha++;
             }
             System.out.println();
         }
