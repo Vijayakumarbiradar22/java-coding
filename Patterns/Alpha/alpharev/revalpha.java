@@ -8,7 +8,7 @@ public class revalpha {
         char alpha=65;
         for(int i=1;i<=n;i++){
             for(char j=alpha;j<='E';j++){
-                System.out.print(alpha);
+                System.out.print(j);
                 // alpha++;
             }
             System.out.println();
