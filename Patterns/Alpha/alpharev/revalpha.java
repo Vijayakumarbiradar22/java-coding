@@ -9,8 +9,12 @@ public class revalpha {
         for(int i=1;i<=n;i++){
             for(char j=alpha;j<='E';j++){
                 System.out.print(j);
-                // alpha++;
             }
+
+            for(char j='D';j>='A';j--){
+                System.out.print(j);
+            }
+            
             System.out.println();
         }
         sc.close();
