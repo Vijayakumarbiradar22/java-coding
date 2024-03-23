@@ -19,7 +19,7 @@ public class sh {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the value x:");
         int x= sc.nextInt();
-        System.out.println("Enter the n:");
+        System.out.println("Enter the value n:");
         int n = sc.nextInt();
 
         int result=calcPow(x,n);
