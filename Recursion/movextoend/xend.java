@@ -21,7 +21,7 @@ public class xend {
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter String:");
+        System.out.println("Enter String to move x end:");
         String str=sc.nextLine();
         moveallx(str, 0, 0, "");
         sc.close();
