@@ -23,7 +23,6 @@ public class xend {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the String:");
         String str=sc.nextLine();
-        // String str = "xaxxbxcxdxx";
         moveallx(str, 0, 0, "");
         sc.close();
     }
