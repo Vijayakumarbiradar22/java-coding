@@ -21,12 +21,8 @@ public class sh {
         int x= sc.nextInt();
         System.out.println("Enter the value n:");
         int n = sc.nextInt();
-
         int result=calcPow(x,n);
         System.out.println(result);
-
         sc.close();
-
     }
-    
 }
