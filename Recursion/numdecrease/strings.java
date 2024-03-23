@@ -12,7 +12,7 @@ public class strings {
     }
     public static void main(String args[]){
             Scanner sc = new Scanner(System.in);
-            System.out.println("Enter the value of n:");
+            System.out.println("Enter value of n:");
             int n = sc.nextInt();
             printNum(n);
         sc.close();
