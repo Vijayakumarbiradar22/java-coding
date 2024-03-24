@@ -1,6 +1,12 @@
 package Sorting.bubblesort;
 import java.util.Scanner;
 public class bubble {
+    public static void bubbleSort(int[] arr, int size){
+        int temp;
+        for(int i=0;i<size;i++){
+            
+        }
+    }
     // public static void bubbleSort(int array[], int size){
     //     int temp;
     //     for(int i=0;i<size;i++){
