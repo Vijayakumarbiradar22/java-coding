@@ -23,6 +23,7 @@ public class rev {
         s.push(1);
         s.push(2);
         s.push(3);
+        s.push(4);
         reverse(s);
         while(!s.isEmpty()){
             System.out.println(s.peek());
