@@ -22,7 +22,7 @@ public class stock {
         System.out.println("Enter a number of days:");
         int n=sc.nextInt();
         int[] prices = new int[n];
-        System.out.println("Enter the prices on each day:");
+        System.out.println("Enter a prices on each day:");
         for(int i=0;i<n;i++){
             prices[i]=sc.nextInt();
         }
