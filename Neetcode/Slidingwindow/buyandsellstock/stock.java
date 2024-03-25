@@ -19,7 +19,7 @@ public class stock {
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the number of days:");
+        System.out.println("Enter a number of days:");
         int n=sc.nextInt();
         int[] prices = new int[n];
         System.out.println("Enter the prices on each day:");
