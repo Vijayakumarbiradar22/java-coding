@@ -20,7 +20,7 @@ public class longcharreplace {
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the String:");
+        System.out.println("Enter a String:");
         String s=sc.nextLine();
         System.out.println("Enter the value of k:");
         int k=sc.nextInt();
