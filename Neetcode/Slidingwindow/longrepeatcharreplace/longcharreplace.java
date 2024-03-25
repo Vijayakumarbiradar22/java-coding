@@ -22,7 +22,7 @@ public class longcharreplace {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a String:");
         String s=sc.nextLine();
-        System.out.println("Enter the value of k:");
+        System.out.println("Enter a value of k:");
         int k=sc.nextInt();
         int result=characterReplacement(s,k);
         System.out.println(result);
