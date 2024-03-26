@@ -15,6 +15,7 @@ public class revalpha {
                 ch--;
             }
         }
+        System.out.println();
        }
        sc.close();
     }
