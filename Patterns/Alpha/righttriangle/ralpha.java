@@ -1,7 +1,8 @@
 package Patterns.Alpha.righttriangle;
-
+import java.util.Scanner;
 public class ralpha {
     public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
         char chr='E';
 
         
@@ -14,6 +15,8 @@ public class ralpha {
             }
             System.out.println();
         }
+
+        
     }
     
 }
