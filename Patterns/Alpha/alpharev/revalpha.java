@@ -5,7 +5,9 @@ public class revalpha {
        Scanner sc = new Scanner(System.in);
        System.out.println("Enter the number of rows:");
        int rows=sc.nextInt();
-       
+       for(int i=0;i<rows;i++){
+        
+       }
 
 
        sc.close();
