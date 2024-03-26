@@ -5,7 +5,6 @@ public class ralpha {
         Scanner sc = new Scanner(System.in);
         char chr='E';
 
-        
         for(char i='A';i<=chr;i++){
             for(char s='A';s<=chr-i;s++){
                 System.out.print(" ");
@@ -15,8 +14,6 @@ public class ralpha {
             }
             System.out.println();
         }
-
-        
+        sc.close();
     }
-    
 }
