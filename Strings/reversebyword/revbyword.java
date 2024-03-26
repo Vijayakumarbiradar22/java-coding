@@ -17,5 +17,4 @@ public class revbyword {
             System.out.println(nstr);
         sc.close();
     }
-    
 }
