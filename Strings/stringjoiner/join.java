@@ -5,7 +5,6 @@ public class join {
     public static void main(String args[]){
         ArrayList<String> list = new ArrayList<>();
         list.add("Raj");
-        list.add("Dundesh");
         list.add("Sachin");
         list.add("Vijay");
 
