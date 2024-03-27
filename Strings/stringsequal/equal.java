@@ -20,10 +20,10 @@ public class equal {
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the size of string1:");
+        System.out.println("Enter size of string1:");
         int s1=sc.nextInt();
         String[] word1 = new String[s1];
-        System.out.println("Enter the strings in array:");
+        System.out.println("Enter strings in array:");
         for(int i=0;i<s1;i++){
             word1[i]=sc.nextLine();
         }
