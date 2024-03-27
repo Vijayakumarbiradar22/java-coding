@@ -5,9 +5,10 @@ public class join {
     public static void main(String args[]){
         ArrayList<String> list = new ArrayList<>();
         list.add("Raj");
-        list.add("Sachin");
+        list.add("Ram");
         list.add("Vijay");
         list.add("Akash");
+        
 
         StringJoiner sj1 = new StringJoiner(",");
 
