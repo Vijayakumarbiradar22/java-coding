@@ -27,10 +27,10 @@ public class equal {
         for(int i=0;i<s1;i++){
             word1[i]=sc.nextLine();
         }
-        System.out.println("Enter the size of string2:");
+        System.out.println("Enter size of string2:");
         int s2 = sc.nextInt();
         String[] word2 = new String[s2];
-        System.out.println("Enter the strings in array:");
+        System.out.println("Enter strings in array:");
         for(int i=0;i<s2;i++){
             word2[i]=sc.nextLine();
         }
