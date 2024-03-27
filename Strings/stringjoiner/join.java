@@ -7,6 +7,7 @@ public class join {
         list.add("Raj");
         list.add("Sachin");
         list.add("Vijay");
+        list.add("Akash");
 
         StringJoiner sj1 = new StringJoiner(",");
 
