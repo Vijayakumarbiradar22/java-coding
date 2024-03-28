@@ -29,7 +29,7 @@ public class toys {
         for(int i=0;i<n;i++){
             prices[i]=sc.nextInt();
         }
-        System.out.println("Enter the money:");
+        System.out.println("Enter money:");
         int money=sc.nextInt();
         System.out.println(getMaxToys(prices,money));
         sc.close();
