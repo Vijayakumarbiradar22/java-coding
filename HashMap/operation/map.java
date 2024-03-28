@@ -4,9 +4,9 @@ public class map {
     public static void main(String args[]){
         //country(key) and population(value)
         HashMap<String,Integer> map=new HashMap<>();
-        map.put("India",120);
+        map.put("India",170);
         map.put("America",30);
-        map.put("China",110);
+        map.put("China",100);
         System.out.println(map);
         map.put("China",180);
         System.out.println(map);
