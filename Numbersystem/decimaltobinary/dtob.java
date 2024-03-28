@@ -12,7 +12,7 @@ public class dtob {
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the decimal number:");
+        System.out.println("Enter the decimal number to convert binary:");
         int num =  sc.nextInt();
         String binary = convertBinary(num);
         System.out.println(binary);
