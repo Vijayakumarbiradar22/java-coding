@@ -1,5 +1,5 @@
 package Queue.usingarray;
-//import java.util.*;
+
 public class que {
      int arr[];
      int size;
