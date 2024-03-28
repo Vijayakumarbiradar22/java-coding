@@ -22,7 +22,7 @@ public class toys {
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the array size:");
+        System.out.println("Enter array size:");
         int n = sc.nextInt();
         int[] prices=new int[n];
         System.out.println("Enter the toys price:");
