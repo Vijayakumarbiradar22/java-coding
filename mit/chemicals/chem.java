@@ -9,10 +9,10 @@ public class chem {
         for (String chemical : chemicals) {
             String doubledChemical = doubleCharacters(chemical);
 
-            // Increment the count for each occurrence of the original chemical
+            // Increment count for each occurrence of the original chemical
             count += frequencyMap.getOrDefault(chemical, 0);
 
-            // Increment the frequency of both original and doubled chemicals in the map
+            // Increment frequency of both original and doubled chemicals in the map
             frequencyMap.put(chemical, frequencyMap.getOrDefault(chemical, 0) + 1);
             frequencyMap.put(doubledChemical, frequencyMap.getOrDefault(doubledChemical, 0) + 1);
         }
