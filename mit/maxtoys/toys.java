@@ -25,7 +25,7 @@ public class toys {
         System.out.println("Enter array size:");
         int n = sc.nextInt();
         int[] prices=new int[n];
-        System.out.println("Enter the toys price:");
+        System.out.println("Enter toys price:");
         for(int i=0;i<n;i++){
             prices[i]=sc.nextInt();
         }
