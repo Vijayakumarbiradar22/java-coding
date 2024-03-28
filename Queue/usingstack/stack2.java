@@ -22,7 +22,7 @@ public class stack2 {
 
         public int remove(){
             if(isEmpty()){
-                System.out.println("Queue empty");
+                System.out.println("Queue Empty");
                 return -1;
             }
             return s1.pop();
@@ -30,7 +30,7 @@ public class stack2 {
 
         public int peek(){
             if(isEmpty()){
-                System.out.println("Queue empty");
+                System.out.println("Queue Empty");
                 return -1;
             }
             return s1.peek();
