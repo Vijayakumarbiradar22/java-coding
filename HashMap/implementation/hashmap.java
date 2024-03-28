@@ -135,7 +135,7 @@ public class hashmap {
         HashMap<String,Integer> map=new HashMap<>();
         map.put("India",190);
         map.put("China",200);
-        map.put("US",50);
+        map.put("USA",50);
 
         ArrayList<String> keys=map.keySet();
         for(int i=0;i<keys.size();i++){
