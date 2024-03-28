@@ -8,5 +8,4 @@ public class UDQ {
         q.add(3);
         q.add(4);
     }
-    
 }

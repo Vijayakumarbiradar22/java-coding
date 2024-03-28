@@ -31,7 +31,7 @@ public class ull {
     //dequeue
     public int remove(){
         if(isEmpty()){
-            System.out.println("empty queue");
+            System.out.println("Empty queue");
             return -1;
         }
 
@@ -46,7 +46,7 @@ public class ull {
     //peak
     public int peek(){
         if(isEmpty()){
-            System.out.println("empty queue");
+            System.out.println("Empty queue");
             return -1;
         }
         return head.data;
