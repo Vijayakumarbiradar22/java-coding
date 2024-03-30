@@ -31,7 +31,7 @@ public class reversepolish {
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the size of array:");
+        System.out.println("Enter size of array:");
         int n=sc.nextInt();
         String tokens[]=new String[n];
         System.out.println("Enter the tokens:");
