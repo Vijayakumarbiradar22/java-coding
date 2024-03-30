@@ -7,8 +7,7 @@ public class lists {
         list.addLast("20");
         list.addLast("30");
         list.addLast("40");
-        list.addLast("50");
-
+        
         list.removeFirst();
         list.removeLast();
 
