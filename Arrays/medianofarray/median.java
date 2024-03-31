@@ -52,7 +52,7 @@ public class median {
         //int n2=arr2.length;
 
         if(n1==n2){
-            System.out.println("Median is:"+ getMedian(arr1,arr2,n1));
+            System.out.println("Median of the array is:"+ getMedian(arr1,arr2,n1));
         } else{
             System.out.println("Arrays are not equal size");
         }
