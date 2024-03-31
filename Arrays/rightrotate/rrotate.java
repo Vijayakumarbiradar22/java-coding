@@ -21,7 +21,7 @@ public class rrotate {
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
         }
-        System.out.println("Enter:");
+        System.out.println("Enter the number of rotation:");
         int rt = sc.nextInt();
         rightRotate(arr,n,rt);
         for(int i=0;i<n;i++){
