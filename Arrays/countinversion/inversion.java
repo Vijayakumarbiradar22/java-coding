@@ -21,7 +21,7 @@ public class inversion {
         for(int i=0;i<size;i++){
             arr[i]=sc.nextInt();
         }
-        System.out.println("Total Number of inversions are "+getInversion(arr,size));
+        System.out.println("Total Numbers of inversions are "+getInversion(arr,size));
         sc.close();
     }
     
