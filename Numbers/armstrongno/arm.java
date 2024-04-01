@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class arm {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the number to check Armstrong:");
+        System.out.println("Enter the number to check wheather it is an Armstrong:");
         int num=sc.nextInt();
         int count=0;
         double rem,sum=0;
