@@ -42,7 +42,8 @@ public class anti {
                     System.out.print(mat[rowstart][col]+" ");
                 }
                 rowstart++;
-                sc.close();
             }
+                sc.close();
+            
     }   
 }
