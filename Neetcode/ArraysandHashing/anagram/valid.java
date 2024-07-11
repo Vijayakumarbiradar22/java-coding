@@ -12,8 +12,8 @@ public class valid {
             }
         }
         return true;
-
     }
+
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the String s:");
@@ -24,5 +24,4 @@ public class valid {
         System.out.println(result);
         sc.close();
     }
-    
 }

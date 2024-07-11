@@ -3,18 +3,18 @@ import java.util.Scanner;
 public class spiral {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the number of rows:");
-        int r = sc.nextInt();
-        System.out.println("Enter the number of cols:");
-        int c = sc.nextInt();
-        int[][] mat = new int[r][c];
-        System.out.println("Enter the elements of matrix:");
+        System.out.println("Enter the no.of rows:");
+        int r=sc.nextInt();
+        System.out.println("Enter the no.of cols:");
+        int c=sc.nextInt();
+        int[][] mat=new int[r][c];
+        System.out.println("Enter the elements:");
         for(int i=0;i<r;i++){
             for(int j=0;j<c;j++){
                 mat[i][j]=sc.nextInt();
             }
         }
-        System.out.println("Spiral order is");
+        System.out.println("Spiral order is:");
         int rowstart=0;
         int rowend=r-1;
         int colstart=0;
@@ -42,5 +42,5 @@ public class spiral {
             colstart++;
         }
         sc.close();
-    }   
+    }
 }
