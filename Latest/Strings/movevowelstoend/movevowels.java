@@ -1,0 +1,30 @@
+package Strings.movevowelstoend;
+import java.util.*;
+public class movevowels {
+    public static void moveVowels(String str){
+        String s1="";
+        String s2="";
+        for(int i=0;i<str.length();i++){
+            if(str.charAt(i)=='a' ||
+            str.charAt(i)=='e' ||
+            str.charAt(i)=='i' ||
+            str.charAt(i)=='o' ||
+            str.charAt(i)=='u') {
+                s2+=str.charAt(i);
+            } else {
+                s1+=str.charAt(i);
+            }
+        }
+
+        String result=s1+s2;
+        System.out.println(result);
+    }
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the string:");
+        String str=sc.nextLine();
+        moveVowels(str);
+        sc.close();
+    }
+    
+}
